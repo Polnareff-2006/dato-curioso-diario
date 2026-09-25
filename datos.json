@@ -1,0 +1,35 @@
+[
+  {
+    "dia": 1,
+    "categoria": "biologia",
+    "etiqueta": "🌿 Biología",
+    "tema": "tema-biologia",
+    "titulo": "El corazón de los pulpos",
+    "resumen": "Los pulpos tienen tres corazones: dos bombean sangre a las branquias y el tercero al resto del cuerpo.",
+    "extension": "Cuando el pulpo nada, el corazón que lleva sangre al cuerpo se detiene, por eso se agotan rápido al nadar. Además, su sangre es azul porque usa cobre en vez de hierro.",
+    "imagen": "https://placehold.co/320x180/050805/4ade80?text=PULPO+PIXEL",
+    "fuentes": ["National Geographic - Cefalópodos", "World Animal Foundation"]
+  },
+  {
+    "dia": 2,
+    "categoria": "cosmos",
+    "etiqueta": "🌌 Cosmos",
+    "tema": "tema-cosmos",
+    "titulo": "El silencio absoluto",
+    "resumen": "En el espacio exterior reina el silencio absoluto porque no existe atmósfera ni aire para que las ondas sonoras viajen.",
+    "extension": "A diferencia de las películas de ciencia ficción con explosiones ruidosas, si una nave estallara cerca de ti en el vacío, no escucharías nada en absoluto.",
+    "imagen": "https://placehold.co/320x180/050805/c084fc?text=COSMOS+PIXEL",
+    "fuentes": ["NASA Science - Space Acoustics", "ESA Portal"]
+  },
+  {
+    "dia": 3,
+    "categoria": "tecnologia",
+    "etiqueta": "💾 Tecnología",
+    "tema": "tema-tecnologia",
+    "titulo": " El primer ratón de ordenador",
+    "resumen": "El primer ratón informático de la historia fue construido en 1964 por Douglas Engelbart y estaba hecho de madera.",
+    "extension": "Tenía solo un botón rojo y dos ruedas de metal que registraban el movimiento sobre la mesa. Fue patentado como un 'indicador de posición X-Y para un sistema de pantalla'.",
+    "imagen": "https://placehold.co/320x180/050805/fb923c?text=MOUSE+1964",
+    "fuentes": ["Stanford University Archives", "Computer History Museum"]
+  }
+]

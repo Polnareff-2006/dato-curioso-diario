@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dato Curioso Diario</title>
+    <!-- Fuente pixelada VT323 desde Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+  <!-- Hoja de estilos que crearemos a continuación -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Decoraciones flotantes laterales -->
+  <div class="decoracion-pixel deco-izq">
+    <span class="pixel-estrella">★</span>
+    <span class="pixel-cruz">+</span>
+    <span class="pixel-corazon">♥</span>
+    <span class="pixel-hoja">☘</span>
+    <span class="pixel-cruz-chica">+</span>
+    <span class="pixel-corazon-chico">♥</span>
+  </div>
+
+  <!-- Tarjeta principal del monitor -->
+  <main id="tarjeta-dato" class="tema-biologia">
+    <header>
+      <span class="etiqueta-categoria">🌿 Biología</span>
+      <!-- Subtítulo grande destacado + Título -->
+      <h2 id="numero-dato">DATO #1:</h2>
+      <h1 id="titulo-dato">EL CORAZÓN DE LOS PULPOS</h1>
+    </header>
+
+    <div class="pixel-art-caja">
+      <img src="https://placehold.co/320x180/0d160f/4ade80?text=PIXEL+ART" alt="Ilustración Pixel Art" id="imagen-dato">
+    </div>
+
+    <p id="resumen-dato">
+      Los pulpos tienen tres corazones: dos bombean sangre a las branquias y el tercero al resto del cuerpo.
+    </p>
+
+    <details>
+      <summary>¿Quieres saber más?</summary>
+      <p id="extension-dato">
+        Cuando el pulpo nada, el corazón que lleva sangre al cuerpo se detiene, por eso se agotan rápido al nadar. Además, su sangre es azul porque usa cobre en vez de hierro.
+      </p>
+    </details>
+
+    <details class="fuentes">
+      <summary>Fuentes citadas</summary>
+      <ul>
+        <li>National Geographic - Cefalópodos</li>
+        <li>World Animal Foundation</li>
+      </ul>
+    </details>
+
+        <!-- Acordeón para datos anteriores (Calendario) -->
+    <details class="historial-acordeon">
+      <summary>¿Curiosidad por datos anteriores? Míralos acá</summary>
+      <div id="grid-historial" class="grid-calendario">
+        <!-- Los botones de los días se dibujarán aquí -->
+      </div>
+    </details>
+  </main>
+  
+  <div class="decoracion-pixel deco-der">
+    <span class="pixel-cruz">+</span>
+    <span class="pixel-hoja">☘</span>
+    <span class="pixel-corazon">♥</span>
+    <span class="pixel-cruz-chica">+</span>
+    <span class="pixel-estrella">★</span>
+    <span class="pixel-corazon-chico">♥</span>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>
