@@ -1,35 +1,142 @@
 [
   {
-    "dia": 1,
+    "dia": 267,
     "categoria": "biologia",
     "etiqueta": "🌿 Biología",
     "tema": "tema-biologia",
-    "titulo": "El corazón de los pulpos",
-    "resumen": "Los pulpos tienen tres corazones: dos bombean sangre a las branquias y el tercero al resto del cuerpo.",
-    "extension": "Cuando el pulpo nada, el corazón que lleva sangre al cuerpo se detiene, por eso se agotan rápido al nadar. Además, su sangre es azul porque usa cobre en vez de hierro.",
-    "imagen": "https://placehold.co/320x180/050805/4ade80?text=PULPO+PIXEL",
-    "fuentes": ["National Geographic - Cefalópodos", "World Animal Foundation"]
+    "titulo": "La sangre azul de los pulpos",
+    "resumen": "Los pulpos tienen tres corazones y sangre azul basada en cobre para sobrevivir al frío abisal.",
+    "extension": "En lugar de hemoglobina con hierro, su sistema circulatorio utiliza hemocianina, una proteína rica en cobre que transporta oxígeno de manera más eficiente en aguas gélidas y con poca presión de oxígeno. Además, dos de sus corazones bombean sangre exclusivamente a las branquias, mientras que el tercero la distribuye por el resto del cuerpo. Curiosamente, este último se detiene por completo mientras el animal nada, lo que explica por qué prefieren arrastrarse por el fondo marino.",
+    "imagen": "ima/dia-267.jpg",
+    "fuentes": [
+      "Natural History Museum (Londres)",
+      "Smithsonian Ocean Initiative"
+    ]
   },
   {
-    "dia": 2,
+    "dia": 268,
     "categoria": "cosmos",
     "etiqueta": "🌌 Cosmos",
     "tema": "tema-cosmos",
-    "titulo": "El silencio absoluto",
-    "resumen": "En el espacio exterior reina el silencio absoluto porque no existe atmósfera ni aire para que las ondas sonoras viajen.",
-    "extension": "A diferencia de las películas de ciencia ficción con explosiones ruidosas, si una nave estallara cerca de ti en el vacío, no escucharías nada en absoluto.",
-    "imagen": "https://placehold.co/320x180/050805/c084fc?text=COSMOS+PIXEL",
-    "fuentes": ["NASA Science - Space Acoustics", "ESA Portal"]
+    "titulo": "Lluvia de metano en Titán",
+    "resumen": "En la luna Titán llueven hidrocarburos líquidos que forman lagos y mares de gas natural licuado.",
+    "extension": "Titán es el único cuerpo celeste del sistema solar, aparte de la Tierra, que alberga un ciclo hidrológico activo en su superficie, aunque compuesto enteramente por metano y etano. Las temperaturas rondan los -179 °C, permitiendo que estos gases existan en estado líquido y esculpan cañones, ríos y extensos mares como el Kraken Mare. Debido a su baja gravedad y densa atmósfera, una persona equipada con alas artificiales podría volar allí con la fuerza de sus propios brazos.",
+    "imagen": "ima/dia-268.jpg",
+    "fuentes": [
+      "NASA Jet Propulsion Laboratory (JPL)",
+      "European Space Agency (ESA)"
+    ]
   },
   {
-    "dia": 3,
+    "dia": 269,
     "categoria": "tecnologia",
     "etiqueta": "💾 Tecnología",
     "tema": "tema-tecnologia",
-    "titulo": " El primer ratón de ordenador",
-    "resumen": "El primer ratón informático de la historia fue construido en 1964 por Douglas Engelbart y estaba hecho de madera.",
-    "extension": "Tenía solo un botón rojo y dos ruedas de metal que registraban el movimiento sobre la mesa. Fue patentado como un 'indicador de posición X-Y para un sistema de pantalla'.",
-    "imagen": "https://placehold.co/320x180/050805/fb923c?text=MOUSE+1964",
-    "fuentes": ["Stanford University Archives", "Computer History Museum"]
+    "titulo": "El primer 'bug' literal de la historia",
+    "resumen": "El término 'bug' informático se popularizó tras hallar una polilla real atrapada en un relé electromecánico.",
+    "extension": "El 9 de septiembre de 1947, los operadores del ordenador Mark II en la Universidad de Harvard descubrieron que una polilla atrapada en el relé número 70 provocaba errores en los cálculos. La pionera de la computación Grace Hopper y su equipo pegaron el insecto con cinta en el diario de operaciones junto a la nota 'primer caso real de bicho hallado'. Aunque la palabra ya existía en la jerga de ingeniería para fallos mecánicos, este evento consolidó el término para siempre en el desarrollo de software.",
+    "imagen": "ima/dia-269.jpg",
+    "fuentes": [
+      "Smithsonian National Museum of American History",
+      "IEEE Computer Society"
+    ]
+  },
+  {
+    "dia": 270,
+    "categoria": "humanidad",
+    "etiqueta": "🏛️ Historia y Humanidad",
+    "tema": "tema-humanidad",
+    "titulo": "El mecanismo de Anticitera",
+    "resumen": "Los antiguos griegos construyeron una computadora analógica de bronce hace más de dos mil años.",
+    "extension": "Recuperado de un naufragio frente a la costa griega en 1901, este artefacto contenía más de treinta engranajes de precisión accionados manualmente. Su propósito era calcular fases lunares, posiciones planetarias, eclipses solares e incluso el ciclo cuatrienal de los Juegos Olímpicos con asombrosa exactitud. La complejidad técnica de su relojería no volvió a verse en la civilización humana hasta la aparición de los primeros relojes mecánicos en la Europa del siglo XIV.",
+    "imagen": "ima/dia-270.jpg",
+    "fuentes": [
+      "Museo Arqueológico Nacional de Atenas",
+      "Nature Research (Antikythera Mechanism Research Project)"
+    ]
+  },
+  {
+    "dia": 271,
+    "categoria": "biologia",
+    "etiqueta": "🌿 Biología",
+    "tema": "tema-biologia",
+    "titulo": "La inmortalidad biológica de Turritopsis",
+    "resumen": "Existe una diminuta medusa capaz de revertir su ciclo vital y rejuvenecer indefinidamente ante el peligro.",
+    "extension": "La medusa *Turritopsis dohrnii* puede eludir la muerte celular mediante un proceso denominado transdiferenciación, en el que sus células adultas vuelven a un estado pluripotente previo. Cuando sufre estrés ambiental, hambre o daño físico, el espécimen adulto revierte a una masa globular que da origen a un pólipo clonado idéntico. Teóricamente, este ciclo puede repetirse sin límite biológico, lo que la convierte en el único metazoo conocido funcionalmente inmortal.",
+    "imagen": "ima/dia-271.jpg",
+    "fuentes": [
+      "National Center for Biotechnology Information (NCBI)",
+      "University of Oviedo (Departamento de Bioquímica y Biología Molecular)"
+    ]
+  },
+  {
+    "dia": 272,
+    "categoria": "cosmos",
+    "etiqueta": "🌌 Cosmos",
+    "tema": "tema-cosmos",
+    "titulo": "El eco fósil del Big Bang",
+    "resumen": "Una pequeña fracción de la estática en televisores analógicos proviene directamente del origen del universo.",
+    "extension": "El Fondo Cósmico de Microondas (CMB) es la radiación térmica residual liberada aproximadamente 380.000 años después del Big Bang, cuando los protones y electrones formaron los primeros átomos neutros. Al sintonizar una televisión analógica tradicional en un canal sin señal, alrededor del 1 % de ese ruido blanco correspondía a fotones primordiales que han viajado durante más de 13.800 millones de años. Este brillo fósil fue detectado por accidente en 1964 por Arno Penzias y Robert Wilson.",
+    "imagen": "https://images.unsplash.com/photo-cosmic-microwave-background?auto=format&fit=crop&w=400&h=250&q=60",
+    "fuentes": [
+      "European Space Agency (Misión Planck)",
+      "Bell Laboratories Historical Archive"
+    ]
+  },
+  {
+    "dia": 273,
+    "categoria": "tecnologia",
+    "etiqueta": "💾 Tecnología",
+    "tema": "tema-tecnologia",
+    "titulo": "La memoria de núcleos magnéticos",
+    "resumen": "Los primeros módulos de memoria operativa para viajes espaciales eran tejidos a mano por operarias textiles.",
+    "extension": "Durante las décadas de 1950 y 1960, la memoria RAM principal dependía de miles de diminutos anillos de ferrita ensartados en cuadrículas de alambre de cobre ('core memory'). Para las misiones Apolo, la memoria ROM que albergaba el software de navegación era tan crítica que fue tejida hilo por hilo por costureras experimentadas en fábricas textiles de Massachusetts. Esta variante, apodada irónicamente 'memoria LOL' (Little Old Ladies), era inmune a la radiación espacial y prácticamente indestructible.",
+    "imagen": "https://images.unsplash.com/photo-magnetic-core-memory?auto=format&fit=crop&w=400&h=250&q=60",
+    "fuentes": [
+      "Computer History Museum",
+      "MIT Museum"
+    ]
+  },
+  {
+    "dia": 274,
+    "categoria": "humanidad",
+    "etiqueta": "🏛️ Historia y Humanidad",
+    "tema": "tema-humanidad",
+    "titulo": "La ciudad subterránea de Derinkuyu",
+    "resumen": "En Turquía existe una metrópoli excavada en roca volcánica capaz de albergar a veinte mil personas bajo tierra.",
+    "extension": "Descubierta accidentalmente en 1963 durante la remodelación de una vivienda particular, la ciudad subterránea de Derinkuyu se extiende a lo largo de dieciocho niveles y alcanza los 85 metros de profundidad. Contaba con pozos de ventilación independientes, almazaras de aceite, templos, establos y pesadas puertas de piedra circulares diseñadas para sellar los pasadizos desde el interior en caso de asedio. Las comunidades cristianas primitivas y bizantinas la utilizaron durante siglos como refugio temporal contra invasiones militares.",
+    "imagen": "https://images.unsplash.com/photo-cappadocia-underground?auto=format&fit=crop&w=400&h=250&q=60",
+    "fuentes": [
+      "Ministerio de Cultura y Turismo de Turquía",
+      "UNESCO World Heritage Centre"
+    ]
+  },
+  {
+    "dia": 275,
+    "categoria": "biologia",
+    "etiqueta": "🌿 Biología",
+    "tema": "tema-biologia",
+    "titulo": "La red micorrizal del bosque",
+    "resumen": "Los árboles se comunican y comparten nutrientes bajo tierra mediante una compleja red de hongos simbióticos.",
+    "extension": "Conocida popularmente como el 'Wood Wide Web', la red micorrízica conecta las raíces de diferentes especies arbóreas a través de filamentos fúngicos microscópicos llamados hifas. Por medio de este entramado, los árboles maduros pueden transferir carbono, agua y nitrógeno a plántulas jóvenes que carecen de acceso a la luz solar directa. Asimismo, los árboles son capaces de emitir señales químicas de advertencia por la red ante ataques de plagas para que sus vecinos sinteticen defensas con antelación.",
+    "imagen": "https://images.unsplash.com/photo-mycelium-forest?auto=format&fit=crop&w=400&h=250&q=60",
+    "fuentes": [
+      "University of British Columbia (Facultad de Silvicultura)",
+      "Max Planck Institute for Chemical Ecology"
+    ]
+  },
+  {
+    "dia": 276,
+    "categoria": "cosmos",
+    "etiqueta": "🌌 Cosmos",
+    "tema": "tema-cosmos",
+    "titulo": "El hexágono perpetuo de Saturno",
+    "resumen": "El polo norte de Saturno alberga una colosal tormenta geométrica de seis lados que supera el diámetro terrestre.",
+    "extension": "Descubierta originalmente por las sondas Voyager a principios de la década de 1980 y analizada en profundidad por la misión Cassini, esta estructura nubosa hexagonal mide casi 30.000 kilómetros de ancho. Se trata de un patrón de ondas estacionarias producido por un gradiente extremo de velocidad del viento en la atmósfera profunda del gigante gaseoso. En experimentos de dinámica de fluidos en laboratorio se ha logrado recrear vórtices poligonales similares haciendo girar tanques de agua a diferentes velocidades radiales.",
+    "imagen": "https://images.unsplash.com/photo-saturn-hexagon?auto=format&fit=crop&w=400&h=250&q=60",
+    "fuentes": [
+      "NASA Science Mission Directorate",
+      "Oxford University (Atmospheric, Oceanic and Planetary Physics)"
+    ]
   }
 ]
