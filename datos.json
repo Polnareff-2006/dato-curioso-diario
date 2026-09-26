@@ -77,7 +77,7 @@
     "titulo": "El eco fósil del Big Bang",
     "resumen": "Una pequeña fracción de la estática en televisores analógicos proviene directamente del origen del universo.",
     "extension": "El Fondo Cósmico de Microondas (CMB) es la radiación térmica residual liberada aproximadamente 380.000 años después del Big Bang, cuando los protones y electrones formaron los primeros átomos neutros. Al sintonizar una televisión analógica tradicional en un canal sin señal, alrededor del 1 % de ese ruido blanco correspondía a fotones primordiales que han viajado durante más de 13.800 millones de años. Este brillo fósil fue detectado por accidente en 1964 por Arno Penzias y Robert Wilson.",
-    "imagen": "https://images.unsplash.com/photo-cosmic-microwave-background?auto=format&fit=crop&w=400&h=250&q=60",
+    "imagen": "ima/dia-272.jpg",
     "fuentes": [
       "European Space Agency (Misión Planck)",
       "Bell Laboratories Historical Archive"
@@ -91,7 +91,7 @@
     "titulo": "La memoria de núcleos magnéticos",
     "resumen": "Los primeros módulos de memoria operativa para viajes espaciales eran tejidos a mano por operarias textiles.",
     "extension": "Durante las décadas de 1950 y 1960, la memoria RAM principal dependía de miles de diminutos anillos de ferrita ensartados en cuadrículas de alambre de cobre ('core memory'). Para las misiones Apolo, la memoria ROM que albergaba el software de navegación era tan crítica que fue tejida hilo por hilo por costureras experimentadas en fábricas textiles de Massachusetts. Esta variante, apodada irónicamente 'memoria LOL' (Little Old Ladies), era inmune a la radiación espacial y prácticamente indestructible.",
-    "imagen": "https://images.unsplash.com/photo-magnetic-core-memory?auto=format&fit=crop&w=400&h=250&q=60",
+    "imagen": "ima/dia-273.jpg",
     "fuentes": [
       "Computer History Museum",
       "MIT Museum"
@@ -105,7 +105,7 @@
     "titulo": "La ciudad subterránea de Derinkuyu",
     "resumen": "En Turquía existe una metrópoli excavada en roca volcánica capaz de albergar a veinte mil personas bajo tierra.",
     "extension": "Descubierta accidentalmente en 1963 durante la remodelación de una vivienda particular, la ciudad subterránea de Derinkuyu se extiende a lo largo de dieciocho niveles y alcanza los 85 metros de profundidad. Contaba con pozos de ventilación independientes, almazaras de aceite, templos, establos y pesadas puertas de piedra circulares diseñadas para sellar los pasadizos desde el interior en caso de asedio. Las comunidades cristianas primitivas y bizantinas la utilizaron durante siglos como refugio temporal contra invasiones militares.",
-    "imagen": "https://images.unsplash.com/photo-cappadocia-underground?auto=format&fit=crop&w=400&h=250&q=60",
+    "imagen": "ima/dia-274.jpg",
     "fuentes": [
       "Ministerio de Cultura y Turismo de Turquía",
       "UNESCO World Heritage Centre"
@@ -119,7 +119,7 @@
     "titulo": "La red micorrizal del bosque",
     "resumen": "Los árboles se comunican y comparten nutrientes bajo tierra mediante una compleja red de hongos simbióticos.",
     "extension": "Conocida popularmente como el 'Wood Wide Web', la red micorrízica conecta las raíces de diferentes especies arbóreas a través de filamentos fúngicos microscópicos llamados hifas. Por medio de este entramado, los árboles maduros pueden transferir carbono, agua y nitrógeno a plántulas jóvenes que carecen de acceso a la luz solar directa. Asimismo, los árboles son capaces de emitir señales químicas de advertencia por la red ante ataques de plagas para que sus vecinos sinteticen defensas con antelación.",
-    "imagen": "https://images.unsplash.com/photo-mycelium-forest?auto=format&fit=crop&w=400&h=250&q=60",
+    "imagen": "ima/dia-275.jpg",
     "fuentes": [
       "University of British Columbia (Facultad de Silvicultura)",
       "Max Planck Institute for Chemical Ecology"
@@ -133,10 +133,277 @@
     "titulo": "El hexágono perpetuo de Saturno",
     "resumen": "El polo norte de Saturno alberga una colosal tormenta geométrica de seis lados que supera el diámetro terrestre.",
     "extension": "Descubierta originalmente por las sondas Voyager a principios de la década de 1980 y analizada en profundidad por la misión Cassini, esta estructura nubosa hexagonal mide casi 30.000 kilómetros de ancho. Se trata de un patrón de ondas estacionarias producido por un gradiente extremo de velocidad del viento en la atmósfera profunda del gigante gaseoso. En experimentos de dinámica de fluidos en laboratorio se ha logrado recrear vórtices poligonales similares haciendo girar tanques de agua a diferentes velocidades radiales.",
-    "imagen": "https://images.unsplash.com/photo-saturn-hexagon?auto=format&fit=crop&w=400&h=250&q=60",
+    "imagen": "ima/dia-276.jpg",
     "fuentes": [
       "NASA Science Mission Directorate",
       "Oxford University (Atmospheric, Oceanic and Planetary Physics)"
     ]
+  },
+  {
+    "dia": 277,
+    "categoria": "tecnologia",
+    "etiqueta": "💾 Tecnología",
+    "tema": "tema-tecnologia",
+    "titulo": "La cámara de niebla y las partículas invisibles",
+    "resumen": "Uno de los primeros detectores de partículas subatómicas funcionaba condensando vapor de alcohol sobre iones invisibles.",
+    "extension": "Diseñada por Charles Wilson en 1911, la cámara de niebla mantenía un vapor sobresaturado dentro de un recinto sellado. Cuando una partícula cargada o un rayo cósmico la atravesaba, ionizaba las moléculas de gas a su paso, provocando una estela visible de gotas microscópicas. Este instrumento permitió descubrir positrones y muones simplemente fotografiando rastros de vapor.",
+    "imagen": "ima/dia-277.jpg",
+    "fuentes": [
+      "https://home.cern/science/experiments/cloud-chamber",
+      "https://www.nobelprize.org/prizes/physics/1927/wilson/biographical/"
+    ]
+  },
+  {
+    "dia": 278,
+    "categoria": "humanidad",
+    "etiqueta": "🏛️ Historia y Humanidad",
+    "tema": "tema-humanidad",
+    "titulo": "El concreto romano autorreparable",
+    "resumen": "El hormigón de la antigua Roma se regenera de forma autónoma al reaccionar con el agua de lluvia marina.",
+    "extension": "Los ingenieros romanos mezclaban cal viva reactiva con ceniza volcánica puzolánica mediante un proceso a altas temperaturas conocido como 'mezclado en caliente'. Al formarse grietas, el agua disuelve inclusiones de cal llamadas clastos, recristalizando en carbonato de calcio y sellando las fisuras por completo. Esta química milenaria explica por qué el Panteón y los muelles marítimos siguen intactos tras dos milenios.",
+    "imagen": "ima/dia-278.jpg",
+    "fuentes": [
+      "https://news.mit.edu/2023/ancient-roman-concrete-durability-0106",
+      "https://www.science.org/doi/10.1126/sciadv.add1602"
+    ]
+  },
+  {
+    "dia": 279,
+    "categoria": "biologia",
+    "etiqueta": "🌿 Biología",
+    "tema": "tema-biologia",
+    "titulo": "La bioluminiscencia química del calamar luciérnaga",
+    "resumen": "Miles de fotóforos permiten al calamar luciérnaga camuflarse contra la luz lunar para volverse invisible a los depredadores.",
+    "extension": "El calamar Watasenia scintillans posee órganos microscópicos en su piel que producen luz azul fría mediante una reacción entre luciferina y luciferasa. Al hacer coincidir con precisión la intensidad y longitud de onda de su luz ventral con la del agua superior, elimina su silueta hacia el fondo marino. Este fenómeno, denominado contrailuminación, constituye una de las formas de camuflaje activo más complejas de la naturaleza.",
+    "imagen": "ima/dia-279.jpg",
+    "fuentes": [
+      "https://ocean.si.edu/ocean-life/invertebrates/bioluminescent-squid",
+      "https://www.jstor.org/stable/24097486"
+    ]
+  },
+  {
+    "dia": 280,
+    "categoria": "cosmos",
+    "etiqueta": "🌌 Cosmos",
+    "tema": "tema-cosmos",
+    "titulo": "La nube de alcohol en Sagitario B2",
+    "resumen": "En el centro de nuestra galaxia flota una gigantesca nube molecular cargada con billones de litros de alcohol etílico.",
+    "extension": "Sagitario B2 es una vasta región de formación estelar ubicada a unos 390 años luz del núcleo galáctico. Mediante radiotelescopios y espectroscopía de microondas, los astrofísicos identificaron moléculas precursoras orgánicas complejas como formato de etilo y etanol disueltas en granos de polvo interestelar. Sorprendentemente, el formato de etilo es el compuesto responsable del aroma característico de las frambuesas y el ron.",
+    "imagen": "ima/dia-280.jpg",
+    "fuentes": [
+      "https://public.nrao.edu/news/molecules-in-space-sugar-alcohol-fragrance/",
+      "https://www.mpg.de/research/molecules-space-sagittarius"
+    ]
+  },
+  {
+    "dia": 281,
+    "categoria": "tecnologia",
+    "etiqueta": "💾 Tecnología",
+    "tema": "tema-tecnologia",
+    "titulo": "El reloj mecánico de diez mil años",
+    "resumen": "Bajo una montaña de Texas se construye un reloj monumental diseñado para marcar el tiempo durante cien siglos.",
+    "extension": "El Proyecto Clock of the Long Now utiliza péndulos masivos de titanio y componentes cerámicos inmunes a la corrosión para operar sin lubricantes sintéticos. El mecanismo se sincroniza con el paso solar diario al mediodía mediante un conducto de cuarzo térmico y avanza un tic por año. Su diseño prescinde totalmente de electrónica para evitar la obsolescencia técnica o colapsos de red.",
+    "imagen": "ima/dia-281.jpg",
+    "fuentes": [
+      "https://longnow.org/clock/",
+      "https://www.smithsonianmag.com/science-nature/10000-year-clock-180970362/"
+    ]
+  },
+  {
+    "dia": 282,
+    "categoria": "humanidad",
+    "etiqueta": "🏛️ Historia y Humanidad",
+    "tema": "tema-humanidad",
+    "titulo": "El acero de Damasco y los nanotubos antiguos",
+    "resumen": "Las legendarias espadas de Damasco contenían involuntariamente nanotubos de carbono y nanocables de cementita.",
+    "extension": "Fabricadas entre los siglos III y XVII a partir de lingotes de acero Wootz de la India, estas hojas eran famosas por su filo insuperable y patrones ondulados. Análisis con microscopía electrónica revelaron que los herreros producían microestructuras nanométricas gracias a oligoelementos catalizadores presentes en el mineral y fluctuaciones precisas de temperatura al forjar. La técnica exacta cayó en el olvido cuando las vetas originales de hierro se agotaron.",
+    "imagen": "ima/dia-282.jpg",
+    "fuentes": [
+      "https://www.nature.com/articles/444286a",
+      "https://www.sciencedirect.com/science/article/pii/S1359645406003780"
+    ]
+  },
+  {
+    "dia": 283,
+    "categoria": "biologia",
+    "etiqueta": "🌿 Biología",
+    "tema": "tema-biologia",
+    "titulo": "El axolotl y la regeneración celular perfecta",
+    "resumen": "El ajolote mexicano puede regenerar extremidades enteras, tejido cardíaco y partes de su encéfalo sin cicatrices.",
+    "extension": "A diferencia de los mamíferos, cuyas heridas forman tejido cicatricial fibroso, las células del ajolote en el sitio de amputación se desdiferencian para formar un blastema pluripotente. Esta masa de células progenitoras reactiva rutas genéticas embrionarias y reconstruye vasos, huesos, músculos y nervios funcionales en semanas. Los genetistas estudian su genoma de 32 mil millones de pares de bases buscando aplicaciones de medicina regenerativa.",
+    "imagen": "ima/dia-283.jpg",
+    "fuentes": [
+      "https://www.nature.com/articles/nature25458",
+      "https://www.genome.gov/news/news-release/axolotl-genome-sequenced"
+    ]
+  },
+  {
+    "dia": 284,
+    "categoria": "cosmos",
+    "etiqueta": "🌌 Cosmos",
+    "tema": "tema-cosmos",
+    "titulo": "La Gran Mancha Roja menguante",
+    "resumen": "La tormenta más colosal de Júpiter cabe holgadamente a la Tierra en su interior, pero se está reduciendo aceleradamente.",
+    "extension": "Este vórtice anticiclónico posee vientos que superan los 600 kilómetros por hora y ha estado activo al menos desde hace trescientos años continuos. Mediciones telescópicas históricas indicaban que la tormenta medía más de cuarenta mil kilómetros de ancho en el siglo XIX, mientras que los datos de sondas modernas la sitúan en unos dieciséis mil. La interacción con tormentas adyacentes y la pérdida de energía térmica parecen estar modificando su estabilidad física.",
+    "imagen": "ima/dia-284.jpg",
+    "fuentes": [
+      "https://www.nasa.gov/feature/goddard/2018/jupiters-great-red-spot-a-swirling-mystery-on-a-giant-planet",
+      "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018JE005609"
+    ]
+  },
+  {
+    "dia": 285,
+    "categoria": "tecnologia",
+    "etiqueta": "💾 Tecnología",
+    "tema": "tema-tecnologia",
+    "titulo": "La clave de una sola libreta y el cifrado perfecto",
+    "resumen": "Existe un método criptográfico matemáticamente irrompible, incluso frente al poder infinito de una supercomputadora.",
+    "extension": "Conocido en teoría de la información como One-Time Pad, combina un mensaje claro con una clave totalmente aleatoria de igual longitud mediante una operación lógica XOR. Si la clave se utiliza estrictamente una sola vez y se destruye de inmediato, el texto cifrado resultante no contiene correlación estadística interpretable. Shannon demostró formalmente que descifrarlo sin la clave es tan probable como generar cualquier texto aleatorio posible.",
+    "imagen": "ima/dia-285.jpg",
+    "fuentes": [
+      "https://web.stanford.edu/class/cs255/handouts/shannon.pdf",
+      "https://csrc.nist.gov/glossary/term/one_time_pad"
+    ]
+  },
+  {
+    "dia": 286,
+    "categoria": "humanidad",
+    "etiqueta": "🏛️ Historia y Humanidad",
+    "tema": "tema-humanidad",
+    "titulo": "La biblioteca acústica de Göbekli Tepe",
+    "resumen": "El templo monumental más antiguo de la humanidad fue edificado y enterrado deliberadamente hace 11.500 años.",
+    "extension": "Ubicado en el sureste de Turquía, este complejo megalítico precede a la agricultura y a la domesticación animal conocida. Los cazadores-recolectores tallaron pilares monolíticos de piedra caliza con relieves zoomorfos que demuestran una notable coordinación social. Por razones que aún desconciertan a la arqueología, sus constructores rellenaron y sepultaron los recintos de forma meticulosa antes de abandonarlos.",
+    "imagen": "ima/dia-286.jpg",
+    "fuentes": [
+      "https://whc.unesco.org/en/list/1572/",
+      "https://www.dainst.org/project/gobekli-tepe"
+    ]
+  },
+  {
+    "dia": 287,
+    "categoria": "biologia",
+    "etiqueta": "🌿 Biología",
+    "tema": "tema-biologia",
+    "titulo": "La visión penetrante del camarón mantis",
+    "resumen": "El camarón mantis posee dieciséis fotorreceptores distintos y puede percibir la polarización circular de la luz.",
+    "extension": "Mientras los humanos combinamos tres canales de color (rojo, verde y azul), estos crustáceos marinos procesan luz ultravioleta profunda, espectro visible y luz polarizada de forma simultánea. Sus ojos compuestos se mueven de manera independiente sobre pedúnculos con seis ejes de libertad. Este sistema óptico hipercomplejo les permite detectar presas transparentes y comunicarse mediante patrones corporales invisibles para cualquier depredador.",
+    "imagen": "ima/dia-287.jpg",
+    "fuentes": [
+      "https://www.nature.com/articles/nature06583",
+      "https://www.science.org/doi/10.1126/science.1234038"
+    ]
+  },
+  {
+    "dia": 288,
+    "categoria": "cosmos",
+    "etiqueta": "🌌 Cosmos",
+    "tema": "tema-cosmos",
+    "titulo": "El sonido del vacío cósmico en Perseo",
+    "resumen": "Un agujero negro supermasivo en el cúmulo de Perseo emite ondas acústicas reales en una nota si bemol inaudible.",
+    "extension": "Las ondas de choque generadas por las erupciones periódicas del agujero negro calientan y comprimen el gas intergaláctico del cúmulo. Este proceso produce ondas sonoras con una longitud de onda de treinta millones de años luz, lo que equivale a cincuenta y siete octavas por debajo del do central de un piano. La NASA procesó y escaló estas oscilaciones acústicas para hacerlas perceptibles al oído humano.",
+    "imagen": "ima/dia-288.jpg",
+    "fuentes": [
+      "https://chandra.harvard.edu/photo/2003/perseus/",
+      "https://www.nasa.gov/mission_pages/chandra/news/new-chandra-sonifications-black-holes.html"
+    ]
+  },
+  {
+    "dia": 289,
+    "categoria": "tecnologia",
+    "etiqueta": "💾 Tecnología",
+    "tema": "tema-tecnologia",
+    "titulo": "El Disco de Oro de las sondas Voyager",
+    "resumen": "Dos discos de cobre bañado en oro viajan fuera del sistema solar como cápsulas del tiempo para inteligencias extraterrestres.",
+    "extension": "Lanzados en 1977 a bordo de las Voyager 1 y 2, los fonógrafos analógicos contienen 115 imágenes codificadas, sonidos de la biosfera terrestre y saludos en cincuenta y cinco idiomas. En la cubierta de aluminio anodizado se grabó un diagrama que explica cómo reproducir el disco a 16⅔ revoluciones por minuto. Además, incluye un mapa estelar triangulado respecto a catorce púlsares para señalar la ubicación exacta de nuestro Sol.",
+    "imagen": "ima/dia-289.jpg",
+    "fuentes": [
+      "https://voyager.jpl.nasa.gov/golden-record/",
+      "https://www.si.edu/object/voyager-golden-record-cover%3Anmah_1445778"
+    ]
+  },
+  {
+    "dia": 290,
+    "categoria": "humanidad",
+    "etiqueta": "🏛️ Historia y Humanidad",
+    "tema": "tema-humanidad",
+    "titulo": "El manuscrito Voynich y su código indescifrable",
+    "resumen": "Un códice medieval ilustrado del siglo XV conserva cientos de páginas escritas en un sistema lingüístico jamás descifrado.",
+    "extension": "Datado mediante carbono 14 entre 1404 y 1438, el manuscrito contiene dibujos de botánica fantástica, diagramas astronómicos y figuras humanas en baños termales. Su texto presenta una estructura estadística que respeta leyes lingüísticas naturales, como la Ley de Zipf, descartando que sea una simple sucesión aleatoria de caracteres. Pese a los esfuerzos de criptógrafos militares y redes neuronales avanzadas, su significado sigue siendo un misterio.",
+    "imagen": "ima/dia-290.jpg",
+    "fuentes": [
+      "https://beinecke.library.yale.edu/collections/highlights/voynich-manuscript",
+      "https://www.nature.com/articles/s41598-020-67428-3"
+    ]
+  },
+  {
+    "dia": 291,
+    "categoria": "biologia",
+    "etiqueta": "🌿 Biología",
+    "tema": "tema-biologia",
+    "titulo": "La inmortalidad biológica de Turritopsis dohrnii",
+    "resumen": "Esta diminuta medusa oceánica es capaz de revertir su reloj biológico y volver a ser un pólipo juvenil indefinidamente.",
+    "extension": "Ante el estrés ambiental, la falta de alimento o el daño físico, la medusa activa un mecanismo de transdiferenciación celular. En lugar de morir, sus células somáticas maduras se desespecializan para reorganizarse y transformarse en una nueva colonia de pólipos idénticos. Este ciclo celular puede repetirse teóricamente sin fin, lo que convierte a la especie en un sujeto clave para el estudio genético del envejecimiento.",
+    "imagen": "ima/dia-291.jpg",
+    "fuentes": [
+      "https://www.amnh.org/explore/news-blogs/on-exhibit-posts/immortal-jellyfish-turritopsis-dohrnii",
+      "https://www.pnas.org/doi/10.1073/pnas.2118763119"
+    ]
+  },
+  {
+    "dia": 292,
+    "categoria": "cosmos",
+    "etiqueta": "🌌 Cosmos",
+    "tema": "tema-cosmos",
+    "titulo": "El asteroide metálico 16 Psique",
+    "resumen": "Un asteroide compuesto de hierro y níquel macizo podría ser el núcleo expuesto de un protoplaneta destruido.",
+    "extension": "Ubicado en el cinturón principal entre Marte y Júpiter, Psique posee más de doscientos kilómetros de diámetro y carece de la típica corteza de silicatos. Los científicos estiman que violentas colisiones cósmicas despojaron al cuerpo primordial de sus capas exteriores rocosas durante la génesis del sistema solar. La misión espacial Psyche de la NASA busca analizar in situ su magnetismo remanente para comprender cómo se formó el núcleo de la Tierra.",
+    "imagen": "ima/dia-292.jpg",
+    "fuentes": [
+      "https://www.jpl.nasa.gov/missions/psyche",
+      "https://science.nasa.gov/mission/psyche/"
+    ]
+  },
+  {
+    "dia": 293,
+    "categoria": "tecnologia",
+    "etiqueta": "💾 Tecnología",
+    "tema": "tema-tecnologia",
+    "titulo": "La bombilla centenaria de Livermore",
+    "resumen": "En un parque de bomberos de California, una bombilla de filamento de carbono ha permanecido encendida desde 1901.",
+    "extension": "La lámpara Centennial Light fue soplada a mano por la Shelby Electric Company y opera con una potencia de apenas cuatro vatios continuos. Su durabilidad extrema radica en un filamento de carbono ocho veces más grueso que el de tungsteno moderno y en un vacío casi perfecto que reduce la evaporación atómica. Además, no se apaga ni se enciende de forma regular, lo que le evita el choque térmico por dilatación.",
+    "imagen": "ima/dia-293.jpg",
+    "fuentes": [
+      "https://www.centennialbulb.org/",
+      "https://www.smithsonianmag.com/smart-news/longest-running-lightbulb-has-burned-110-years-8361730/"
+    ]
+  },
+  {
+    "dia": 294,
+    "categoria": "humanidad",
+    "etiqueta": "🏛️ Historia y Humanidad",
+    "tema": "tema-humanidad",
+    "titulo": "El fuego griego y el napalm medieval",
+    "resumen": "El Imperio Bizantino repelió invasiones navales con un arma incendiaria secreta que ardía incluso sobre la superficie del agua.",
+    "extension": "Introducida en el siglo VII por el ingeniero Kallinikos, esta sustancia incendiaria se presurizaba en bombas de bronce y se disparaba a través de sifones sobre las proas enemigas. La fórmula exacta era un secreto de estado custodiado por la corte imperial y se perdió tras la caída de Constantinopla. Los historiadores sugieren que combinaba nafta refinada, resina de pino, cal viva y azufre en una mezcla altamente exotérmica.",
+    "imagen": "ima/dia-294.jpg",
+    "fuentes": [
+      "https://www.britannica.com/technology/Greek-fire",
+      "https://www.worldhistory.org/Greek_Fire/"
+    ]
+  },
+  {
+    "dia": 295,
+    "categoria": "biologia",
+    "etiqueta": "🌿 Biología",
+    "tema": "tema-biologia",
+    "titulo": "El magnetoreceptor de las aves migratorias",
+    "resumen": "Las aves nocturnas se orientan por el campo magnético terrestre mediante proteínas sensibles a la luz en sus ojos.",
+    "extension": "Los criptocromos (especialmente el Cry4) presentes en las células de la retina albergan una molécula de dinucleótido de flavina y adenina (FAD). Al absorber luz azul, se genera una transferencia de electrones que produce un par de radicales libres cuánticamente entrelazados. La sensibilidad de estos radicales al ángulo de las líneas geomagnéticas proyecta un patrón visual de claridad u oscuridad que guía su navegación.",
+    "imagen": "ima/dia-295.jpg",
+    "fuentes": [
+      "https://www.nature.com/articles/s41586-021-03618-9",
+      "https://www.cell.com/current-biology/fulltext/S0960-9822(18)30062-8"
+    ]
   }
 ]
+
