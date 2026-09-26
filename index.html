@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dato Curioso Diario</title>
-    <!-- Fuente pixelada VT323 desde Google Fonts -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dato Curioso Diario</title>
+  <meta name="theme-color" content="#080d09">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Dato Curioso">
+  <meta name="application-name" content="Dato Curioso">
+  <meta name="description" content="Tu píldora de conocimiento diario con estética retro pixel art y monitor CRT.">
+
+  <!-- Enlaces al Manifiesto PWA -->
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <!-- Favicon e Iconos PWA -->
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+
+  <!-- Fuente pixelada VT323 desde Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
@@ -12,8 +29,9 @@
   <!-- Hoja de estilos que crearemos a continuación -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<!-- Decoraciones flotantes laterales -->
+  <!-- Decoraciones flotantes laterales -->
   <div class="decoracion-pixel deco-izq">
     <span class="pixel-estrella">★</span>
     <span class="pixel-cruz">+</span>
@@ -26,44 +44,53 @@
   <!-- Tarjeta principal del monitor -->
   <main id="tarjeta-dato" class="tema-biologia">
     <header>
-      <span class="etiqueta-categoria">🌿 Biología</span>
-      <!-- Subtítulo grande destacado + Título -->
-      <h2 id="numero-dato">DATO #1:</h2>
-      <h1 id="titulo-dato">EL CORAZÓN DE LOS PULPOS</h1>
+      <div class="fila-superior">
+        <div class="fila-izq">
+          <span class="etiqueta-categoria">🌿 Biología</span>
+          <span id="badge-conexion" class="badge-conexion offline-oculto">⚡ MODO OFFLINE</span>
+        </div>
+        <div class="acciones-superiores">
+          <!-- Botón de instalación PWA -->
+          <button id="btn-instalar" class="btn-pwa-instalar" title="Instalar Aplicación" style="display: none;">[ ⇩
+            INSTALAR APP ]</button>
+          <!-- Botón interactivo de Favorito -->
+          <button id="btn-favorito" class="btn-favorito" title="Guardar en favoritos">☆</button>
+        </div>
+      </div>
+      <h2 id="numero-dato">DATO #268:</h2>
+      <h1 id="titulo-dato">TITULO DEL DATO</h1>
     </header>
 
     <div class="pixel-art-caja">
-      <img src="https://placehold.co/320x180/0d160f/4ade80?text=PIXEL+ART" alt="Ilustración Pixel Art" id="imagen-dato">
+      <img src="" alt="Ilustración Pixel Art" id="imagen-dato">
     </div>
 
-    <p id="resumen-dato">
-      Los pulpos tienen tres corazones: dos bombean sangre a las branquias y el tercero al resto del cuerpo.
-    </p>
+    <p id="resumen-dato"></p>
 
+    <!-- Acordeón 1: Saber más -->
     <details>
       <summary>¿Quieres saber más?</summary>
-      <p id="extension-dato">
-        Cuando el pulpo nada, el corazón que lleva sangre al cuerpo se detiene, por eso se agotan rápido al nadar. Además, su sangre es azul porque usa cobre en vez de hierro.
-      </p>
+      <p id="extension-dato"></p>
     </details>
 
+    <!-- Acordeón 2: Fuentes -->
     <details class="fuentes">
       <summary>Fuentes citadas</summary>
-      <ul>
-        <li>National Geographic - Cefalópodos</li>
-        <li>World Animal Foundation</li>
-      </ul>
+      <ul></ul>
     </details>
 
-        <!-- Acordeón para datos anteriores (Calendario) -->
+    <!-- Acordeón 3: Calendario organizado por mes -->
     <details class="historial-acordeon">
       <summary>¿Curiosidad por datos anteriores? Míralos acá</summary>
-      <div id="grid-historial" class="grid-calendario">
-        <!-- Los botones de los días se dibujarán aquí -->
-      </div>
+
+      <!-- Selector de meses horizontal -->
+      <div id="selector-meses" class="barra-meses"></div>
+
+      <!-- Cuadrícula de botones del mes activo -->
+      <div id="grid-historial" class="grid-calendario"></div>
     </details>
   </main>
-  
+
   <div class="decoracion-pixel deco-der">
     <span class="pixel-cruz">+</span>
     <span class="pixel-hoja">☘</span>
@@ -72,6 +99,7 @@
     <span class="pixel-estrella">★</span>
     <span class="pixel-corazon-chico">♥</span>
   </div>
-<script src="app.js"></script>
+  <script src="app.js"></script>
 </body>
+
 </html>
