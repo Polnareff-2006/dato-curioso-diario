@@ -404,5 +404,159 @@
       "https://www.nature.com/articles/s41586-021-03618-9",
       "https://www.cell.com/current-biology/fulltext/S0960-9822(18)30062-8"
     ]
+  },
+  {
+    "dia": 296,
+    "categoria": "cosmos",
+    "etiqueta": "🌌 Cosmos",
+    "tema": "tema-cosmos",
+    "titulo": "El océano subterráneo de Encélado",
+    "resumen": "Bajo la corteza de hielo de esta luna de Saturno existe un océano global que expulsa géiseres al espacio.",
+    "extension": "La sonda Cassini atravesó estas plumas de vapor y detectó moléculas orgánicas complejas, sales y minerales de sílice. Estos compuestos sugieren la presencia de actividad hidrotermal activa en el lecho marino rocoso, similar a las fuentes termales de la Tierra. Este entorno reúne agua líquida, calor geotérmico y nutrientes, posicionándolo como uno de los candidatos más prometedores para la astrobiología.",
+    "imagen": "ima/dia-296.jpg",
+    "fuentes": [
+      "https://science.nasa.gov/mission/cassini/science/enceladus/",
+      "https://www.nature.com/articles/nature14262"
+    ]
+  },
+  {
+    "dia": 297,
+    "categoria": "tecnologia",
+    "etiqueta": "💾 Tecnología",
+    "tema": "tema-tecnologia",
+    "titulo": "La cinta magnética de ferrita perdurable",
+    "resumen": "A pesar de la nube y los discos de estado sólido, los datos más críticos del planeta se guardan en cintas magnéticas.",
+    "extension": "Los centros de datos del CERN y los gigantes tecnológicos utilizan cintas LTO con nanopartículas de ferrita de bario para almacenamiento frío de respaldo. A diferencia de un disco duro que puede fallar por fricción mecánica o desgaste de sectores tras pocos años, una cinta magnética preserva información por más de treinta años. Además, al permanecer desconectada físicamente en estantes robóticos, ofrece un aislamiento total frente a ciberataques.",
+    "imagen": "ima/dia-297.jpg",
+    "fuentes": [
+      "https://home.cern/news/news/computing/cern-data-centre-passes-200-petabyte-milestone-tape",
+      "https://www.ibm.com/blogs/research/2020/12/317tb-tape-storage-record/"
+    ]
+  },
+  {
+    "dia": 298,
+    "categoria": "humanidad",
+    "etiqueta": "🏛️ Historia y Humanidad",
+    "tema": "tema-humanidad",
+    "titulo": "El disco celeste de Nebra",
+    "resumen": "Una placa de bronce de hace 3.600 años contiene la representación gráfica más antigua del firmamento.",
+    "extension": "Desenterrado en Alemania, este artefacto de la Edad del Bronce muestra incrustaciones de oro con el Sol, la Luna creciente y el cúmulo de las Pléyades. Las marcas perimetrales medían los ángulos entre las salidas y puestas del Sol durante los solsticios de verano e invierno. Servía como un sofisticado reloj astronómico para intercalar meses lunares y sincronizar las fechas óptimas de siembra.",
+    "imagen": "ima/dia-298.jpg",
+    "fuentes": [
+      "https://www.unesco.org/en/memory-world/nebra-sky-disc",
+      "https://www.nature.com/articles/d41586-020-02685-z"
+    ]
+  },
+  {
+    "dia": 299,
+    "categoria": "biologia",
+    "etiqueta": "🌿 Biología",
+    "tema": "tema-biologia",
+    "titulo": "La fotosíntesis inversa de Deinococcus radiodurans",
+    "resumen": "Esta bacteria hiperresistente sobrevive a miles de veces la dosis de radiación que mataría a un ser humano.",
+    "extension": "Deinococcus radiodurans puede fragmentar su genoma en cientos de pedazos por impacto de radiación ionizante y reconstruirlo en cuestión de horas. Utiliza un sistema enzimático de recombinación homóloga extremadamente veloz asistido por iones de manganeso que previenen la oxidación proteica. Esta capacidad la ha hecho objeto de estudio en biotecnología para el biorremedio de desechos radiactivos.",
+    "imagen": "ima/dia-299.jpg",
+    "fuentes": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6404177/",
+      "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/deinococcus-radiodurans"
+    ]
+  },
+  {
+    "dia": 300,
+    "categoria": "cosmos",
+    "etiqueta": "🌌 Cosmos",
+    "tema": "tema-cosmos",
+    "titulo": "El vacío de Boötes",
+    "resumen": "Existe una región de trescientos millones de años luz de diámetro que está prácticamente vacía de materia y galaxias.",
+    "extension": "Conocido como el Gran Vacío, este colosal volumen del universo observable debería contener unas diez mil galaxias considerando la densidad media cósmica. Sin embargo, los astrónomos apenas han detectado unas sesenta islas estelares aisladas en su inmenso interior. Se originó debido a la atracción gravitacional de filamentos cósmicos circundantes que absorbieron la materia hacia los bordes durante miles de millones de años.",
+    "imagen": "ima/dia-300.jpg",
+    "fuentes": [
+      "https://science.nasa.gov/universe/the-large-scale-structure-of-the-universe/",
+      "https://iopscience.iop.org/article/10.1086/165507"
+    ]
+  },
+  {
+    "dia": 301,
+    "categoria": "tecnologia",
+    "etiqueta": "💾 Tecnología",
+    "tema": "tema-tecnologia",
+    "titulo": "El primer compilador y Grace Hopper",
+    "resumen": "La idea de que las computadoras pudieran entender palabras en inglés en vez de unos y ceros parecía imposible en 1952.",
+    "extension": "Grace Hopper desarrolló el sistema A-0, el primer programa capaz de traducir expresiones matemáticas legibles a código binario ejecutable. En esa época, los matemáticos creían que las máquinas solo podían realizar operaciones aritméticas puras, descartando la manipulación de símbolos. Su insistencia sentó las bases para el lenguaje COBOL, democratizando la programación para el mundo corporativo y gubernamental.",
+    "imagen": "ima/dia-301.jpg",
+    "fuentes": [
+      "https://news.yale.edu/2017/02/10/grace-murray-hopper-pioneer-computer-science",
+      "https://americanhistory.si.edu/collections/search/object/nmah_694291"
+    ]
+  },
+  {
+    "dia": 302,
+    "categoria": "humanidad",
+    "etiqueta": "🏛️ Historia y Humanidad",
+    "tema": "tema-humanidad",
+    "titulo": "Las baterías eléctricas de Bagdad",
+    "resumen": "Vasijas de arcilla de dos mil años de antigüedad contenían cilindros de cobre y varillas de hierro con vestigios de ácido.",
+    "extension": "Halladas cerca de la actual capital iraquí, estas piezas fechadas entre el 250 a. C. y el 224 d. C. generaban una débil corriente eléctrica al llenarse con vinagre o zumo de uva. Aunque algunos investigadores plantean que se empleaban para aliviar dolores musculares o galvanizar joyas con oro, su uso exacto aún genera debate. Demuestran, como mínimo, un conocimiento empírico temprano de la reactividad electroquímica.",
+    "imagen": "ima/dia-302.jpg",
+    "fuentes": [
+      "https://www.smithsonianmag.com/history/the-mystery-of-the-baghdad-battery-180970364/",
+      "https://www.nature.com/articles/d41586-018-05186-9"
+    ]
+  },
+  {
+    "dia": 303,
+    "categoria": "biologia",
+    "etiqueta": "🌿 Biología",
+    "tema": "tema-biologia",
+    "titulo": "La memoria inmunitaria de CRISPR bacteriano",
+    "resumen": "Las bacterias guardan fragmentos de virus en su propio ADN para reconocerlos y destruirlos si vuelven a atacar.",
+    "extension": "El sistema CRISPR-Cas actúa como un sistema inmune adaptativo procariota: al sobrevivir a un bacteriófago, la bacteria recorta una porción del material genético invasor y la archiva en secuencias repetidas. Cuando el virus infecta de nuevo, las enzimas Cas sintetizan guías de ARN que localizan la secuencia viral y la cortan con precisión molecular. Este mecanismo defensivo natural inspiró la herramienta de edición genética más potente del siglo XXI.",
+    "imagen": "ima/dia-303.jpg",
+    "fuentes": [
+      "https://www.broadinstitute.org/what-broad/areas-focus/project-spotlight/questions-and-answers-about-crispr",
+      "https://www.nobelprize.org/prizes/chemistry/2020/press-release/"
+    ]
+  },
+  {
+    "dia": 304,
+    "categoria": "cosmos",
+    "etiqueta": "🌌 Cosmos",
+    "tema": "tema-cosmos",
+    "titulo": "La atmósfera refractada del exoplaneta WASP-76b",
+    "resumen": "En este gigante gaseoso ultracaliente el hierro se evapora de día y se condensa en lluvias metálicas de noche.",
+    "extension": "WASP-76b orbita tan cerca de su estrella anfitriona que experimenta un anclaje por marea, mostrando siempre la misma cara con temperaturas superiores a los dos mil cuatrocientos grados Celsius. En el lado diurno, las altas temperaturas descomponen los metales en vapor atómico que los vientos huracanados arrastran hacia el hemisferio nocturno. Allí, el descenso de temperatura provoca la condensación del hierro en nubes líquidas que precipitan como lluvia metálica.",
+    "imagen": "ima/dia-304.jpg",
+    "fuentes": [
+      "https://www.eso.org/public/news/eso2005/",
+      "https://www.nature.com/articles/s41586-020-2107-1"
+    ]
+  },
+  {
+    "dia": 305,
+    "categoria": "tecnologia",
+    "etiqueta": "💾 Tecnología",
+    "tema": "tema-tecnologia",
+    "titulo": "El transistor de silicio y la era de Bell Labs",
+    "resumen": "En 1947, un dispositivo del tamaño de una moneda reemplazó a las frágiles válvulas de vacío y fundó la electrónica moderna.",
+    "extension": "John Bardeen, Walter Brattain y William Shockley crearon el primer transistor de punto de contacto utilizando tiras de oro prensadas sobre un cristal de germanio semiconductor. El dispositivo permitía amplificar y conmutar señales eléctricas sin partes mecánicas móviles ni filamentos que se fundieran por calor. Esta invención posibilitó la miniaturización de circuitos y la eventual creación de los microprocesadores modernos.",
+    "imagen": "ima/dia-305.jpg",
+    "fuentes": [
+      "https://www.nobelprize.org/prizes/physics/1956/summary/",
+      "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/"
+    ]
+  },
+  {
+    "dia": 306,
+    "categoria": "humanidad",
+    "etiqueta": "🏛️ Historia y Humanidad",
+    "tema": "tema-humanidad",
+    "titulo": "El tinte púrpura de Tiro",
+    "resumen": "Los fenicios procesaban decenas de miles de caracoles marinos carnívoros para teñir una sola túnica imperial.",
+    "extension": "Extraído de la glándula branquial del caracol Murex mediante fermentación al sol, el pigmento liberaba un olor sulfuroso nauseabundo durante su producción. Su costo desorbitado residía en que se requerían más de diez mil moluscos para obtener apenas un gramo del compuesto químico dibromoíndigo. Debido a su resistencia al lavado y brillo permanente, la púrpura de Tiro se convirtió en el máximo símbolo de realeza en Roma y Bizancio.",
+    "imagen": "ima/dia-306.jpg",
+    "fuentes": [
+      "https://www.metmuseum.org/toah/hd/tyre/hd_tyre.htm",
+      "https://www.sciencedirect.com/science/article/pii/S2352409X2030094X"
+    ]
   }
 ]
