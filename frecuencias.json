@@ -1,0 +1,730 @@
+[
+    {
+        "id": "FREQ-01",
+        "tipo": "comico",
+        "icono": "🦆",
+        "titulo": "El motín de los 28.000 patitos de goma",
+        "resumen": "En 1992, un contenedor cayó al Pacífico liberando miles de patitos de plástico que flotaron durante quince años por el Ártico y el Atlántico. Lejos de ser basura marina ordinaria, su recorrido accidental permitió a los oceanógrafos trazar y comprender las corrientes marinas superficiales con una precisión sin precedentes."
+    },
+    {
+        "id": "FREQ-02",
+        "tipo": "insolito",
+        "icono": "📡",
+        "titulo": "La señal cósmica que provenía del microondas",
+        "resumen": "Durante 17 años, los astrónomos del Observatorio Parkes en Australia registraron misteriosas señales de radio bautizadas como 'perytons', teorizando sobre orígenes estelares exóticos. En 2015 descubrieron la verdad: los empleados abrían la puerta del microondas antes de que sonara el pitido final, liberando una ráfaga que engañaba al radiotelescopio."
+    },
+    {
+        "id": "FREQ-03",
+        "tipo": "hazana",
+        "icono": "🐻",
+        "titulo": "Wojtek: El oso con rango militar y sueldo",
+        "resumen": "Durante la Segunda Guerra Mundial, una unidad de artillería polaca adoptó a un oso pardo sirio llamado Wojtek. Fue reclutado formalmente como soldado con paga, cartilla militar y tienda de campaña propia. En la batalla de Montecassino cargó pesadas cajas de obuses de 45 kg por terreno montañoso sin soltar jamás una sola munición."
+    },
+    {
+        "id": "FREQ-04",
+        "tipo": "comico",
+        "icono": "🍕",
+        "titulo": "La primera compra online de la historia: Una pizza",
+        "resumen": "En 1994, Pizza Hut lanzó 'PizzaNet', una página web experimental en texto plano para pedir comida a domicilio. El primer pedido cibernético del mundo fue una pizza grande de pepperoni con champiñones y queso extra. El personal del local tuvo que llamar por teléfono para verificar que no fuera una broma de universitarios entusiastas de la red."
+    },
+    {
+        "id": "FREQ-05",
+        "tipo": "anecdota",
+        "icono": "♟️",
+        "titulo": "La partida de ajedrez postal que duró 53 años",
+        "resumen": "En 1926, dos amigos de la infancia comenzaron una partida de ajedrez enviándose sus jugadas en cartas postales entre continentes. La partida sobrevivió a dos guerras mundiales, terremotos y extravíos postales, concluyendo en 1979 en el movimiento 68 cuando el único jugador con vida firmó un empate honorífico en memoria de su eterno oponente."
+    },
+    {
+        "id": "FREQ-06",
+        "tipo": "positivo",
+        "icono": "🌳",
+        "titulo": "El hombre que plantó un bosque más grande que Central Park",
+        "resumen": "Desde 1979, Jadav Payeng comenzó a plantar retoños en un banco de arena árido del río Brahmaputra en la India para proteger la fauna local. Durante cuatro décadas continuó su labor diaria en solitario hasta crear el bosque de Molai, que hoy abarca 550 hectáreas (superando el tamaño de Central Park) y alberga elefantes, tigres de Bengala y rinocerontes."
+    },
+    {
+        "id": "FREQ-07",
+        "tipo": "cotidiano",
+        "icono": "🥔",
+        "titulo": "Las patatas fritas de bolsa nacieron de una venganza culinaria",
+        "resumen": "En 1853, en un restaurante de Nueva York, un cliente exigente devolvió varias veces sus patatas quejándose de que eran demasiado gruesas y blandas. Para burlarse de él, el chef George Crum las cortó tan finas como una hoja de papel, las frió hasta dejarlas crujientes como el cristal y las cubrió de sal. Para su sorpresa, el comensal quedó fascinado, dando origen a las 'chips' modernas."
+    },
+    {
+        "id": "FREQ-09",
+        "tipo": "hazana",
+        "icono": "🎈",
+        "titulo": "El vuelo casero en reposera",
+        "resumen": "En 1982, Larry Walters ató 42 globos meteorológicos con helio a su silla plegable de jardín en Los Ángeles. Armado con una pistola de perdigones para descender, subió accidentalmente a más de 4.800 metros de altura e invadió rutas comerciales. Logró aterrizar ileso tras cruzar cables eléctricos y se convirtió en leyenda."
+    },
+    {
+        "id": "FREQ-10",
+        "tipo": "anecdota",
+        "icono": "♟️",
+        "titulo": "Tres horas para mover peón",
+        "resumen": "En un torneo internacional de ajedrez en 1980, el maestro Francisco Trois enfrentó al portugués Luis Santos. Abrumado por una posición confusa, Trois se quedó congelado mirando el tablero durante dos horas y veinte minutos. Cuando finalmente movió su pieza, solo le restaban cuarenta segundos para completar el resto de la partida."
+    },
+    {
+        "id": "FREQ-11",
+        "tipo": "cotidiano",
+        "icono": "🍕",
+        "titulo": "La física secreta de la pizza",
+        "resumen": "Comer una rebanada grande sin que la punta cuelgue tiene base en la geometría diferencial y un principio de Gauss. Al doblar ligeramente la masa por el borde exterior, fuerzas una curvatura transversal que bloquea el eje perpendicular. Esa rigidez instantánea desafía la gravedad y evita que todo el queso termine en la mesa."
+    },
+    {
+        "id": "FREQ-12",
+        "tipo": "positivo",
+        "icono": "🚲",
+        "titulo": "El cartero que pedaleó por amor",
+        "resumen": "En 1977, el artista indio P. K. Mahanandia vendió sus pocas posesiones para comprar una bicicleta de segunda mano. Su meta era reencontrarse con su esposa sueca, quien había regresado a Europa. Pedaleó más de 9.000 kilómetros a través de ocho países durante cuatro meses, hasta que finalmente se reunieron para siempre."
+    },
+    {
+        "id": "FREQ-13",
+        "tipo": "comico",
+        "icono": "🦧",
+        "titulo": "El orangután maestro cerrajero",
+        "resumen": "Ken Allen fue un orangután del zoológico de San Diego famoso por escapar repetidamente de su recinto cerrado durante los años ochenta. Los cuidadores instalaron cámaras ocultas para descubrir su técnica y hallaron que guardaba trozos de alambre bajo sus mejillas. Con ellos forzaba pasadores y salía pacíficamente a ver a los demás animales."
+    },
+    {
+        "id": "FREQ-14",
+        "tipo": "insolito",
+        "icono": "🌧️",
+        "titulo": "La tarde que llovieron peces",
+        "resumen": "En el pequeño pueblo de Yoro, Honduras, ocurre con frecuencia casi anual un fenómeno meteorológico donde caen peces vivos del cielo. Pequeñas trombas marinas o tormentas intensas absorben bancos fluviales cercanos y los transportan en las nubes. Tras el chaparrón, los pobladores salen con cubos a recoger pescado fresco directo de las calles."
+    },
+    {
+        "id": "FREQ-15",
+        "tipo": "hazana",
+        "icono": "🧭",
+        "titulo": "La marcha sobre hielo antártico",
+        "resumen": "En 1915, el barco de Ernest Shackleton quedó destrozado y atrapado en los hielos de la Antártida. Con provisiones mínimas, navegó en un bote salvavidas precario por aguas tormentosas hasta conseguir rescate. Contra todo pronóstico de la época, lideró la evacuación sin perder a un solo tripulante tras meses varados en la nada polar."
+    },
+    {
+        "id": "FREQ-16",
+        "tipo": "comico",
+        "icono": "🥖",
+        "titulo": "El robo de pan más caro",
+        "resumen": "En 2011, un loro en Nueva Zelanda le arrebató una billetera abierta a un turista en un mirador y huyó volando hacia la espesura. Dentro del bolso iban cerca de mil dólares en efectivo y documentos importantes. La policía local admitió en el informe oficial que el sospechoso emplumado era completamente inalcanzable."
+    },
+    {
+        "id": "FREQ-17",
+        "tipo": "positivo",
+        "icono": "🐾",
+        "titulo": "El rescate canino de pingüinos",
+        "resumen": "En la isla Middle de Australia, los zorros introducidos diezmaron a la colonia local de pequeños pingüinos azules. A un granjero se le ocurrió entrenar perros pastor maremma para custodiar la costa. Desde que los canes montan guardia, ni un solo pingüino ha muerto por depredadores y la población marina se cuadruplicó."
+    },
+    {
+        "id": "FREQ-18",
+        "tipo": "insolito",
+        "icono": "🐱",
+        "titulo": "El gato alcalde por aclamación",
+        "resumen": "Cansados de los políticos tradicionales, los ciudadanos de Talkeetna en Alaska eligieron por votación popular a un felino recién nacido llamado Stubbs en 1997. El gato mantuvo el cargo honorífico durante veinte años completos sin escándalos de corrupción. Recibía turistas a diario en la tienda local mientras bebía agua con hierba gatera."
+    },
+    {
+        "id": "FREQ-19",
+        "tipo": "hazana",
+        "icono": "⛏️",
+        "titulo": "El hombre que partió una montaña",
+        "resumen": "Dashrath Manjhi perdió a su esposa por falta de atención médica rápida al no poder cruzar una colina escarpada en India. Equipado únicamente con un martillo y un cincel, trabajó día y noche durante veintidós años continuos. Logró abrir un camino de cien metros que redujo la distancia al hospital de 55 a 15 kilómetros."
+    },
+    {
+        "id": "FREQ-20",
+        "tipo": "anecdota",
+        "icono": "⚡",
+        "titulo": "El pararrayos humano de Virginia",
+        "resumen": "Roy Sullivan, un guardabosques de Virginia, posee un récord Guinness prácticamente imposible de envidiar: sobrevivió al impacto de siete rayos diferentes a lo largo de su carrera. Perdió uñas, cejas y partes del cabello en cada descarga eléctrica. Con el tiempo comenzó a cargar baldes con agua en su camioneta por pura precaución cotidiana."
+    },
+    {
+        "id": "FREQ-21",
+        "tipo": "cotidiano",
+        "icono": "☕",
+        "titulo": "La primera cámara web del mundo",
+        "resumen": "En 1991, investigadores de la Universidad de Cambridge estaban hartos de bajar escaleras y encontrar la cafetera departamental vacía. Conectaron una cámara diminuta que enviaba una captura en escala de grises por minuto a sus monitores de escritorio. Aquella solución práctica y perezosa se convirtió en la primera transmisión web de la historia humana."
+    },
+    {
+        "id": "FREQ-22",
+        "tipo": "positivo",
+        "icono": "🐢",
+        "titulo": "El soltero que salvó su especie",
+        "resumen": "Diego, una tortuga gigante originaria de Española en las islas Galápagos, fue reclutado para un programa de cría intensiva cuando solo quedaban catorce ejemplares vivos. Con una vitalidad legendaria, engendró más de ochocientos descendientes a lo largo de varias décadas. Tras evitar la extinción total, fue devuelto a su isla natal para disfrutar su jubilación."
+    },
+    {
+        "id": "FREQ-23",
+        "tipo": "comico",
+        "icono": "🎺",
+        "titulo": "La invasión de trompetas desafinadas",
+        "resumen": "En 1838, Francia declaró una guerra comercial contra México que comenzó formalmente por el reclamo impago de una pastelería francesa saqueada en Tacubaya. La llamada Guerra de los Pasteles incluyó bloqueos marítimos y escaramuzas costeras insólitas. El conflicto terminó resolviéndose meses después mediante un acuerdo diplomático que cubrió la factura de los postres reclamados."
+    },
+    {
+        "id": "FREQ-24",
+        "tipo": "insolito",
+        "icono": "🌊",
+        "titulo": "La gran marea de cerveza londinense",
+        "resumen": "En octubre de 1814, una tina gigante de fermentación se rompió en una cervecería londinense, desatando una reacción en cadena destructiva. Más de un millón de litros de cerveza negra salieron disparados en forma de ola gigantesca hacia las calles residenciales. La extraña inundación derribó muros de ladrillo y sumergió sótanos enteros en pocos minutos."
+    },
+    {
+        "id": "FREQ-25",
+        "tipo": "hazana",
+        "icono": "🛰️",
+        "titulo": "El mensaje interestelar que sigue viajando",
+        "resumen": "Lanzada en 1977 con menos memoria digital que un control remoto moderno, la sonda Voyager 1 cruzó la heliopausa hacia el espacio interestelar. A más de veinte mil millones de kilómetros de la Tierra, continúa respondiendo señales débiles hacia nuestras antenas. Lleva consigo un disco de oro con saludos humanos que navegará intacto durante millones de años."
+    },
+    {
+        "id": "FREQ-26",
+        "tipo": "comico",
+        "icono": "🦘",
+        "titulo": "El emú que ganó la guerra",
+        "resumen": "En 1932, el ejército australiano desplegó soldados con ametralladoras para combatir una plaga de miles de emúes que arruinaban cultivos de trigo. Las veloces aves esquivaron las ráfagas dispersándose en pequeños grupos por el desierto y resistiendo impactos directos. Tras semanas de torpezas tácticas y miles de balas gastadas, el gobierno retiró las tropas derrotado."
+    },
+    {
+        "id": "FREQ-27",
+        "tipo": "positivo",
+        "icono": "🐬",
+        "titulo": "Los delfines que pescan con humanos",
+        "resumen": "En la costa brasileña de Laguna, una manada salvaje de delfines colabora desde hace más de un siglo con los pescadores locales. Los cetáceos acorralan bancos de peces hacia la orilla y dan un coletazo en el agua como señal de tiro. Quienes lanzan las redes consiguen comida abundante, mientras los delfines capturan a los ejemplares dispersos."
+    },
+    {
+        "id": "FREQ-28",
+        "tipo": "insolito",
+        "icono": "📮",
+        "titulo": "El buzón submarino de Susami",
+        "resumen": "A diez metros de profundidad en la bahía de Susami, Japón, descansa un buzón postal de hierro fundido plenamente operativo. Instalado en 1999 para atraer buceadores deportivos, recibe postales plásticas escritas con tinta impermeable que luego un cartero submarinista recoge periódicamente. Ha despachado con éxito decenas de miles de cartas hacia destinos postales de todo el planeta."
+    },
+    {
+        "id": "FREQ-29",
+        "tipo": "hazana",
+        "icono": "🛹",
+        "titulo": "Cruzar Australia en una patineta",
+        "resumen": "En 2006, el británico Dave Cornthwaite decidió renunciar a su rutina de oficina para emprender un viaje absurdo y monumental. Cruzó el continente australiano de costa a costa sobre una patineta larga tradicional sin apoyo motorizado. Recorrió cerca de seis mil kilómetros en cinco meses, desgastando una docena de zapatillas hasta alcanzar la costa opuesta ileso."
+    },
+    {
+        "id": "FREQ-30",
+        "tipo": "anecdota",
+        "icono": "🔬",
+        "titulo": "El pegamento que nació sin pegar",
+        "resumen": "El científico Spencer Silver intentaba desarrollar en 1968 un adhesivo industrial ultra resistente para el sector aeroespacial, pero obtuvo una pasta que apenas sostenía hojas livianas. Lejos de desechar el compuesto fallido, su colega Art Fry lo usó años después para fijar separadores temporales en su libro de coro. De aquel traspié químico nacieron las notas adhesivas Post-it."
+    },
+    {
+        "id": "FREQ-31",
+        "tipo": "cotidiano",
+        "icono": "🍌",
+        "titulo": "La suave radiactividad del plátano",
+        "resumen": "Los plátanos comunes contienen niveles naturales apreciables de potasio 40, un isótopo radiactivo benigno pero detectable por instrumental científico sensible. Los ingenieros nucleares utilizan informalmente la dosis equivalente a un plátano para ilustrar niveles ínfimos de radiación ambiental ante el público general. Se necesitaría consumir decenas de miles de frutas de un tirón para experimentar algún peligro real."
+    },
+    {
+        "id": "FREQ-32",
+        "tipo": "comico",
+        "icono": "🏰",
+        "titulo": "La invasión de Liechtenstein con saldo positivo",
+        "resumen": "En 1866, el pequeño principado de Liechtenstein envió a ochenta soldados a resguardar un paso montañoso durante el conflicto austro-prusiano. Los militares no participaron en ningún combate violento y pasaron semanas bebiendo vino y contemplando el paisaje alpino. Al regresar al territorio natal marcharon ochenta y un hombres, pues hicieron amistad con un teniente austríaco que decidió unírseles."
+    },
+    {
+        "id": "FREQ-33",
+        "tipo": "positivo",
+        "icono": "📚",
+        "titulo": "La biblioteca sobre dos burros",
+        "resumen": "En las zonas rurales de Colombia, el profesor Luis Soriano montó una biblioteca ambulante cargando libros sobre dos burros llamados Alfa y Beto. Recorrió senderos montañosos durante décadas para acercar literatura y lecciones de lectura a niños en pueblos sin escuelas ni electricidad. Su humilde Biblioburro inspiró iniciativas educativas similares en aldeas remotas de Asia y África."
+    },
+    {
+        "id": "FREQ-34",
+        "tipo": "insolito",
+        "icono": "🚢",
+        "titulo": "El barco fantasma que navegó solo",
+        "resumen": "En 1931, el buque mercante SS Baychimo quedó atrapado por una ventisca polar y fue evacuado de urgencia por su tripulación en el Ártico canadiense. En lugar de hundirse en el hielo, el carguero navegó a la deriva durante casi cuatro décadas sin nadie al timón. Fue avistado periódicamente por exploradores inuit a miles de millas de su última posición."
+    },
+    {
+        "id": "FREQ-35",
+        "tipo": "hazana",
+        "icono": "🏊",
+        "titulo": "Cien kilómetros en mar abierto",
+        "resumen": "A la edad de 64 años, la nadadora Diana Nyad completó una de las travesías más extremas del deporte moderno en 2013. Nadó desde La Habana hasta Cayo Hueso sin utilizar una jaula de protección contra tiburones, completando cincuenta y tres horas continuas en mar abierto. Tras cuatro intentos fallidos previos, demostró que la resistencia humana no tiene límite de edad."
+    },
+    {
+        "id": "FREQ-36",
+        "tipo": "comico",
+        "icono": "🦡",
+        "titulo": "El tejón que robó un castillo",
+        "resumen": "En 2013, arqueólogos en Escocia investigaban los túneles subterráneos de un castillo medieval cuando hallaron monedas de plata y herramientas del siglo XIII. Para su sorpresa, un tejón salvaje había cavado las galerías y desenterrado las reliquias por puro instinto hogareño. Los investigadores apodaron al animal como el asistente arqueológico más eficiente y barato del país."
+    },
+    {
+        "id": "FREQ-37",
+        "tipo": "positivo",
+        "icono": "🐋",
+        "titulo": "El canto ballenero que recorrió océanos",
+        "resumen": "A fines del siglo XX, las poblaciones de ballenas jorobadas estuvieron al borde del colapso por la caza indiscriminada. Con las restricciones internacionales de protección, sus comunidades se recuperaron de manera asombrosa en ambos hemisferios. Los científicos descubrieron además que comparten melodías complejas que viajan miles de kilómetros por el agua como una red musical planetaria."
+    },
+    {
+        "id": "FREQ-38",
+        "tipo": "insolito",
+        "icono": "🔥",
+        "titulo": "La puerta del infierno en llamas",
+        "resumen": "En 1971, geólogos soviéticos perforaron una caverna de gas natural en el desierto de Karakum, Turkmenistán, provocando un colapso del terreno. Para evitar emanaciones tóxicas hacia aldeas cercanas, decidieron prenderle fuego calculando que se apagaría en pocas semanas. El cráter de Darvaza continúa ardiendo ininterrumpidamente más de medio siglo después en medio de la arena."
+    },
+    {
+        "id": "FREQ-39",
+        "tipo": "hazana",
+        "icono": "✈️",
+        "titulo": "La vuelta al mundo sin repostar",
+        "resumen": "En 1986, Dick Rutan y Jeana Yeager abordaron el avión experimental Voyager, construido con materiales ultraligeros y alas cargadas de combustible. Volaron nueve días seguidos sin escalas ni asistencia exterior para reabastecer los tanques en el aire. Completaron la circunferencia terrestre contra turbulencias brutales y aterrizaron en California consagrando un hito histórico de la aviación."
+    },
+    {
+        "id": "FREQ-40",
+        "tipo": "anecdota",
+        "icono": "🍄",
+        "titulo": "El hongo que salvó millones",
+        "resumen": "En 1928, el bacteriólogo Alexander Fleming regresó de vacaciones y encontró platos de cultivo contaminados con moho común en su laboratorio londinense. Antes de tirarlos al cesto, notó que las bacterias estafilococo no crecían alrededor del hongo invasor. Aquella desatención doméstica llevó al descubrimiento de la penicilina, transformando para siempre el tratamiento de infecciones mortales en todo el planeta."
+    },
+    {
+        "id": "FREQ-41",
+        "tipo": "cotidiano",
+        "icono": "🧼",
+        "titulo": "La magia simple del jabón",
+        "resumen": "Una gota común de jabón destruye virus y bacterias gracias a una estructura química de doble naturaleza. Uno de sus extremos adora el agua mientras que el opuesto se aferra a las grasas protectoras del microorganismo. Al frotar la piel con espuma, el jabón desgarra literalmente las membranas víricas y el agua corriente se lleva los restos desactivados."
+    },
+    {
+        "id": "FREQ-42",
+        "tipo": "comico",
+        "icono": "🍅",
+        "titulo": "La gran batalla del tomate",
+        "resumen": "En 1945, durante un desfile de gigantes y cabezudos en Buñol, España, un tropiezo accidental provocó una discusión acalorada entre jóvenes. Al tener cerca un puesto de verduras, comenzaron a lanzarse tomates maduros con entusiasmo festivo hasta que intervino la policía. El altercado callejero gustó tanto al pueblo que nació La Tomatina, fiesta que reúne toneladas de fruta lanzada."
+    },
+    {
+        "id": "FREQ-43",
+        "tipo": "positivo",
+        "icono": "🌲",
+        "titulo": "El hombre que revivió un valle",
+        "resumen": "En los años noventa, el fotógrafo Sebastião Salgado regresó a la granja familiar en Brasil y encontró la selva tropical completamente arrasada por la deforestación. Junto a su esposa Lélia, fundó una iniciativa para plantar más de dos millones de árboles nativos durante dos décadas. El Instituto Terra transformó el desierto árido en un paraíso biológico repleto de manantiales y fauna."
+    },
+    {
+        "id": "FREQ-44",
+        "tipo": "insolito",
+        "icono": "🍯",
+        "titulo": "La miel eterna de las pirámides",
+        "resumen": "Arqueólogos que excavaban tumbas del antiguo Egipto abrieron vasijas de barro selladas con más de tres mil años de antigüedad. Al examinar el interior, descubrieron que la miel silvestre depositada como ofrenda funeraria se conservaba en perfecto estado comestible. Su bajísima humedad relativa y acidez natural impiden el crecimiento bacteriano, convirtiéndola en el único alimento prácticamente inmortal de la naturaleza."
+    },
+    {
+        "id": "FREQ-45",
+        "tipo": "hazana",
+        "icono": "🧗",
+        "titulo": "La pared vertical sin cuerdas",
+        "resumen": "En junio de 2017, Alex Honnold se paró al pie de El Capitán en Yosemite sin arnés, cuerdas ni equipo de protección. Escaló los novecientos metros de granito pulido en menos de cuatro horas usando únicamente sus dedos, pies y una bolsa de magnesio. Su ascenso en solo integral es considerado la mayor proeza física y mental en la historia del montañismo."
+    },
+    {
+        "id": "FREQ-46",
+        "tipo": "comico",
+        "icono": "🐖",
+        "titulo": "La guerra por una papa",
+        "resumen": "En 1859, un granjero estadounidense disparó a un cerdo británico que invadió su huerto de papas en la isla San Juan. El altercado escaló tan rápido que ambos países movilizaron buques de guerra y tropas armadas durante meses. El único caído en todo el conflicto fue el cerdo hambriento, y la disputa territorial se resolvió pacíficamente por arbitraje internacional."
+    },
+    {
+        "id": "FREQ-47",
+        "tipo": "positivo",
+        "icono": "🦏",
+        "titulo": "Los guardaespaldas del último gigante",
+        "resumen": "En la reserva de Ol Pejeta en Kenia, Najin y Fatu son las dos últimas hembras vivas del rinoceronte blanco del norte. Un equipo dedicado de guardabosques armados las vigila las veinticuatro horas del día para protegerlas de cazadores furtivos. Paralelamente, científicos internacionales desarrollan embriones viables en laboratorio para salvar a la subespecie de la desaparición definitiva."
+    },
+    {
+        "id": "FREQ-48",
+        "tipo": "insolito",
+        "icono": "🌲",
+        "titulo": "El pando de cuarenta mil troncos",
+        "resumen": "En el bosque de Utah existe un bosque de álamos temblones llamado Pando que parece una arboleda común pero es un único individuo vivo. Los más de cuarenta mil árboles comparten un sistema de raíces subterráneas idéntico y masivo de miles de años de edad. Con más de seis mil toneladas de peso vegetal, es uno de los organismos más pesados de la Tierra."
+    },
+    {
+        "id": "FREQ-49",
+        "tipo": "hazana",
+        "icono": "🛩️",
+        "titulo": "El aterrizaje ciego sobre el Sena",
+        "resumen": "En 1919, el aviador francés Charles Godefroy desafió las órdenes militares y voló su biplano Nieuport directamente a través del Arco de Triunfo de París. Con una envergadura de casi ocho metros y un espacio libre de apenas catorce metros entre pilares, el margen de error era mortal. La maniobra milimétrica se convirtió en leyenda instantánea de la acrobacia aérea europea."
+    },
+    {
+        "id": "FREQ-50",
+        "tipo": "anecdota",
+        "icono": "🧊",
+        "titulo": "El hielo picado que inventó la paleta",
+        "resumen": "En 1905, un niño de once años llamado Frank Epperson olvidó en el porche de su casa un vaso con jugo en polvo y una varilla mezcladora. Durante la noche, una helada repentina en San Francisco congeló la mezcla alrededor del palito de madera. Años más tarde patentó la golosina congelada, dando inicio formal al negocio de los polos helados."
+    },
+    {
+        "id": "FREQ-51",
+        "tipo": "cotidiano",
+        "icono": "🧂",
+        "titulo": "El oro blanco de los romanos",
+        "resumen": "En la Antigüedad romana, la sal marina era tan indispensable para conservar carnes y verduras que se consideraba una moneda comercial de alto valor. A los legionarios y funcionarios se les entregaba con frecuencia una asignación especial de dinero para adquirirla, conocida en latín como salarium. De esa práctica cotidiana de aprovisionamiento militar proviene la palabra salario que usamos hoy."
+    },
+    {
+        "id": "FREQ-52",
+        "tipo": "comico",
+        "icono": "🐦",
+        "titulo": "El espía emplumado en la embajada",
+        "resumen": "Durante la Guerra Fría, agentes de inteligencia examinaron con sospecha a varias palomas mensajeras que anidaban cerca de instalaciones militares en Europa. La CIA llegó a diseñar arneses diminutos con cámaras de rollo automático para que las aves tomaran fotos espía al volar sobre bases enemigas. Muchas misiones fracasaron porque las palomas simplemente aterrizaban en árboles a comer migajas de pan."
+    },
+    {
+        "id": "FREQ-53",
+        "tipo": "positivo",
+        "icono": "🌊",
+        "titulo": "La barrera que limpia el océano",
+        "resumen": "A los dieciocho años, Boyan Slat diseñó un sistema pasivo de barreras flotantes para concentrar plásticos en la Gran Mancha del Pacífico mediante corrientes marinas naturales. Su proyecto The Ocean Cleanup logró desplegar flotas que recolectan toneladas de redes fantasma y microplásticos por semana. Los residuos recuperados se transforman en tierra firme en materiales reciclables para la industria textil."
+    },
+    {
+        "id": "FREQ-54",
+        "tipo": "insolito",
+        "icono": "🦷",
+        "titulo": "El tiburón que vio la Edad Media",
+        "resumen": "En las aguas gélidas del Ártico habita el tiburón de Groenlandia, un pez de nado pausado que ostenta la mayor longevidad entre vertebrados. Análisis con radiocarbono en el cristalino de sus ojos revelaron ejemplares que superan los cuatrocientos años de edad en el mar. Algunos individuos que nadan plácidamente hoy en día nacieron antes de que Galileo inventara el telescopio astronómico."
+    },
+    {
+        "id": "FREQ-55",
+        "tipo": "hazana",
+        "icono": "🚣",
+        "titulo": "El cruce del Atlántico a remo",
+        "resumen": "En 1969, John Fairfax se convirtió en la primera persona en cruzar el océano Atlántico completamente solo en un bote de remos. Zarpó desde las Islas Canarias y soportó tormentas brutales, ataques de tiburones y agotamiento físico extremo durante ciento ochenta días continuos. Tras remar más de siete mil kilómetros a pulso, tocó tierra firme en las playas de Florida."
+    },
+    {
+        "id": "FREQ-56",
+        "tipo": "comico",
+        "icono": "🐐",
+        "titulo": "La cabra condecorada por error",
+        "resumen": "En el regimiento Royal Welsh del ejército británico, una cabra cachemira llamada William Windsor ostenta rango militar formal de cabo. Durante un desfile en 2006, el animal rompió filas para masticar flores y empujar soldados ceremoniales. Fue degradado temporalmente a soldado raso por conducta desordenada, pero recuperó sus galones meses después tras demostrar disciplina ejemplar."
+    },
+    {
+        "id": "FREQ-57",
+        "tipo": "positivo",
+        "icono": "💡",
+        "titulo": "El faro escolar del pueblo",
+        "resumen": "En varias comunidades costeras de Filipinas sin red eléctrica estable, ingenieros locales implementaron la lámpara solar de botella plástica ideada por Alfredo Moser. Rellenando envases transparentes con agua y unas gotas de lavandina empotrados en los techos de chapa, la refracción solar genera el equivalente a cincuenta vatios diurnos. El invento iluminó aulas oscuras y hogares de bajos recursos."
+    },
+    {
+        "id": "FREQ-58",
+        "tipo": "insolito",
+        "icono": "🪨",
+        "titulo": "Las piedras viajeras del desierto",
+        "resumen": "En el lecho seco de Racetrack Playa, California, pesadas rocas se desplazan solas dejando surcos kilométricos en el barro endurecido. Durante décadas el fenómeno desconcertó a geólogos hasta que cámaras con GPS resolvieron el enigma en 2014. Finas placas de hielo nocturno impulsadas por vientos suaves arrastran las rocas sobre el lodo resbaladizo bajo el sol matinal."
+    },
+    {
+        "id": "FREQ-59",
+        "tipo": "hazana",
+        "icono": "🐕",
+        "titulo": "La carrera del suero en Alaska",
+        "resumen": "En el crudo invierno de 1925, una epidemia de difteria amenazó con extinguir el remoto pueblo costero de Nome en Alaska. Veinte equipos de trineos tirados por perros recorrieron más de mil kilómetros bajo ventiscas mortales y sesenta grados bajo cero. Los canes Togo y Balto lideraron los tramos más críticos, entregando el suero salvador en un tiempo récord de cinco días."
+    },
+    {
+        "id": "FREQ-60",
+        "tipo": "anecdota",
+        "icono": "🥔",
+        "titulo": "La papa guardada bajo llave",
+        "resumen": "En el siglo XVIII, los campesinos franceses rechazaban comer papas por considerarlas alimento venenoso para cerdos. El agrónomo Antoine Parmentier plantó parcelas vigiladas por guardias reales armados durante el día y retiró la custodia por la noche. Convencidos de que cuidaban un tesoro exclusivo del rey, los aldeanos robaron los tubérculos y comenzaron a cultivarlos por toda Francia."
+    },
+    {
+        "id": "FREQ-61",
+        "tipo": "cotidiano",
+        "icono": "🧅",
+        "titulo": "La defensa química de la cebolla",
+        "resumen": "Al cortar una cebolla cruda se rompen paredes celulares que mezclan enzimas y aminoácidos que antes estaban aislados en su tejido vegetal. La reacción genera al instante sulfóxido de tiopropanal, un gas volátil que se disuelve en los ojos formando ácido sulfúrico diluido. Como mecanismo de defensa, las glándulas lagrimales producen lágrimas abundantes para lavar de inmediato el irritante químico."
+    },
+    {
+        "id": "FREQ-62",
+        "tipo": "comico",
+        "icono": "🚗",
+        "titulo": "La multa por exceso de calma",
+        "resumen": "En 1896, Walter Arnold conducía su carruaje sin caballos por las calles de Kent a trece kilómetros por hora, cuadruplicando el límite legal de la época fijado en tres kilómetros por hora. Un policía persiguió el vehículo a toda velocidad en bicicleta durante varias cuadras hasta darle alcance. Arnold recibió la primera multa de tráfico por exceso de velocidad de la historia."
+    },
+    {
+        "id": "FREQ-63",
+        "tipo": "positivo",
+        "icono": "🦫",
+        "titulo": "Los castores ingenieros de humedales",
+        "resumen": "En regiones resecas del oeste norteamericano, conservacionistas reintrodujeron familias de castores para combatir sequías recurrentes causadas por el calentamiento. Con sus diques de troncos y ramas, los roedores desaceleran ríos torrenciales y crean lagunas que recargan acuíferos subterráneos. Esos oasis espontáneos devuelven el verdor a praderas secas y actúan como cortafuegos naturales ante incendios forestales devastadores."
+    },
+    {
+        "id": "FREQ-64",
+        "tipo": "insolito",
+        "icono": "💎",
+        "titulo": "La cueva de espadas de cristal",
+        "resumen": "A trescientos metros bajo la mina de Naica en Chihuahua, México, mineros toparon por azar con una caverna repleta de cristales de selenita de hasta doce metros de longitud. El ambiente extremo, con temperaturas de cincuenta grados y noventa por ciento de humedad, formó estas columnas durante cientos de miles de años. Los científicos solo pueden explorarla con trajes refrigerados especiales."
+    },
+    {
+        "id": "FREQ-65",
+        "tipo": "hazana",
+        "icono": "🤿",
+        "titulo": "El descenso al abismo Challenger",
+        "resumen": "En 1960, Jacques Piccard y Don Walsh abordaron el batiscafo Trieste para descender al punto más profundo del océano en la Fosa de las Marianas. Casi a once kilómetros bajo la superficie, una ventanilla de plexiglás crujió por la presión aplastante de mil atmósferas. Mantuvieron la calma, tocaron fondo intactos y descubrieron peces planos adaptados a la oscuridad absoluta."
+    },
+    {
+        "id": "FREQ-66",
+        "tipo": "comico",
+        "icono": "🐒",
+        "titulo": "El simio que votó en elecciones",
+        "resumen": "En 1988, una revista satírica de Río de Janeiro postuló al chimpancé Tião como candidato a la alcaldía para protestar contra la clase política. El carismático primate del zoológico local recibió más de cuatrocientos mil votos válidos en las urnas. Quedó en el tercer puesto general de la contienda y se convirtió en leyenda del humor cívico brasileño."
+    },
+    {
+        "id": "FREQ-67",
+        "tipo": "positivo",
+        "icono": "🐺",
+        "titulo": "Los lobos que cambiaron ríos",
+        "resumen": "En 1995, biólogos reintrodujeron catorce lobos grises en el Parque Nacional de Yellowstone tras siete décadas de ausencia total. Al controlar la sobrepoblación de ciervos, la vegetación ribereña volvió a crecer con fuerza en pocos años. Las raíces afirmaron las orillas, los bosques recuperados frenaron la erosión y el cauce de los ríos cambió de forma definitiva."
+    },
+    {
+        "id": "FREQ-68",
+        "tipo": "insolito",
+        "icono": "🍄",
+        "titulo": "El hongo más grande del mundo",
+        "resumen": "Bajo el Bosque Nacional de Malheur en Oregón se extiende un único ejemplar de Armillaria ostoyae que abarca cerca de diez kilómetros cuadrados. Este hongo colosal ha crecido tejiendo filamentos bajo la tierra durante más de dos mil años de historia ininterrumpida. Su masa viva subterránea supera el peso combinado de cientos de ballenas azules juntas."
+    },
+    {
+        "id": "FREQ-69",
+        "tipo": "hazana",
+        "icono": "🛩️",
+        "titulo": "El milagro sobre el río Hudson",
+        "resumen": "En 2009, una bandada de gansos inutilizó ambos motores de un avión comercial a baja altura sobre Nueva York. El capitán Chesley Sullenberger evaluó las opciones en segundos y decidió planear hacia las aguas heladas del río Hudson. Logró acuatizar suavemente sin partir el fuselaje y los ciento cincuenta y cinco ocupantes fueron rescatados con vida de las alas flotantes."
+    },
+    {
+        "id": "FREQ-70",
+        "tipo": "anecdota",
+        "icono": "🍪",
+        "titulo": "La galleta con chispas por descuido",
+        "resumen": "En la década de 1930, la cocinera Ruth Wakefield preparaba galletas de chocolate en su posada de Massachusetts pero se quedó sin cacao para repostería. Decidió picar trozos de una tableta comercial pensando que se derretirían por completo en el horno. Las piezas mantuvieron su forma crujiente dentro de la masa horneada y crearon accidentalmente la icónica receta moderna."
+    },
+    {
+        "id": "FREQ-71",
+        "tipo": "cotidiano",
+        "icono": "🧊",
+        "titulo": "La rareza térmica del agua",
+        "resumen": "Casi todos los líquidos se contraen y vuelven más densos al enfriarse, pero el agua se expande al congelarse por debajo de cuatro grados. Esta anomalía molecular hace que el hielo flote formando una capa aislante en la superficie de lagos polares. Gracias a ese escudo térmico superior, la vida marina sobrevive en el agua líquida del fondo durante el invierno."
+    },
+    {
+        "id": "FREQ-72",
+        "tipo": "comico",
+        "icono": "♟️",
+        "titulo": "El falso robot ajedrecista imperial",
+        "resumen": "En 1770, el inventor Wolfgang von Kempelen sorprendió a cortes europeas con El Turco, un autómata mecánico capaz de derrotar humanos al ajedrez. Durante décadas el ingenio deslumbró a reyes y científicos fingiendo poseer engranajes inteligentes autónomos. En realidad, un maestro ajedrecista de baja estatura permanecía escondido entre espejos falsos en el interior del gabinete operando las piezas."
+    },
+    {
+        "id": "FREQ-73",
+        "tipo": "positivo",
+        "icono": "🦡",
+        "titulo": "La alianza entre pájaro y tejón",
+        "resumen": "En la sabana africana, el pájaro indicador del panal busca colmenas silvestres pero no puede romperlas por su cuenta. Al hallar una, emite un silbido particular para guiar a un tejón de la miel hasta el árbol hueco. El mamífero desgarra la corteza con sus garras para comer larvas, mientras el ave disfruta tranquilamente de la cera restante."
+    },
+    {
+        "id": "FREQ-74",
+        "tipo": "insolito",
+        "icono": "🐟",
+        "titulo": "El pez que camina en tierra",
+        "resumen": "El saltarín del fango es un pez anfibio que pasa la mayor parte del día trepando raíces de manglar y saltando sobre el barro costero. Puede respirar aire absorbiendo oxígeno a través de la piel húmeda y guardando reservas de agua en cámaras branquiales selladas. Si permanece sumergido demasiado tiempo en corrientes profundas, pierde su principal ventaja biológica y puede asfixiarse."
+    },
+    {
+        "id": "FREQ-75",
+        "tipo": "hazana",
+        "icono": "⛵",
+        "titulo": "La balsa de troncos que cruzó el Pacífico",
+        "resumen": "En 1947, Thor Heyerdahl construyó la balsa Kon-Tiki usando exclusivamente troncos de balsa, cuerdas de cáñamo y materiales indígenas prehispánicos. Sin timón moderno ni motor, zarpó desde el Callao en Perú para demostrar que marineros antiguos pudieron colonizar la Polinesia. Tras navegar ocho mil kilómetros arrastrado por vientos y corrientes durante cien días, encalló exitosamente en un atolón polinesio."
+    },
+    {
+        "id": "FREQ-76",
+        "tipo": "comico",
+        "icono": "🐱",
+        "titulo": "El gato espía de la Guerra Fría",
+        "resumen": "En la década de 1960, la CIA invirtió millones de dólares en el proyecto Acoustic Kitty para implantar micrófonos y antenas en felinos callejeros. La idea era enviarlos a espiar conversaciones secretas de diplomáticos soviéticos en parques públicos. En su primera prueba real en Washington, el felino desobedeció las órdenes, cruzó la calle buscando comida y fue arrollado por un taxi."
+    },
+    {
+        "id": "FREQ-77",
+        "tipo": "positivo",
+        "icono": "🦧",
+        "titulo": "La escuela en la selva para primates",
+        "resumen": "En Borneo, el centro Nyaru Menteng gestiona una escuela forestal para crías de orangután rescatadas del tráfico ilegal o incendios forestales. Cuidadores humanos actúan como madres sustitutas, enseñándoles pacientemente a trepar ramas altas, construir nidos para dormir y distinguir frutos comestibles de plantas venenosas. Cientos de graduados han regresado con éxito a la vida silvestre protegida."
+    },
+    {
+        "id": "FREQ-78",
+        "tipo": "insolito",
+        "icono": "🌲",
+        "titulo": "El árbol más solitario del desierto",
+        "resumen": "En el corazón del desierto del Teneré creció una acacia que fue considerada el árbol más aislado de la Tierra. No había otra planta leñosa en cuatrocientos kilómetros a la redonda, guiando a caravanas tuareg durante siglos gracias a raíces de treinta metros de profundidad. En 1973, un camionero ebrio chocó contra el único obstáculo visible en todo el horizonte."
+    },
+    {
+        "id": "FREQ-79",
+        "tipo": "hazana",
+        "icono": "🗼",
+        "titulo": "El paseo sobre el abismo de Nueva York",
+        "resumen": "En 1974, el equilibrista francés Philippe Petit tendió clandestinamente un cable de acero entre las Torres Gemelas aún inconclusas. A más de cuatrocientos metros del asfalto neoyorquino y sin red protectora, caminó, bailó y se arrodilló sobre la cuerda durante cuarenta y cinco minutos. La multitud en las calles lo ovacionó antes de que la policía lo detuviera en la azotea."
+    },
+    {
+        "id": "FREQ-80",
+        "tipo": "anecdota",
+        "icono": "🍫",
+        "titulo": "El microondas nacido de un chocolate derretido",
+        "resumen": "En 1945, el ingeniero Percy Spencer probaba tubos de radar militar llamados magnetrones en los laboratorios de Raytheon. De pronto notó una sensación pegajosa en su bolsillo: la barra de chocolate que llevaba se había licuado por completo sin fuego cercano. Intrigado por la radiación electromagnética, acercó granos de maíz que explotaron al instante, inventando así el horno microondas doméstico."
+    },
+    {
+        "id": "FREQ-81",
+        "tipo": "cotidiano",
+        "icono": "🥱",
+        "titulo": "El contagio involuntario del bostezo",
+        "resumen": "Ver, escuchar o incluso leer sobre un bostezo activa de inmediato neuronas espejo asociadas a la empatía y la coordinación social grupal. Este reflejo automático no solo ocurre en humanos, sino también en perros, chimpancés y lobos cuando observan a sus semejantes cansados. Los científicos sugieren que servía ancestralmente como señal sincronizada para mantener alerta a la manada antes de dormir."
+    },
+    {
+        "id": "FREQ-82",
+        "tipo": "comico",
+        "icono": "🍺",
+        "titulo": "El pueblo que votó por cerveza gratis",
+        "resumen": "En 1979, una pequeña localidad en Nueva Zelanda eligió a un chivo llamado Billy como concejal tras una campaña financiada por clientes de una taberna. Los promotores prometieron que el animal firmaría leyes masticando documentos y que el presupuesto municipal se destinaría a barriles de cerveza comunitaria. El chivo ocupó su curul honoraria durante semanas comiendo flores de la alcaldía."
+    },
+    {
+        "id": "FREQ-83",
+        "tipo": "positivo",
+        "icono": "🦜",
+        "titulo": "El loro que aprendió a contar",
+        "resumen": "Alex, un loro gris africano entrenado por la psicóloga Irene Pepperberg, revolucionó la comprensión de la mente animal durante tres décadas. No se limitaba a repetir palabras por imitación sonora: diferenciaba cincuenta objetos por color, forma y material, y comprendía el concepto numérico de cantidad. Sus logros demostraron que las aves poseen capacidades de razonamiento abstracto comparables a primates superiores."
+    },
+    {
+        "id": "FREQ-84",
+        "tipo": "insolito",
+        "icono": "🩸",
+        "titulo": "Las cataratas de sangre en la nieve",
+        "resumen": "En los valles secos de McMurdo, en la Antártida, surge una cascada de líquido escarlata que tiñe de rojo el glaciar Taylor. Durante años se creyó que provenía de algas rojas microscópicas, pero estudios geológicos revelaron una salmuera rica en hierro atrapada bajo dos millones de años de hielo. Al emerger a la superficie, el hierro se oxida instantáneamente con el aire polar."
+    },
+    {
+        "id": "FREQ-85",
+        "tipo": "hazana",
+        "icono": "🛶",
+        "titulo": "La odisea fluvial del cañón del Colorado",
+        "resumen": "En 1869, John Wesley Powell, un veterano de guerra que había perdido su brazo derecho, lideró la primera expedición náutica por el Gran Cañón. Con cuatro botes de madera precarios y provisiones arruinadas por la humedad, navegó más de mil quinientos kilómetros de rápidos inexplorados y violentos. Tras tres meses de peligro continuo, trazó los primeros mapas topográficos del río Colorado."
+    },
+    {
+        "id": "FREQ-86",
+        "tipo": "comico",
+        "icono": "🐴",
+        "titulo": "El caballo que sabía matemáticas",
+        "resumen": "A inicios del siglo XX, en Alemania, un caballo llamado Hans el Listo asombraba al público respondiendo sumas y multiplicaciones golpeando el suelo con su casco. Un comité científico descubrió luego que el equino no calculaba números en su mente. Simplemente detectaba microtensiones corporales involuntarias y cambios de respiración en el público cuando alcanzaba la cifra correcta."
+    },
+    {
+        "id": "FREQ-87",
+        "tipo": "positivo",
+        "icono": "🏖️",
+        "titulo": "La playa de vidrio resurgida",
+        "resumen": "Cerca de Fort Bragg, California, los residentes usaron los acantilados marinos como vertedero de botellas y vajillas durante la primera mitad del siglo XX. Tras clausurar el basural, las olas del Pacífico trituraron y pulieron pacientemente cada fragmento cortante durante décadas. El mar convirtió los desechos industriales en millones de gemas de cuarzo liso que cubren Glass Beach."
+    },
+    {
+        "id": "FREQ-88",
+        "tipo": "insolito",
+        "icono": "⚡",
+        "titulo": "El relámpago interminable del Catatumbo",
+        "resumen": "Sobre la desembocadura del río Catatumbo en el lago de Maracaibo ocurre la tormenta eléctrica más constante y prolongada de la Tierra. El choque de vientos andinos con gases cálidos y humedad lacustre genera hasta doscientas sesenta noches de tormenta continua al año. Sus miles de rayos silenciosos por hora han servido como faro natural a navegantes caribeños."
+    },
+    {
+        "id": "FREQ-89",
+        "tipo": "hazana",
+        "icono": "🛩️",
+        "titulo": "El despegue nocturno de las brujas",
+        "resumen": "Durante la Segunda Guerra Mundial, el 588.º Regimiento soviético estuvo compuesto íntegramente por mujeres jóvenes que pilotaban frágiles biplanos de madera y tela. Volaban de noche apagando los motores a escasos metros del blanco para planear en completo silencio antes de soltar sus bombas. Los soldados enemigos las apodaron Brujas de la Noche por el tenue silbido del viento en sus alas."
+    },
+    {
+        "id": "FREQ-90",
+        "tipo": "anecdota",
+        "icono": "🦔",
+        "titulo": "El invento nacido de un abrojo",
+        "resumen": "En 1941, el ingeniero suizo George de Mestral regresaba de una caminata por los Alpes cuando notó que su perro y sus pantalones estaban cubiertos de pequeñas semillas de bardana. Al examinarlas bajo el microscopio, descubrió cientos de ganchos elásticos que se aferraban a cualquier lazo de tela o pelaje. Copiando ese mecanismo vegetal en tiras de nailon, patentó el sistema de cierre velcro."
+    },
+    {
+        "id": "FREQ-91",
+        "tipo": "cotidiano",
+        "icono": "🌧️",
+        "titulo": "El aroma fresco tras la lluvia",
+        "resumen": "El olor inconfundible que se percibe en el aire cuando las primeras gotas caen sobre suelo reseco tiene nombre científico: petricor. Es producido principalmente por la geosmina, un compuesto orgánico liberado por bacterias del suelo al romperse diminutas bolsas de aire con el impacto de la lluvia. La nariz humana es tan sensible a esta molécula que detecta concentraciones de partes por billón."
+    },
+    {
+        "id": "FREQ-92",
+        "tipo": "comico",
+        "icono": "🪦",
+        "titulo": "El epitafio con la receta secreta",
+        "resumen": "Kay Andrews, una abuela de Utah, guardó durante toda su vida con recelo familiar su receta de caramelos de dulce de leche. Para asegurarse de tener la última palabra frente a sus vecinos curiosos, ordenó que grabaran los ingredientes exactos y las instrucciones de cocción en su lápida de granito. Hoy su tumba es visitada por amantes de la repostería que copian el postre."
+    },
+    {
+        "id": "FREQ-93",
+        "tipo": "positivo",
+        "icono": "🐙",
+        "titulo": "El pulpo que regaló su amistad",
+        "resumen": "En un bosque submarino de algas en Sudáfrica, el documentalista Craig Foster comenzó a bucear a diario sin traje de neopreno en aguas heladas. Con el correr de los meses, una hembra de pulpo salvaje superó el miedo inicial, se acercó a su pecho y lo acompañó a cazar entre las rocas. El vínculo mutuo transformó la vida del cineasta e inspiró a millones de personas."
+    },
+    {
+        "id": "FREQ-94",
+        "tipo": "insolito",
+        "icono": "🌋",
+        "titulo": "El volcán de fuego azul eléctrico",
+        "resumen": "En el cráter del volcán Kawah Ijen, en la isla indonesia de Java, brotan llamaradas nocturnas de un intenso color azul cobalto. El fenómeno visual se produce porque gases sulfúricos a altísima presión emergen por grietas a más de seiscientos grados y arden de inmediato al contacto con el oxígeno exterior. La lava parece deslizarse por las laderas como un torrente de fuego líquido brillante."
+    },
+    {
+        "id": "FREQ-95",
+        "tipo": "hazana",
+        "icono": "🏃",
+        "titulo": "La maratón descalza de Roma",
+        "resumen": "En los Juegos Olímpicos de Roma 1960, el fondista etíope Abebe Bikila no encontró zapatillas de competición que le calzaran con comodidad antes de la prueba reina. Decidió correr los cuarenta y dos kilómetros completamente descalzo sobre el pavimento caliente y los empedrados históricos de la ciudad. Cruzó la meta en solitario batiendo el récord mundial y ganó el primer oro olímpico para África subsahariana."
+    },
+    {
+        "id": "FREQ-96",
+        "tipo": "comico",
+        "icono": "🥔",
+        "titulo": "El submarino rendido con papas",
+        "resumen": "En 1943, el destructor estadounidense USS O'Bannon navegó tan pegado a un submarino japonés que sus cañones principales no lograban apuntarle hacia abajo. Los marineros comenzaron a arrojar papas crudas a la cubierta enemiga con furia. La tripulación rival creyó que eran granadas de mano y se distrajo arrojándolas al agua hasta que el buque tomó distancia de tiro."
+    },
+    {
+        "id": "FREQ-97",
+        "tipo": "positivo",
+        "icono": "🦍",
+        "titulo": "La gorila que cuidó al niño",
+        "resumen": "En 1996, un niño de tres años cayó seis metros dentro del foso de primates en el zoológico Brookfield de Chicago, quedando inconsciente sobre el concreto. Binti Jua, una gorila occidental de llanura, ahuyentó a los machos curiosos, cargó suavemente al pequeño en su regazo y lo llevó hasta la puerta de los cuidadores. Su rápido auxilio materno conmovió a la comunidad científica internacional."
+    },
+    {
+        "id": "FREQ-98",
+        "tipo": "insolito",
+        "icono": "📻",
+        "titulo": "La señal extraterrestre de setenta segundos",
+        "resumen": "En agosto de 1977, el radiotelescopio Big Ear de la Universidad de Ohio captó una potente señal de radio proveniente de la constelación de Sagitario. El astrónomo Jerry Ehman quedó tan impactado por la intensidad del pulso en la banda de veintiún centímetros que escribió Wow! en el papel impreso. Pese a décadas de rastreo continuo con antenas modernas, la transmisión jamás volvió a repetirse."
+    },
+    {
+        "id": "FREQ-99",
+        "tipo": "hazana",
+        "icono": "🚀",
+        "titulo": "El salto al vacío desde la estratosfera",
+        "resumen": "En octubre de 2012, Felix Baumgartner ascendió en una cápsula sujeta a un globo de helio hasta los treinta y nueve kilómetros de altitud. Tras abrir la compuerta sobre el desierto de Nuevo México, saltó al vacío y rompió la barrera del sonido en caída libre alcanzando mil trescientos cincuenta kilómetros por hora. Aterrizó suavemente en paracaídas tras desafiar presiones atmosféricas casi letales para el cuerpo."
+    },
+    {
+        "id": "FREQ-100",
+        "tipo": "anecdota",
+        "icono": "🍏",
+        "titulo": "La manzana que esquivó la cabeza",
+        "resumen": "La famosa leyenda escolar afirma que una manzana golpeó la cabeza de Isaac Newton mientras dormitaba, encendiendo de inmediato su teoría de la gravedad universal. En realidad, según testimonios de sus allegados en Woolsthorpe, Newton simplemente observó caer una manzana en línea recta desde su ventana durante una tarde de reflexión. Aquella trayectoria perpendicular lo llevó a preguntarse por qué la fruta siempre viaja hacia el centro terrestre."
+    },
+    {
+        "id": "FREQ-101",
+        "tipo": "cotidiano",
+        "icono": "🧲",
+        "titulo": "El giro secreto de los fósforos",
+        "resumen": "Un fósforo de madera apagado no interactúa con imanes domésticos, pero tras arder y extinguirse reacciona débilmente a campos magnéticos cercanos. La cabeza contiene óxido de hierro para regular la combustión química de la pólvora. Al arder intensamente, el calor reduce esos minerales a magnetita ferromagnética, permitiendo que un imán de neodimio levante el extremo quemado con notable facilidad sobre la mesa."
+    },
+    {
+        "id": "FREQ-102",
+        "tipo": "comico",
+        "icono": "🎩",
+        "titulo": "El mago que desarmó un tribunal",
+        "resumen": "En 1976, el ilusionista James Randi asistió como testigo técnico a un juicio contra un presunto psíquico acusado de doblar cucharas con la mente. Para demostrar que no existían poderes paranormales sino prestidigitación clásica, Randi reprodujo idénticos trucos con cubiertos frente a los magistrados usando trucos de bolsillo. El tribunal no solo aceptó su explicación, sino que desestimó las afirmaciones milagrosas del acusado entre risas."
+    },
+    {
+        "id": "FREQ-103",
+        "tipo": "positivo",
+        "icono": "🪸",
+        "titulo": "El vivero submarino de corales",
+        "resumen": "Frente a las costas caribeñas, biólogos marinos fragmentan colonias de coral cuerno de ciervo y las suspenden en árboles de PVC submarinos. En esas estructuras alejadas de sedimentos del fondo marino, los pólipos crecen hasta cuatro veces más rápido que en arrecifes naturales. Una vez fortalecidos, buzos voluntarios los trasplantan con resina epoxi sobre zonas dañadas, devolviendo la vida a decenas de kilómetros de ecosistemas costeros."
+    },
+    {
+        "id": "FREQ-104",
+        "tipo": "insolito",
+        "icono": "🌌",
+        "titulo": "El lago rosa de agua salada",
+        "resumen": "En la costa sur de Australia Occidental se encuentra el lago Hillier, cuyas aguas presentan un color rosa chicle brillante visible incluso desde aviones comerciales. A diferencia de otras lagunas que cambian de tono con las estaciones, su coloración es permanente y no desaparece al envasar el agua en botellas transparentes. El tono proviene de microalgas salinas y bacterias extremófilas inofensivas que sintetizan betacarotenos protectores."
+    },
+    {
+        "id": "FREQ-105",
+        "tipo": "hazana",
+        "icono": "🚲",
+        "titulo": "El viaje polar en bicicleta de nieve",
+        "resumen": "En 2013, la atleta británica Maria Leijerstam se convirtió en la primera persona en alcanzar el Polo Sur pedaleando sobre el manto blanco polar. Diseñó un triciclo reclinado con neumáticos anchos para no hundirse en la nieve suelta y mantener la estabilidad frente a vientos brutales. Completó la travesía de quinientos kilómetros desde el borde antártico en solo diez días de pedaleo constante y temperaturas gélidas."
+    }
+]

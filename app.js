@@ -326,3 +326,380 @@ if (btnNotificaciones) {
   btnNotificaciones.addEventListener('click', gestionarPermisoNotificaciones);
 }
 actualizarBotonNotif();
+
+// ==========================================
+// --- SINTONIZADOR DE FRECUENCIAS OCULTAS ---
+// ==========================================
+
+const LIMITE_DIARIO_FRECUENCIAS = 7;
+let listaFrecuencias = [];
+let cargandoFrecuenciasPromise = null;
+let indiceUltimaFrecuencia = -1;
+let audioCtx = null;
+
+/**
+ * Obtiene la cantidad de frecuencias sintonizadas en la fecha activa.
+ * Se reinicia automáticamente a 0 si el día calculado por obtenerDiaDelAno() cambia.
+ */
+function obtenerConsumoFrecuencias() {
+  const diaHoy = obtenerDiaDelAno();
+  try {
+    const raw = localStorage.getItem('frecuencias_consumo');
+    if (raw) {
+      const data = JSON.parse(raw);
+      if (data && data.dia === diaHoy && typeof data.usos === 'number') {
+        return data.usos;
+      }
+    }
+  } catch (e) {
+    console.warn('[Sintonizador] Error leyendo frecuencias_consumo:', e);
+  }
+  return 0;
+}
+
+/**
+ * Registra un uso de frecuencia para el día actual en localStorage
+ */
+function registrarUsoFrecuencia() {
+  const diaHoy = obtenerDiaDelAno();
+  const usosActuales = obtenerConsumoFrecuencias();
+  const nuevosUsos = Math.min(LIMITE_DIARIO_FRECUENCIAS, usosActuales + 1);
+  localStorage.setItem('frecuencias_consumo', JSON.stringify({
+    dia: diaHoy,
+    usos: nuevosUsos
+  }));
+  actualizarEstadoBotonSintonizador();
+  return nuevosUsos;
+}
+
+/**
+ * Actualiza la apariencia y el título del botón sintonizador según el cupo diario
+ */
+function actualizarEstadoBotonSintonizador() {
+  const btn = document.getElementById('btn-sintonizar');
+  if (!btn) return;
+  const usos = obtenerConsumoFrecuencias();
+  const restantes = LIMITE_DIARIO_FRECUENCIAS - usos;
+
+  if (restantes <= 0) {
+    btn.textContent = '[ 📡 BUSCANDO SEÑAL... ]';
+    btn.classList.add('modo-buscando');
+    btn.title = `Límite diario alcanzado (${LIMITE_DIARIO_FRECUENCIAS}/${LIMITE_DIARIO_FRECUENCIAS}). Buscando nuevas frecuencias satélite para mañana...`;
+  } else {
+    btn.textContent = '[ 📻 SINTONIZAR ]';
+    btn.classList.remove('modo-buscando');
+    btn.title = `Sintonizar frecuencia aleatoria (${restantes} de ${LIMITE_DIARIO_FRECUENCIAS} disponibles hoy)`;
+  }
+}
+
+/**
+ * Carga frecuencias.json con fetch (al iniciar o al pulsar por primera vez)
+ */
+async function cargarFrecuencias() {
+  if (listaFrecuencias.length > 0) return listaFrecuencias;
+  if (!cargandoFrecuenciasPromise) {
+    cargandoFrecuenciasPromise = fetch('frecuencias.json')
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
+      .then((datos) => {
+        listaFrecuencias = datos;
+        return listaFrecuencias;
+      })
+      .catch((err) => {
+        console.error('Error al cargar frecuencias.json:', err);
+        cargandoFrecuenciasPromise = null;
+        return [];
+      });
+  }
+  return cargandoFrecuenciasPromise;
+}
+
+/**
+ * Generador sintético de estática analógica de 0.2 segundos
+ * usando la Web Audio API nativa sin dependencias externas
+ */
+function reproducirEstaticaSintetica() {
+  try {
+    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContextClass) return;
+
+    if (!audioCtx) {
+      audioCtx = new AudioContextClass();
+    }
+    if (audioCtx.state === 'suspended') {
+      audioCtx.resume();
+    }
+
+    const duracion = 0.2; // 0.2 segundos
+    const sampleRate = audioCtx.sampleRate;
+    const totalSamples = Math.floor(sampleRate * duracion);
+    const buffer = audioCtx.createBuffer(1, totalSamples, sampleRate);
+    const data = buffer.getChannelData(0);
+
+    for (let i = 0; i < totalSamples; i++) {
+      data[i] = Math.random() * 2 - 1;
+    }
+
+    const source = audioCtx.createBufferSource();
+    source.buffer = buffer;
+
+    // Filtro analógico pasa-banda para dar textura de sintonización de radio/TV
+    const filter = audioCtx.createBiquadFilter();
+    filter.type = 'bandpass';
+    filter.frequency.value = 1200;
+    filter.Q.value = 1.0;
+
+    // Control de ganancia suave para un volumen sutil
+    const gainNode = audioCtx.createGain();
+    const ahora = audioCtx.currentTime;
+    gainNode.gain.setValueAtTime(0.08, ahora);
+    gainNode.gain.exponentialRampToValueAtTime(0.001, ahora + duracion);
+
+    source.connect(filter);
+    filter.connect(gainNode);
+    gainNode.connect(audioCtx.destination);
+
+    source.start(ahora);
+  } catch (error) {
+    console.warn('[Audio] No se pudo reproducir la estática sintetizada:', error);
+  }
+}
+
+/**
+ * Limpia la interfaz del modo frecuencia oculta para restaurar la vista normal
+ */
+function limpiarEstadoFrecuencia() {
+  const contImagen = document.getElementById('contenedor-imagen') || document.querySelector('.pixel-art-caja');
+  if (contImagen) contImagen.style.display = '';
+
+  const cajaIcono = document.getElementById('caja-icono-frecuencia');
+  if (cajaIcono) {
+    cajaIcono.style.display = 'none';
+    cajaIcono.classList.remove('buscando');
+  }
+
+  const acordeonSaberMas = document.getElementById('acordeon-saber-mas');
+  if (acordeonSaberMas) acordeonSaberMas.style.display = '';
+
+  const acordeonFuentes = document.querySelector('.fuentes');
+  if (acordeonFuentes) acordeonFuentes.style.display = '';
+
+  const btnFav = document.getElementById('btn-favorito');
+  if (btnFav) btnFav.style.display = '';
+
+  const btnVolver = document.getElementById('btn-volver-hoy');
+  if (btnVolver) btnVolver.style.display = 'none';
+
+  actualizarEstadoBotonSintonizador();
+}
+
+/**
+ * Muestra el estado retro de 'Buscando señal...' cuando se alcanza el límite de 7 frecuencias
+ */
+function mostrarPantallaBuscandoSenal() {
+  reproducirEstaticaSintetica();
+
+  const tarjeta = document.getElementById('tarjeta-dato');
+  if (tarjeta) {
+    tarjeta.classList.remove('crt-estatica');
+    void tarjeta.offsetWidth;
+    tarjeta.classList.add('crt-estatica');
+    setTimeout(() => {
+      tarjeta.classList.remove('crt-estatica');
+    }, 400);
+    tarjeta.className = 'tema-cosmos';
+  }
+
+  const etiqueta = document.querySelector('.etiqueta-categoria');
+  if (etiqueta) etiqueta.textContent = `📡 FRECUENCIA SATÉLITE [0/7]`;
+
+  const numDato = document.getElementById('numero-dato');
+  if (numDato) numDato.textContent = `RADAR SATÉLITE:`;
+
+  const titDato = document.getElementById('titulo-dato');
+  if (titDato) {
+    titDato.innerHTML = `<span class="texto-parpadeo-lento">BUSCANDO SEÑAL...</span>`;
+  }
+
+  const resDato = document.getElementById('resumen-dato');
+  if (resDato) {
+    resDato.textContent = `Has alcanzado el límite diario de ${LIMITE_DIARIO_FRECUENCIAS} frecuencias satélite. La antena está recalibrando sus sensores orbitales... Nuevas frecuencias disponibles mañana junto al dato del día.`;
+  }
+
+  // Ocultar imagen y mostrar radar animado en la caja CRT
+  const contImagen = document.getElementById('contenedor-imagen') || document.querySelector('.pixel-art-caja');
+  if (contImagen) contImagen.style.display = 'none';
+
+  const cajaIcono = document.getElementById('caja-icono-frecuencia');
+  if (cajaIcono) {
+    cajaIcono.classList.add('buscando');
+    cajaIcono.innerHTML = `<span class="icono-buscando-senal" title="Rastreando órbita...">📡</span>`;
+    cajaIcono.style.display = 'flex';
+  }
+
+  // Ocultar favoritos y acordeones
+  const btnFav = document.getElementById('btn-favorito');
+  if (btnFav) btnFav.style.display = 'none';
+
+  const acordeonSaberMas = document.getElementById('acordeon-saber-mas');
+  if (acordeonSaberMas) acordeonSaberMas.style.display = 'none';
+
+  const acordeonFuentes = document.querySelector('.fuentes');
+  if (acordeonFuentes) acordeonFuentes.style.display = 'none';
+
+  // Mostrar botón de retorno
+  const btnVolver = document.getElementById('btn-volver-hoy');
+  if (btnVolver) btnVolver.style.display = 'inline-block';
+
+  actualizarEstadoBotonSintonizador();
+}
+
+/**
+ * Sintoniza una frecuencia satélite oculta de forma aleatoria (máximo 7 por día)
+ */
+async function sintonizarFrecuencia() {
+  const usos = obtenerConsumoFrecuencias();
+  if (usos >= LIMITE_DIARIO_FRECUENCIAS) {
+    mostrarPantallaBuscandoSenal();
+    return;
+  }
+
+  // 1. Sonido de estática analógica nativo
+  reproducirEstaticaSintetica();
+
+  // 2. Efecto de parpadeo y distorsión CRT durante ~400 ms
+  const tarjeta = document.getElementById('tarjeta-dato');
+  if (tarjeta) {
+    tarjeta.classList.remove('crt-estatica');
+    void tarjeta.offsetWidth; // Forzar reflow para reiniciar animación
+    tarjeta.classList.add('crt-estatica');
+    setTimeout(() => {
+      tarjeta.classList.remove('crt-estatica');
+    }, 400);
+  }
+
+  // 3. Obtener frecuencias
+  const frecuencias = await cargarFrecuencias();
+  if (!frecuencias || frecuencias.length === 0) {
+    console.warn('[Sintonizador] No hay frecuencias disponibles.');
+    return;
+  }
+
+  // 4. Registrar uso del día e incrementar contador
+  const nuevosUsos = registrarUsoFrecuencia();
+
+  // 5. Seleccionar un elemento al azar (evitando repetir el anterior si hay más de 1)
+  let indiceAleatorio;
+  if (frecuencias.length > 1) {
+    do {
+      indiceAleatorio = Math.floor(Math.random() * frecuencias.length);
+    } while (indiceAleatorio === indiceUltimaFrecuencia);
+  } else {
+    indiceAleatorio = 0;
+  }
+  indiceUltimaFrecuencia = indiceAleatorio;
+  const frecuencia = frecuencias[indiceAleatorio];
+
+  // 6. Configurar tema visual retro adaptado al tipo
+  const temasTipo = {
+    comico: 'tema-tecnologia',
+    insolito: 'tema-cosmos',
+    hazana: 'tema-humanidad',
+    anecdota: 'tema-biologia',
+    positivo: 'tema-biologia',
+    cotidiano: 'tema-tecnologia'
+  };
+  if (tarjeta) {
+    tarjeta.className = temasTipo[frecuencia.tipo] || 'tema-cosmos';
+  }
+
+  // 7. Actualizar textos de la pantalla con indicación de uso de hoy
+  const etiqueta = document.querySelector('.etiqueta-categoria');
+  if (etiqueta) etiqueta.textContent = `📡 FRECUENCIA [${frecuencia.tipo.toUpperCase()}] • ${nuevosUsos}/${LIMITE_DIARIO_FRECUENCIAS}`;
+
+  const numDato = document.getElementById('numero-dato');
+  if (numDato) numDato.textContent = `SEÑAL ${frecuencia.id}:`;
+
+  const titDato = document.getElementById('titulo-dato');
+  if (titDato) titDato.textContent = frecuencia.titulo;
+
+  const resDato = document.getElementById('resumen-dato');
+  if (resDato) resDato.textContent = frecuencia.resumen;
+
+  // 8. Ocultar imagen normal y mostrar caja oscura con emoji fosforescente
+  const contImagen = document.getElementById('contenedor-imagen') || document.querySelector('.pixel-art-caja');
+  if (contImagen) contImagen.style.display = 'none';
+
+  const cajaIcono = document.getElementById('caja-icono-frecuencia');
+  if (cajaIcono) {
+    cajaIcono.classList.remove('buscando');
+    cajaIcono.innerHTML = `<span class="emoji-frecuencia">${frecuencia.icono}</span>`;
+    cajaIcono.style.display = 'flex';
+  }
+
+  // 9. Ocultar botón de favoritos y acordeones no aplicables a frecuencias satélite
+  const btnFav = document.getElementById('btn-favorito');
+  if (btnFav) btnFav.style.display = 'none';
+
+  const acordeonSaberMas = document.getElementById('acordeon-saber-mas');
+  if (acordeonSaberMas) acordeonSaberMas.style.display = 'none';
+
+  const acordeonFuentes = document.querySelector('.fuentes');
+  if (acordeonFuentes) acordeonFuentes.style.display = 'none';
+
+  // 10. Mostrar botón de retorno al día de hoy
+  const btnVolver = document.getElementById('btn-volver-hoy');
+  if (btnVolver) btnVolver.style.display = 'inline-block';
+}
+
+/**
+ * Devuelve el monitor al dato original del día correspondiente en datos.json
+ */
+function restaurarDiaHoy() {
+  reproducirEstaticaSintetica();
+
+  const tarjeta = document.getElementById('tarjeta-dato');
+  if (tarjeta) {
+    tarjeta.classList.remove('crt-estatica');
+    void tarjeta.offsetWidth;
+    tarjeta.classList.add('crt-estatica');
+    setTimeout(() => {
+      tarjeta.classList.remove('crt-estatica');
+    }, 400);
+  }
+
+  limpiarEstadoFrecuencia();
+
+  const diaHoy = obtenerDiaDelAno();
+  const datoDeHoy = baseDeDatos.find((item) => item.dia === diaHoy) || baseDeDatos[0];
+  mostrarDatoEnPantalla(datoDeHoy);
+}
+
+// Inicialización de escuchadores de eventos para el sintonizador
+const btnSintonizar = document.getElementById('btn-sintonizar');
+if (btnSintonizar) {
+  btnSintonizar.addEventListener('click', sintonizarFrecuencia);
+}
+
+const btnVolverHoy = document.getElementById('btn-volver-hoy');
+if (btnVolverHoy) {
+  btnVolverHoy.addEventListener('click', restaurarDiaHoy);
+}
+
+// Si el usuario hace clic en un día del calendario, limpiar estado de frecuencia
+const gridHistorial = document.getElementById('grid-historial');
+if (gridHistorial) {
+  gridHistorial.addEventListener('click', (e) => {
+    if (e.target && e.target.classList.contains('btn-dia-historial')) {
+      limpiarEstadoFrecuencia();
+    }
+  });
+}
+
+// Sincronizar estado inicial del botón sintonizador y precarga no bloqueante
+actualizarEstadoBotonSintonizador();
+cargarFrecuencias();
+
+

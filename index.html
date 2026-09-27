@@ -50,6 +50,9 @@
           <span id="badge-conexion" class="badge-conexion offline-oculto">⚡ MODO OFFLINE</span>
         </div>
         <div class="acciones-superiores">
+          <!-- Botón del sintonizador de frecuencias -->
+          <button id="btn-sintonizar" class="btn-pwa-notif" title="Sintonizar frecuencia aleatoria">[ 📻 SINTONIZAR
+            ]</button>
           <!-- Botón de notificaciones locales -->
           <button id="btn-notificaciones" class="btn-pwa-notif">[ 🔔 AVISOS ]</button>
           <!-- Botón de instalación PWA -->
@@ -63,14 +66,20 @@
       <h1 id="titulo-dato">TITULO DEL DATO</h1>
     </header>
 
-    <div class="pixel-art-caja">
+    <div class="pixel-art-caja" id="contenedor-imagen">
       <img src="" alt="Ilustración Pixel Art" id="imagen-dato">
     </div>
 
+    <!-- Contenedor retro para icono de frecuencia oculta -->
+    <div id="caja-icono-frecuencia" class="caja-icono-frecuencia" style="display: none;"></div>
+
     <p id="resumen-dato"></p>
 
+    <!-- Botón discreto de retorno al día habitual -->
+    <button id="btn-volver-hoy" class="btn-dia-historial" style="display: none;">[ ↩ VOLVER AL DÍA DE HOY ]</button>
+
     <!-- Acordeón 1: Saber más -->
-    <details>
+    <details id="acordeon-saber-mas">
       <summary>¿Quieres saber más?</summary>
       <p id="extension-dato"></p>
     </details>

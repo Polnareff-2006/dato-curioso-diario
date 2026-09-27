@@ -491,3 +491,191 @@ details ul {
   color: var(--color-tarjeta);
   box-shadow: var(--glow);
 }
+
+/* ==========================================
+   --- SINTONIZADOR DE FRECUENCIAS OCULTAS ---
+   ========================================== */
+
+/* 1. Animación CRT de estática analógica al sintonizar (~400ms) */
+.crt-estatica {
+  animation: sintonizar-estatica 0.4s ease-in-out;
+}
+
+@keyframes sintonizar-estatica {
+  0% {
+    opacity: 0.8;
+    transform: translateY(-2px);
+    filter: brightness(1.4) contrast(1.2);
+  }
+
+  20% {
+    opacity: 1;
+    transform: translateY(2px);
+    filter: brightness(0.9) contrast(1.4);
+  }
+
+  40% {
+    opacity: 0.7;
+    transform: translateY(-1.5px);
+    filter: brightness(1.6) contrast(1.1);
+  }
+
+  60% {
+    opacity: 0.95;
+    transform: translateY(1.5px);
+    filter: brightness(1.1) contrast(1.3);
+  }
+
+  80% {
+    opacity: 0.85;
+    transform: translateY(-1px);
+    filter: brightness(1.3) contrast(1.2);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: brightness(1) contrast(1);
+  }
+}
+
+/* 2. Caja retro oscura para el emoji de frecuencia oculta */
+.caja-icono-frecuencia {
+  margin: 18px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  height: 180px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--color-neon);
+  border-radius: 6px;
+  box-shadow: var(--glow-suave), inset 0 0 20px rgba(0, 0, 0, 0.9);
+  font-size: 3.8rem;
+  line-height: 1;
+  text-shadow: var(--glow-suave);
+  user-select: none;
+}
+
+.caja-icono-frecuencia .emoji-frecuencia {
+  display: inline-block;
+  filter: drop-shadow(0 0 8px var(--color-neon));
+  transition: transform 0.2s ease;
+}
+
+/* 3. Estilo para el botón de retorno */
+#btn-volver-hoy {
+  margin: 14px auto 16px auto;
+  letter-spacing: 1px;
+}
+
+/* 4. Estilos y animación sutil de radar para estado 'Buscando señal...' */
+.caja-icono-frecuencia.buscando {
+  position: relative;
+  overflow: hidden;
+  border-style: dashed;
+}
+
+/* Línea de escáner horizontal oscilante tipo radar CRT */
+.caja-icono-frecuencia.buscando::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--color-neon);
+  box-shadow: var(--glow);
+  opacity: 0.7;
+  animation: escaner-vertical 2.2s ease-in-out infinite alternate;
+}
+
+@keyframes escaner-vertical {
+  0% {
+    top: 6%;
+    opacity: 0.25;
+  }
+
+  50% {
+    opacity: 0.9;
+  }
+
+  100% {
+    top: 92%;
+    opacity: 0.25;
+  }
+}
+
+/* Antena de radar con movimiento sutil oscilante y resplandor neón */
+.icono-buscando-senal {
+  display: inline-block;
+  font-size: 3.8rem;
+  animation: oscilar-antena 3.2s ease-in-out infinite, pulso-radar 1.8s ease-in-out infinite;
+  user-select: none;
+}
+
+@keyframes oscilar-antena {
+  0% {
+    transform: rotate(-16deg) scale(0.98);
+  }
+
+  50% {
+    transform: rotate(0deg) scale(1.04);
+  }
+
+  100% {
+    transform: rotate(16deg) scale(0.98);
+  }
+}
+
+@keyframes pulso-radar {
+
+  0%,
+  100% {
+    filter: drop-shadow(0 0 5px var(--color-neon));
+    opacity: 0.85;
+  }
+
+  50% {
+    filter: drop-shadow(0 0 16px var(--color-neon));
+    opacity: 1;
+  }
+}
+
+/* Botón sintonizador en modo buscando señal */
+.btn-pwa-notif.modo-buscando {
+  border-style: dashed;
+  animation: pulso-buscando-btn 2.2s infinite ease-in-out;
+}
+
+@keyframes pulso-buscando-btn {
+
+  0%,
+  100% {
+    opacity: 0.8;
+    box-shadow: var(--glow-suave);
+  }
+
+  50% {
+    opacity: 1;
+    box-shadow: var(--glow);
+  }
+}
+
+/* Parpadeo sutil para texto de búsqueda */
+.texto-parpadeo-lento {
+  animation: parpadeo-texto 1.8s infinite ease-in-out;
+}
+
+@keyframes parpadeo-texto {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.55;
+  }
+}
