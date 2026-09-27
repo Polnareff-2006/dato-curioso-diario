@@ -1,5 +1,6 @@
-const CACHE_NAME = 'dato-curioso-v1';
-const DYNAMIC_CACHE = 'dato-curioso-dynamic-v1';
+const CACHE_NAME = 'dato-curioso-v2';
+const DYNAMIC_CACHE = 'dato-curioso-dynamic-v2';
+
 
 // Recursos esenciales de la aplicación (App Shell)
 const STATIC_ASSETS = [
@@ -139,3 +140,26 @@ self.addEventListener('fetch', (event) => {
     })
   );
 });
+
+// 5. Gestión del clic en notificaciones locales
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+
+  const urlObjetivo = (event.notification.data && event.notification.data.url) ? event.notification.data.url : './index.html';
+
+  event.waitUntil(
+    clients.matchAll({ type: 'window', includeUncontrolled: true }).then((windowClients) => {
+      // Si ya hay una pestaña o ventana abierta, enfocarla
+      for (const client of windowClients) {
+        if (client.url.includes('index.html') && 'focus' in client) {
+          return client.focus();
+        }
+      }
+      // Si no hay ventanas activas, abrir una nueva con index.html
+      if (clients.openWindow) {
+        return clients.openWindow(urlObjetivo);
+      }
+    })
+  );
+});
+

@@ -458,3 +458,36 @@ details ul {
 .btn-dia-historial.es-favorito::after {
   content: " ★";
 }
+
+/* --- BOTÓN DE NOTIFICACIONES PWA --- */
+.btn-pwa-notif,
+#btn-notificaciones {
+  background-color: transparent;
+  border: 1px solid var(--color-neon);
+  color: var(--color-neon);
+  font-family: 'VT323', monospace;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  padding: 3px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  box-shadow: var(--glow-suave);
+  text-shadow: var(--glow-suave);
+  outline: none;
+}
+
+.btn-pwa-notif:hover,
+#btn-notificaciones:hover {
+  background-color: var(--color-neon);
+  color: var(--color-tarjeta);
+  box-shadow: var(--glow);
+  transform: translateY(-2px);
+}
+
+.btn-pwa-notif.activo,
+#btn-notificaciones.activo {
+  background-color: var(--color-neon);
+  color: var(--color-tarjeta);
+  box-shadow: var(--glow);
+}

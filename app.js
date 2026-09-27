@@ -239,3 +239,90 @@ function actualizarEstadoConexion() {
 window.addEventListener('online', actualizarEstadoConexion);
 window.addEventListener('offline', actualizarEstadoConexion);
 actualizarEstadoConexion();
+
+// ==========================================
+// --- SISTEMA DE NOTIFICACIONES LOCALES ---
+// ==========================================
+
+function actualizarBotonNotif() {
+  const btnNotif = document.getElementById('btn-notificaciones');
+  if (!btnNotif) return;
+
+  if (!('Notification' in window)) {
+    btnNotif.textContent = '[ 🔔 NO SOPORTADO ]';
+    btnNotif.disabled = true;
+    return;
+  }
+
+  if (Notification.permission === 'granted') {
+    btnNotif.textContent = '[ 🔔 AVISOS: ON ]';
+    btnNotif.classList.add('activo');
+    btnNotif.title = 'Avisos activados. Haz clic para probar un aviso';
+  } else if (Notification.permission === 'denied') {
+    btnNotif.textContent = '[ 🔕 AVISOS: OFF ]';
+    btnNotif.classList.remove('activo');
+    btnNotif.title = 'Notificaciones bloqueadas en la configuración del navegador';
+  } else {
+    btnNotif.textContent = '[ 🔔 AVISOS ]';
+    btnNotif.classList.remove('activo');
+    btnNotif.title = 'Activar notificaciones locales para las curiosidades diarias';
+  }
+}
+
+async function gestionarPermisoNotificaciones() {
+  if (!('Notification' in window)) {
+    alert('Tu navegador no tiene soporte para notificaciones locales.');
+    return;
+  }
+
+  if (Notification.permission === 'granted') {
+    lanzarNotificacionLocal();
+    return;
+  }
+
+  if (Notification.permission !== 'denied') {
+    const permiso = await Notification.requestPermission();
+    actualizarBotonNotif();
+    if (permiso === 'granted') {
+      lanzarNotificacionLocal();
+    }
+  } else {
+    alert('Las notificaciones están bloqueadas en tu navegador. Puedes habilitarlas desde los permisos del sitio en la barra de direcciones.');
+  }
+}
+
+async function lanzarNotificacionLocal(dato = null) {
+  if (!('Notification' in window) || Notification.permission !== 'granted') {
+    return;
+  }
+
+  const datoParaMostrar = dato || datoActivo || (baseDeDatos.length ? baseDeDatos[0] : null);
+  const titulo = datoParaMostrar ? `Dato #${datoParaMostrar.dia}: ${datoParaMostrar.titulo}` : 'Dato Curioso Diario';
+  const opciones = {
+    body: datoParaMostrar ? datoParaMostrar.resumen : '¡Descubre el dato curioso del día!',
+    icon: 'icons/icon-192.png',
+    badge: 'icons/favicon-32.png',
+    tag: 'dato-curioso-notificacion',
+    renotify: true,
+    data: { url: './index.html' }
+  };
+
+  try {
+    if ('serviceWorker' in navigator) {
+      const reg = await navigator.serviceWorker.ready;
+      if (reg && reg.showNotification) {
+        await reg.showNotification(titulo, opciones);
+        return;
+      }
+    }
+    new Notification(titulo, opciones);
+  } catch (error) {
+    console.error('[PWA] Error al emitir la notificación local:', error);
+  }
+}
+
+const btnNotificaciones = document.getElementById('btn-notificaciones');
+if (btnNotificaciones) {
+  btnNotificaciones.addEventListener('click', gestionarPermisoNotificaciones);
+}
+actualizarBotonNotif();
