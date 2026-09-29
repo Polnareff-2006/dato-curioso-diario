@@ -27,7 +27,7 @@
   <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 
   <!-- Hoja de estilos -->
-  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 
 <body>
@@ -145,8 +145,24 @@
       <!-- Cuadrícula de botones del mes activo -->
       <div id="grid-historial" class="grid-calendario"></div>
     </details>
+
+    <!-- Módulo satélite: Sintonizador de Bandas Específicas (Fondo absoluto de la tarjeta) -->
+    <button id="btn-abrir-bandas" class="btn-banda-consola" title="Sintonizador de bandas analógicas">[ 🎛️ SINTONIZAR
+      BANDA ESPECÍFICA 📡 ]</button>
+    <div id="panel-bandas" class="panel-bandas" style="display: none;">
+      <div class="grid-bandas">
+        <button class="btn-banda-item" data-tipo="comico">[ 🦆 CÓMICO (5/5) ]</button>
+        <button class="btn-banda-item" data-tipo="positivo">[ 🌱 POSITIVO (5/5) ]</button>
+        <button class="btn-banda-item" data-tipo="insolito">[ ⚡ INSÓLITO (5/5) ]</button>
+        <button class="btn-banda-item" data-tipo="hazana">[ 🏆 HAZAÑA (5/5) ]</button>
+        <button class="btn-banda-item" data-tipo="anecdota">[ 🎙️ ANÉCDOTA (5/5) ]</button>
+        <button class="btn-banda-item" data-tipo="cotidiano">[ ☕ COTIDIANO (5/5) ]</button>
+        <button class="btn-banda-item" data-tipo="economia">[ 🪙 ECONOMÍA (5/5) ]</button>
+        <button class="btn-banda-item" data-tipo="cultura">[ 🎮 CULTURA (5/5) ]</button>
+      </div>
+    </div>
   </main>
-  <script src="app.js?v=2"></script>
+  <script src="app.js?v=5"></script>
 </body>
 
 </html>

@@ -590,17 +590,24 @@ async function sintonizarFrecuencia() {
   // 4. Registrar uso del día e incrementar contador
   const nuevosUsos = registrarUsoFrecuencia();
 
-  // 5. Seleccionar un elemento al azar (evitando repetir el anterior si hay más de 1)
-  let indiceAleatorio;
-  if (frecuencias.length > 1) {
-    do {
-      indiceAleatorio = Math.floor(Math.random() * frecuencias.length);
-    } while (indiceAleatorio === indiceUltimaFrecuencia);
-  } else {
-    indiceAleatorio = 0;
+  // 5. Sistema de "Baraja de Descartes" antirrepetición global
+  let vistas = obtenerHistorialVistasBandas();
+  let noVistas = frecuencias.filter((f) => !vistas.includes(f.id));
+
+  // Manejo de fin de baraja (Reinicio suave): Si todos los datos ya fueron vistos
+  if (noVistas.length === 0) {
+    vistas = [];
+    guardarHistorialVistasBandas(vistas);
+    noVistas = frecuencias;
   }
-  indiceUltimaFrecuencia = indiceAleatorio;
-  const frecuencia = frecuencias[indiceAleatorio];
+
+  // Elegir un elemento aleatorio únicamente del conjunto de frecuencias NO vistas
+  const indiceAleatorio = Math.floor(Math.random() * noVistas.length);
+  const frecuencia = noVistas[indiceAleatorio];
+
+  // Agregar el 'id' del dato seleccionado a 'frecuencias_historial_vistas' y guardar
+  vistas.push(frecuencia.id);
+  guardarHistorialVistasBandas(vistas);
 
   // 6. Configurar tema visual retro adaptado al tipo
   const temasTipo = {
@@ -609,7 +616,9 @@ async function sintonizarFrecuencia() {
     hazana: 'tema-humanidad',
     anecdota: 'tema-biologia',
     positivo: 'tema-biologia',
-    cotidiano: 'tema-tecnologia'
+    cotidiano: 'tema-tecnologia',
+    economia: 'tema-tecnologia',
+    cultura: 'tema-cosmos'
   };
   if (tarjeta) {
     tarjeta.className = temasTipo[frecuencia.tipo] || 'tema-cosmos';
@@ -701,5 +710,273 @@ if (gridHistorial) {
 // Sincronizar estado inicial del botón sintonizador y precarga no bloqueante
 actualizarEstadoBotonSintonizador();
 cargarFrecuencias();
+
+// =======================================================
+// --- SINTONIZADOR DE BANDAS ESPECÍFICAS (MÓDULO CRT) ---
+// =======================================================
+
+const LIMITE_CUOTA_BANDA = 5;
+
+const TIPOS_BANDAS_CONFIG = {
+  comico: { nombre: 'CÓMICO', icono: '🦆', tema: 'tema-tecnologia' },
+  positivo: { nombre: 'POSITIVO', icono: '🌱', tema: 'tema-biologia' },
+  insolito: { nombre: 'INSÓLITO', icono: '⚡', tema: 'tema-cosmos' },
+  hazana: { nombre: 'HAZAÑA', icono: '🏆', tema: 'tema-humanidad' },
+  anecdota: { nombre: 'ANÉCDOTA', icono: '🎙️', tema: 'tema-biologia' },
+  cotidiano: { nombre: 'COTIDIANO', icono: '☕', tema: 'tema-tecnologia' },
+  economia: { nombre: 'ECONOMÍA', icono: '🪙', tema: 'tema-tecnologia' },
+  cultura: { nombre: 'CULTURA', icono: '🎮', tema: 'tema-cosmos' }
+};
+
+/**
+ * Obtiene el objeto de cuota de bandas específicas desde localStorage.
+ * Si no existe o el día cambió, reinicia todos los conteos a 0.
+ */
+function obtenerCuotaBandas() {
+  const diaHoy = obtenerDiaDelAno();
+  const conteosDefecto = {
+    comico: 0,
+    positivo: 0,
+    insolito: 0,
+    hazana: 0,
+    anecdota: 0,
+    cotidiano: 0,
+    economia: 0,
+    cultura: 0
+  };
+
+  try {
+    const raw = localStorage.getItem('cuota_bandas_especificas');
+    if (raw) {
+      const data = JSON.parse(raw);
+      if (data && data.dia === diaHoy && data.conteos && typeof data.conteos === 'object') {
+        const conteos = { ...conteosDefecto, ...data.conteos };
+        return { dia: diaHoy, conteos };
+      }
+    }
+  } catch (e) {
+    console.warn('[Bandas] Error al leer cuota_bandas_especificas:', e);
+  }
+
+  const nuevaCuota = { dia: diaHoy, conteos: conteosDefecto };
+  guardarCuotaBandas(nuevaCuota);
+  return nuevaCuota;
+}
+
+/**
+ * Guarda el objeto de cuota de bandas en localStorage
+ */
+function guardarCuotaBandas(data) {
+  try {
+    localStorage.setItem('cuota_bandas_especificas', JSON.stringify(data));
+  } catch (e) {
+    console.warn('[Bandas] Error al guardar cuota_bandas_especificas:', e);
+  }
+}
+
+/**
+ * Obtiene el array de IDs de frecuencias ya vistas desde localStorage
+ */
+function obtenerHistorialVistasBandas() {
+  try {
+    const raw = localStorage.getItem('frecuencias_historial_vistas');
+    if (raw) {
+      const arr = JSON.parse(raw);
+      if (Array.isArray(arr)) return arr;
+    }
+  } catch (e) {
+    console.warn('[Bandas] Error al leer frecuencias_historial_vistas:', e);
+  }
+  return [];
+}
+
+/**
+ * Guarda el array de IDs de frecuencias ya vistas en localStorage
+ */
+function guardarHistorialVistasBandas(arr) {
+  try {
+    localStorage.setItem('frecuencias_historial_vistas', JSON.stringify(arr));
+  } catch (e) {
+    console.warn('[Bandas] Error al guardar frecuencias_historial_vistas:', e);
+  }
+}
+
+/**
+ * Actualiza las etiquetas y estados (activo/agotado) de los botones de bandas específicas
+ */
+function actualizarBotonesBandas() {
+  const cuota = obtenerCuotaBandas();
+  const botones = document.querySelectorAll('.btn-banda-item');
+
+  botones.forEach((btn) => {
+    const tipo = btn.getAttribute('data-tipo');
+    const cfg = TIPOS_BANDAS_CONFIG[tipo];
+    if (!cfg) return;
+
+    const usados = cuota.conteos[tipo] || 0;
+    const restantes = Math.max(0, LIMITE_CUOTA_BANDA - usados);
+
+    btn.textContent = `[ ${cfg.icono} ${cfg.nombre} (${restantes}/${LIMITE_CUOTA_BANDA}) ]`;
+
+    if (restantes <= 0) {
+      btn.classList.add('agotado');
+      btn.disabled = true;
+      btn.title = `Banda ${cfg.nombre} sin transmisiones por hoy (0/${LIMITE_CUOTA_BANDA}). Disponible mañana.`;
+    } else {
+      btn.classList.remove('agotado');
+      btn.disabled = false;
+      btn.title = `Sintonizar banda ${cfg.nombre} (${restantes} de ${LIMITE_CUOTA_BANDA} usos disponibles hoy)`;
+    }
+  });
+}
+
+/**
+ * Sintoniza una frecuencia de banda específica usando el sistema de descarte antirrepetición
+ */
+async function sintonizarBandaEspecifica(tipo) {
+  const cfg = TIPOS_BANDAS_CONFIG[tipo];
+  if (!cfg) return;
+
+  const cuota = obtenerCuotaBandas();
+  const usados = cuota.conteos[tipo] || 0;
+  if (usados >= LIMITE_CUOTA_BANDA) {
+    return;
+  }
+
+  // 1. Obtener base completa de frecuencias
+  const frecuencias = await cargarFrecuencias();
+  if (!frecuencias || frecuencias.length === 0) {
+    console.warn('[Bandas] No se encontraron frecuencias.');
+    return;
+  }
+
+  // 2. Filtrar frecuencias del tipo elegido
+  const frecuenciasDelTipo = frecuencias.filter((f) => f.tipo === tipo);
+  if (frecuenciasDelTipo.length === 0) {
+    console.warn(`[Bandas] No hay frecuencias para la categoría ${tipo}.`);
+    return;
+  }
+
+  // 3. Baraja de descartes antirrepetición
+  let vistas = obtenerHistorialVistasBandas();
+  let noVistas = frecuenciasDelTipo.filter((f) => !vistas.includes(f.id));
+
+  // Si ya vio todas las de este tema, purgar únicamente los IDs pertenecientes a este tema
+  if (noVistas.length === 0) {
+    const idsDelTipo = new Set(frecuenciasDelTipo.map((f) => f.id));
+    vistas = vistas.filter((id) => !idsDelTipo.has(id));
+    guardarHistorialVistasBandas(vistas);
+    noVistas = frecuenciasDelTipo;
+  }
+
+  // 4. Seleccionar al azar entre las no vistas
+  const indice = Math.floor(Math.random() * noVistas.length);
+  const frecuencia = noVistas[indice];
+
+  // 5. Registrar el ID seleccionado en la baraja de descartes
+  vistas.push(frecuencia.id);
+  guardarHistorialVistasBandas(vistas);
+
+  // 6. Descontar 1 uso en esta categoría y guardar cuota
+  cuota.conteos[tipo] = usados + 1;
+  guardarCuotaBandas(cuota);
+  actualizarBotonesBandas();
+
+  // 7. Reproducir sonido sintético de Web Audio API (ruido blanco analógico)
+  reproducirEstaticaSintetica();
+
+  // 8. Animación CRT de estática por 400ms
+  const tarjeta = document.getElementById('tarjeta-dato');
+  if (tarjeta) {
+    tarjeta.classList.remove('crt-estatica');
+    void tarjeta.offsetWidth; // Forzar reflow
+    tarjeta.classList.add('crt-estatica');
+    setTimeout(() => {
+      tarjeta.classList.remove('crt-estatica');
+    }, 400);
+    tarjeta.className = cfg.tema || 'tema-cosmos';
+  }
+
+  // 9. Actualizar textos de la pantalla del monitor
+  const etiqueta = document.querySelector('.etiqueta-categoria');
+  if (etiqueta) {
+    etiqueta.textContent = `📡 BANDA [${cfg.nombre}] • ${cuota.conteos[tipo]}/${LIMITE_CUOTA_BANDA}`;
+  }
+
+  const numDato = document.getElementById('numero-dato');
+  if (numDato) {
+    numDato.textContent = `SEÑAL ${frecuencia.id}:`;
+  }
+
+  const titDato = document.getElementById('titulo-dato');
+  if (titDato) {
+    titDato.textContent = frecuencia.titulo;
+  }
+
+  const resDato = document.getElementById('resumen-dato');
+  if (resDato) {
+    resDato.textContent = frecuencia.resumen;
+  }
+
+  // 10. Ocultar imagen normal y mostrar caja oscura con emoji fosforescente
+  const contImagen = document.getElementById('contenedor-imagen') || document.querySelector('.pixel-art-caja');
+  if (contImagen) contImagen.style.display = 'none';
+
+  const cajaIcono = document.getElementById('caja-icono-frecuencia');
+  if (cajaIcono) {
+    cajaIcono.classList.remove('buscando');
+    cajaIcono.innerHTML = `<span class="emoji-frecuencia">${frecuencia.icono}</span>`;
+    cajaIcono.style.display = 'flex';
+  }
+
+  // 11. Ocultar botón de favoritos y acordeones del dato diario
+  const btnFav = document.getElementById('btn-favorito');
+  if (btnFav) btnFav.style.display = 'none';
+
+  const acordeonSaberMas = document.getElementById('acordeon-saber-mas');
+  if (acordeonSaberMas) acordeonSaberMas.style.display = 'none';
+
+  const acordeonFuentes = document.querySelector('.fuentes');
+  if (acordeonFuentes) acordeonFuentes.style.display = 'none';
+
+  // 12. Mostrar botón de retorno habitual al día de hoy
+  const btnVolver = document.getElementById('btn-volver-hoy');
+  if (btnVolver) btnVolver.style.display = 'inline-block';
+
+  // 13. Desplazamiento suave para visualizar el monitor sintonizado
+  if (tarjeta) {
+    tarjeta.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+// Inicialización del panel y botones de bandas específicas
+const btnAbrirBandas = document.getElementById('btn-abrir-bandas');
+const panelBandas = document.getElementById('panel-bandas');
+
+if (btnAbrirBandas && panelBandas) {
+  btnAbrirBandas.addEventListener('click', () => {
+    const estaOculto = panelBandas.style.display === 'none' || panelBandas.style.display === '';
+    panelBandas.style.display = estaOculto ? 'block' : 'none';
+    btnAbrirBandas.classList.toggle('activo', estaOculto);
+    btnAbrirBandas.textContent = estaOculto
+      ? '[ 🎛️ OCULTAR PANEL DE BANDAS ▲ ]'
+      : '[ 🎛️ SINTONIZAR BANDA ESPECÍFICA 📡 ]';
+  });
+}
+
+const gridBandas = document.querySelector('.grid-bandas');
+if (gridBandas) {
+  gridBandas.addEventListener('click', (e) => {
+    const btn = e.target.closest('.btn-banda-item');
+    if (!btn || btn.disabled || btn.classList.contains('agotado')) return;
+    const tipo = btn.getAttribute('data-tipo');
+    if (tipo) {
+      sintonizarBandaEspecifica(tipo);
+    }
+  });
+}
+
+// Inicializar estado de cuotas en los botones de bandas específicas
+actualizarBotonesBandas();
 
 
