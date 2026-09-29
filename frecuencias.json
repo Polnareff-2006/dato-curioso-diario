@@ -394,7 +394,7 @@
     {
         "id": "FREQ-58",
         "tipo": "insolito",
-        "icono": "🪨",
+        "icono": "🏜️",
         "titulo": "Las piedras viajeras del desierto",
         "resumen": "En el lecho seco de Racetrack Playa, California, pesadas rocas se desplazan solas dejando surcos kilométricos en el barro endurecido. Durante décadas el fenómeno desconcertó a geólogos hasta que cámaras con GPS resolvieron el enigma en 2014. Finas placas de hielo nocturno impulsadas por vientos suaves arrastran las rocas sobre el lodo resbaladizo bajo el sol matinal."
     },
@@ -429,7 +429,7 @@
     {
         "id": "FREQ-63",
         "tipo": "positivo",
-        "icono": "🦫",
+        "icono": "👷",
         "titulo": "Los castores ingenieros de humedales",
         "resumen": "En regiones resecas del oeste norteamericano, conservacionistas reintrodujeron familias de castores para combatir sequías recurrentes causadas por el calentamiento. Con sus diques de troncos y ramas, los roedores desaceleran ríos torrenciales y crean lagunas que recargan acuíferos subterráneos. Esos oasis espontáneos devuelven el verdor a praderas secas y actúan como cortafuegos naturales ante incendios forestales devastadores."
     },
@@ -632,7 +632,7 @@
     {
         "id": "FREQ-92",
         "tipo": "comico",
-        "icono": "🪦",
+        "icono": "🥣",
         "titulo": "El epitafio con la receta secreta",
         "resumen": "Kay Andrews, una abuela de Utah, guardó durante toda su vida con recelo familiar su receta de caramelos de dulce de leche. Para asegurarse de tener la última palabra frente a sus vecinos curiosos, ordenó que grabaran los ingredientes exactos y las instrucciones de cocción en su lápida de granito. Hoy su tumba es visitada por amantes de la repostería que copian el postre."
     },
@@ -709,7 +709,7 @@
     {
         "id": "FREQ-103",
         "tipo": "positivo",
-        "icono": "🪸",
+        "icono": "🐠",
         "titulo": "El vivero submarino de corales",
         "resumen": "Frente a las costas caribeñas, biólogos marinos fragmentan colonias de coral cuerno de ciervo y las suspenden en árboles de PVC submarinos. En esas estructuras alejadas de sedimentos del fondo marino, los pólipos crecen hasta cuatro veces más rápido que en arrecifes naturales. Una vez fortalecidos, buzos voluntarios los trasplantan con resina epoxi sobre zonas dañadas, devolviendo la vida a decenas de kilómetros de ecosistemas costeros."
     },
@@ -726,5 +726,985 @@
         "icono": "🚲",
         "titulo": "El viaje polar en bicicleta de nieve",
         "resumen": "En 2013, la atleta británica Maria Leijerstam se convirtió en la primera persona en alcanzar el Polo Sur pedaleando sobre el manto blanco polar. Diseñó un triciclo reclinado con neumáticos anchos para no hundirse en la nieve suelta y mantener la estabilidad frente a vientos brutales. Completó la travesía de quinientos kilómetros desde el borde antártico en solo diez días de pedaleo constante y temperaturas gélidas."
+    },
+    {
+        "id": "FREQ-106",
+        "tipo": "cultura",
+        "icono": "🎮",
+        "titulo": "El bug que creó a Gandhi nuclear",
+        "resumen": "En el videojuego clásico Civilization de 1991, Mahatma Gandhi comenzaba con el nivel mínimo de agresividad militar fijado en uno. Si el jugador adoptaba la democracia, el juego reducía su hostilidad en dos puntos. Un error de desbordamiento de enteros llevaba el valor a doscientos cincuenta y cinco, convirtiendo al pacífico líder en un temible tirano obsesionado con desatar bombardeos nucleares."
+    },
+    {
+        "id": "FREQ-107",
+        "tipo": "economia",
+        "icono": "💰",
+        "titulo": "Las monedas gigantes de piedra de Yap",
+        "resumen": "En la isla micronesia de Yap, los habitantes usaron durante siglos colosales discos de caliza llamados piedras rai como dinero de curso legal. Algunas medían varios metros de diámetro y pesaban toneladas, por lo que nadie las transportaba físicamente para comprar. Cuando un disco cayó al fondo del mar durante una tormenta, la comunidad acordó que la familia conservaba su riqueza intacta."
+    },
+    {
+        "id": "FREQ-108",
+        "tipo": "anecdota",
+        "icono": "🚗",
+        "titulo": "La patente del cinturón regalada al mundo",
+        "resumen": "En 1959, el ingeniero de Volvo Nils Bohlin diseñó el moderno cinturón de seguridad de tres puntos. Consciente del colosal impacto humanitario de su creación, la automotriz sueca liberó la patente técnica de inmediato para que cualquier fabricante rival pudiera instalarlo sin pagar regalías. La decisión altruista de la compañía ha salvado más de un millón de vidas en carreteras de todo el mundo."
+    },
+    {
+        "id": "FREQ-109",
+        "tipo": "comico",
+        "icono": "🎬",
+        "titulo": "El gato callejero del Padrino",
+        "resumen": "En la escena inicial de El Padrino, Marlon Brando acaricia plácidamente a un gato mientras imparte justicia familiar desde su despacho. El animal no figuraba en el guion original: el director Francis Ford Coppola lo encontró deambulando por los estudios de filmación y se lo puso encima. El felino ronroneó tan fuerte durante la toma que los técnicos tuvieron que filtrar el audio."
+    },
+    {
+        "id": "FREQ-110",
+        "tipo": "positivo",
+        "icono": "🐾",
+        "titulo": "Las ratas condecoradas por salvar vidas",
+        "resumen": "La organización humanitaria Apopo entrena ratas gigantes de Gambia para detectar minas terrestres antipersona usando su fino olfato. Por su peso diminuto, estos animales caminan sobre los artefactos sin detonarlos y alertan a los ingenieros rascando la tierra. Una de ellas, Magawa, localizó más de cien explosivos enterrados en Camboya y recibió una prestigiosa medalla de oro británica por su heroísmo civil."
+    },
+    {
+        "id": "FREQ-111",
+        "tipo": "cotidiano",
+        "icono": "🕹️",
+        "titulo": "El código Konami nacido de la frustración",
+        "resumen": "En 1985, el desarrollador Kazuhisa Hashimoto debía adaptar el arcade Gradius a la consola Nintendo Famicom, pero encontraba el juego absurdamente difícil para probarlo. Decidió programar una combinación rápida en el mando para iniciar con todas las mejoras de armamento activadas. Olvidó retirar la trampa antes del lanzamiento masivo, dando origen al truco más legendario y versionado de la cultura digital."
+    },
+    {
+        "id": "FREQ-112",
+        "tipo": "insolito",
+        "icono": "🏢",
+        "titulo": "El rascacielos que derretía coches de lujo",
+        "resumen": "En 2013, un edificio curvilíneo de Londres apodado el Walkie Talkie actuó involuntariamente como un gigantesco espejo cóncavo durante los meses soleados. El reflejo vidriado concentró un rayo térmico que alcanzó los noventa grados sobre el asfalto. El haz luminoso derritió los espejos plásticos y la carrocería de un automóvil Jaguar estacionado enfrente, obligando a los arquitectos a instalar parasoles permanentes."
+    },
+    {
+        "id": "FREQ-113",
+        "tipo": "hazana",
+        "icono": "🏎️",
+        "titulo": "La victoria en Le Mans con el ojo tapado",
+        "resumen": "Durante las 24 Horas de Le Mans de 1977, el piloto belga Jacky Ickx tomó el control de un Porsche averiado que rodaba en el fondo de la clasificación. Condujo turnos triples bajo lluvia torrencial y niebla densa a más de trescientos kilómetros por hora, batiendo récords de vuelta consecutivamente. Remontó decenas de posiciones en solitario y cruzó la meta ganando una carrera que parecía imposible."
+    },
+    {
+        "id": "FREQ-114",
+        "tipo": "economia",
+        "icono": "🍟",
+        "titulo": "La fiebre de los tulipanes de Ámsterdam",
+        "resumen": "A comienzos del siglo XVII, los Países Bajos vivieron la primera burbuja financiera documentada de la historia impulsada por bulbos de tulipán exóticos. En el auge de la especulación mercantil, un solo bulbo de la variedad Semper Augustus llegó a cotizarse por el valor equivalente a una mansión frente a los canales. En cuestión de días el mercado colapsó estrepitosamente, arruinando a magnates y nobles."
+    },
+    {
+        "id": "FREQ-115",
+        "tipo": "cultura",
+        "icono": "📺",
+        "titulo": "El sonido de sable láser cinematográfico",
+        "resumen": "El legendario diseñador sonoro Ben Burtt creó el zumbido de las espadas láser de Star Wars sin usar instrumentos futuristas. Grabó el motor estático de viejos proyectores de cine de 35 milímetros y combinó esa pista con la interferencia analógica que producía su micrófono al acercarse al tubo catódico de un televisor averiado. Ese feliz experimento doméstico definió el audio más icónico de la ciencia ficción."
+    },
+    {
+        "id": "FREQ-116",
+        "tipo": "comico",
+        "icono": "🚗",
+        "titulo": "El auto invisible de James Bond",
+        "resumen": "Durante el rodaje de la película Die Another Day en 2002, el equipo técnico instaló pantallas y cámaras exteriores en un Aston Martin para simular camuflaje óptico activo. En una prueba por carreteras secundarias de Inglaterra, el vehículo se integró tan bien con la maleza del camino que el propio conductor de apoyo lo perdió de vista en una curva. Tuvieron que rastrearlo a pie por las huellas de los neumáticos en el barro."
+    },
+    {
+        "id": "FREQ-117",
+        "tipo": "positivo",
+        "icono": "🏥",
+        "titulo": "La orquesta que calma quirófanos",
+        "resumen": "En un hospital infantil de Barcelona, un grupo de músicos profesionales interpreta melodías barrocas en vivo para pacientes pediátricos antes de intervenciones quirúrgicas complejas. Monitorizaciones clínicas confirmaron que la música acústica reduce la frecuencia cardíaca y la necesidad de sedantes previos en más del cuarenta por ciento. La iniciativa se ha replicado con éxito en centros médicos de varios países europeos."
+    },
+    {
+        "id": "FREQ-118",
+        "tipo": "cultura",
+        "icono": "👾",
+        "titulo": "La escasez nacional de monedas por Space Invaders",
+        "resumen": "Cuando el arcade Space Invaders debutó en Japón en 1978, causó un furor recreativo tan desmedido que provocó un desabastecimiento temporal de monedas de cien yenes en todo el país. Los salones de máquinas tragamonedas acumulaban toneladas de cambio metálico cada noche, desbordando los bancos locales. El gobierno nipón tuvo que ordenar una emisión extraordinaria de emergencia a la casa de la moneda."
+    },
+    {
+        "id": "FREQ-119",
+        "tipo": "economia",
+        "icono": "🧀",
+        "titulo": "El banco que acepta queso como fianza",
+        "resumen": "Desde la década de 1950, el banco italiano Credito Emiliano acepta enormes ruedas de queso Parmigiano-Reggiano como garantía hipotecaria para conceder préstamos comerciales a productores agrícolas. Las piezas maduran en cámaras de alta seguridad climatizadas dentro de las propias bóvedas bancarias mientras dura la deuda. Si el cliente no paga el crédito a tiempo, el banco vende legalmente el queso añejo en subastas culinarias."
+    },
+    {
+        "id": "FREQ-120",
+        "tipo": "hazana",
+        "icono": "🏁",
+        "titulo": "El récord de Nürburgring con un utilitario",
+        "resumen": "En 2004, la piloto profesional Sabine Schmitz desafió las expectativas del circuito alemán de Nürburgring a bordo de una modesta furgoneta diésel de carga comercial Ford Transit. Tras vaciar los asientos y perseguir a superdeportivos de gran cilindrada por el asfalto mojado, paró el cronómetro en poco más de diez minutos. Su vuelta magistral al mítico trazado pasó a los libros dorados del automovilismo."
+    },
+    {
+        "id": "FREQ-121",
+        "tipo": "anecdota",
+        "icono": "🏎️",
+        "titulo": "El alerón invertido que inventó un alerón",
+        "resumen": "En la década de 1960, el ingeniero aeroespacial Jim Hall adaptó conceptos de sustentación aeronáutica a su innovador auto de carreras Chaparral 2E. En lugar de generar elevación para volar hacia el cielo, montó alas invertidas elevadas directamente sobre los cubos de las ruedas traseras para aplastar el coche contra el pavimento en las curvas. El diseño obligó a reescribir para siempre la aerodinámica en las carreras de velocidad."
+    },
+    {
+        "id": "FREQ-122",
+        "tipo": "insolito",
+        "icono": "📻",
+        "titulo": "La radio oculta dentro de una papa",
+        "resumen": "Durante la Segunda Guerra Mundial, prisioneros de guerra aliados en campos de detención fabricaron receptores de radio clandestinos conocidos como radios de zanja o de cristal. Usaban cables robados, una hoja de afeitar oxidada y la punta de un lápiz de grafito apoyada con pulso milimétrico como detector de señal de diodo. Con esos aparatos caseros minúsculos escuchaban las transmisiones nocturnas de la BBC sin baterías externas."
+    },
+    {
+        "id": "FREQ-123",
+        "tipo": "cultura",
+        "icono": "🍿",
+        "titulo": "El rugido de león que era un tigre",
+        "resumen": "El mítico rugido de Leo el León en la cabecera cinematográfica de los estudios Metro-Goldwyn-Mayer oculta un truco de sonido de posproducción. Como los leones reales emiten bramidos graves pero con poca resonancia dramática en salas de cine, los técnicos de audio grabaron y mezclaron los rugidos guturales de un tigre de Bengala furioso. Aquel engaño acústico se convirtió en el sello distintivo del cine clásico."
+    },
+    {
+        "id": "FREQ-124",
+        "tipo": "cotidiano",
+        "icono": "🥪",
+        "titulo": "El cono de helado nacido de la prisa",
+        "resumen": "En la Feria Mundial de San Luis de 1904, un vendedor de helados se quedó sin platos de vidrio para despachar postres ante una multitud sofocada por el calor. Un cocinero sirio de waffles crujientes instalado en el puesto de al lado enrolló una de sus masas calientes en forma de cucurucho y se la ofreció como recipiente provisional. El público enloqueció con la idea y nació el cono de helado moderno."
+    },
+    {
+        "id": "FREQ-125",
+        "tipo": "positivo",
+        "icono": "🐝",
+        "titulo": "Las colmenas en los techos de París",
+        "resumen": "Desde los años ochenta, varios edificios emblemáticos de la capital francesa, como la Ópera Garnier o el museo Grand Palais, albergan colonias urbanas de abejas melíferas en sus azoteas. Al estar libres de los pesticidas agrícolas industriales y rodeadas de parques botánicos cuidados, las abejas producen miel de altísima pureza con tasas de supervivencia muy superiores a las del campo abierto."
+    },
+    {
+        "id": "FREQ-126",
+        "tipo": "comico",
+        "icono": "📺",
+        "titulo": "La serie cancelada por una carta",
+        "resumen": "En los años noventa, una cadena de televisión británica canceló una exitosa comedia tras recibir una carta furiosa que amenazaba con acciones legales por calumnias. Meses después de levantar la producción, los ejecutivos descubrieron que la queja la había redactado un bromista adolescente desde una cabina pública. La serie intentó regresar, pero el elenco ya se había dispersado para siempre."
+    },
+    {
+        "id": "FREQ-127",
+        "tipo": "cultura",
+        "icono": "🕹️",
+        "titulo": "El salto imposible de Mario Bros",
+        "resumen": "En el desarrollo de Super Mario Bros para NES, Shigeru Miyamoto notó que los jugadores primerizos calculaban mal las distancias al borde de las plataformas. En lugar de penalizarlos con una caída fatal, programó una tolerancia oculta de varios fotogramas tras dejar el suelo sólido. Ese pequeño truco piadoso, hoy llamado coyote time, se volvió un estándar obligatorio en los videojuegos de plataformas."
+    },
+    {
+        "id": "FREQ-128",
+        "tipo": "economia",
+        "icono": "💸",
+        "titulo": "Los billetes cortados de emergencia",
+        "resumen": "Durante una severa crisis de liquidez en las islas Cocos a inicios del siglo XX, los administradores locales se quedaron sin monedas fraccionarias de curso legal. Como solución improvisada, tomaron billetes de banco de mayor denominación y los cortaron con tijeras en cuartos y mitades exactas. Cada fragmento sellado a mano circuló legalmente en el comercio isleño respetando estrictamente su proporción matemática cortada."
+    },
+    {
+        "id": "FREQ-129",
+        "tipo": "anecdota",
+        "icono": "🚗",
+        "titulo": "El claxon afinado para peatones",
+        "resumen": "En la década de 1930, los ingenieros de la compañía automotriz Cadillac investigaron cuál era el sonido óptimo para alertar en la ciudad sin provocar ataques de pánico. Tras experimentos acústicos con transeúntes, afinaron los cláxones de sus coches para que emitieran simultáneamente las notas musicales Fa y La. Ese intervalo armónico generaba una disonancia urgente pero tolerable que se impuso en la industria automotriz."
+    },
+    {
+        "id": "FREQ-130",
+        "tipo": "positivo",
+        "icono": "🚲",
+        "titulo": "Las bicicletas rescatadas para escolares",
+        "resumen": "En zonas rurales de Namibia, cientos de niños debían caminar hasta tres horas bajo el sol abrasador para asistir a clase. Un proyecto comunitario comenzó a importar bicicletas en desuso desde Europa para restaurarlas en talleres locales y entregarlas a los estudiantes. La iniciativa redujo el ausentismo escolar en más del setenta por ciento e impulsó talleres mecánicos gestionados íntegramente por mujeres del pueblo."
+    },
+    {
+        "id": "FREQ-131",
+        "tipo": "insolito",
+        "icono": "📻",
+        "titulo": "El lago que tragó una flota",
+        "resumen": "En 1980, una perforadora petrolera perforó accidentalmente el domo de una mina subterránea de sal bajo el lago Peigneur en Luisiana. El agua comenzó a drenar violentamente hacia las galerías mineras creando un remolino gigantesco que engulló once barcazas, un remolcador y cincuenta hectáreas de bosque. Lo insólito es que no hubo víctimas mortales y el lago dulce terminó convertido en salobre."
+    },
+    {
+        "id": "FREQ-132",
+        "tipo": "hazana",
+        "icono": "🏎️",
+        "titulo": "El récord ciego de velocidad terrestre",
+        "resumen": "En 2013, el piloto británico Mike Newman, ciego de nacimiento, se propuso romper el récord mundial de velocidad para conductores invidentes. A bordo de un Porsche modificado de mil caballos de fuerza y guiado únicamente por las instrucciones radiales de su padre en un coche de apoyo, superó los trescientos kilómetros por hora en una pista aérea. Su hazaña demostró una precisión auditiva y valentía colosales."
+    },
+    {
+        "id": "FREQ-133",
+        "tipo": "cotidiano",
+        "icono": "💭",
+        "titulo": "El papel de burbujas como tapiz",
+        "resumen": "En 1957, los ingenieros Alfred Fielding y Marc Chavannes intentaban crear un papel tapiz de plástico texturizado que fuera fácil de lavar. Sellaron dos cortinas de baño dejando atrapadas bolsas de aire diminutas, pero el mercado decorativo rechazó la propuesta de inmediato. Tras años buscando utilidad a su creación fracasada, descubrieron que el material era el embalaje amortiguador perfecto para transportar computadoras frágiles sin roturas."
+    },
+    {
+        "id": "FREQ-134",
+        "tipo": "cultura",
+        "icono": "🎬",
+        "titulo": "El sonido de dinosaurio más tierno",
+        "resumen": "En la producción de Jurassic Park en 1993, el diseñador Gary Rydstrom debía inventar el chillido característico de los velociraptores comunicándose en la cocina. Tras probar rugidos de felinos y reptiles sin éxito dramático, utilizó grabaciones de tortugas terrestres apareándose en un zoológico. Al ralentizar el audio y mezclarlo con bufidos de caballos, obtuvo el sonido aterrador que marcó la historia del cine."
+    },
+    {
+        "id": "FREQ-135",
+        "tipo": "positivo",
+        "icono": "🐢",
+        "titulo": "El archipiélago libre de ratas",
+        "resumen": "En el archipiélago de Georgia del Sur, los roedores introducidos por antiguos barcos balleneros estaban aniquilando a las aves marinas nativas en sus propios nidos. Un equipo internacional completó la mayor campaña de erradicación biológica de la historia dispersando cebos selectivos mediante helicópteros. Tras diez años de intensas inspecciones caninas, las islas fueron declaradas libres de plagas y los petreles volvieron a anidar masivamente."
+    },
+    {
+        "id": "FREQ-136",
+        "tipo": "cultura",
+        "icono": "🎮",
+        "titulo": "El nacimiento accidental del creepypasta Slender",
+        "resumen": "En 2009, el foro Something Awful lanzó un concurso de Photoshop para transformar fotos normales en imágenes paranormales siniestras. Eric Knudsen insertó una silueta alta sin rostro y con traje oscuro en fotos viejas de niños jugando. El personaje se volvió un fenómeno viral masivo que inspiró docenas de videojuegos de terror independientes de culto."
+    },
+    {
+        "id": "FREQ-137",
+        "tipo": "economia",
+        "icono": "🤑",
+        "titulo": "La primera compra real con Bitcoin",
+        "resumen": "En mayo de 2010, el programador Laszlo Hanyecz ofreció diez mil bitcoins en un foro a quien le enviara dos pizzas grandes a su casa. Un usuario aceptó el trato y pagó cuarenta dólares con tarjeta para despacharle el pedido. Aquel intercambio informal se convirtió en la primera transacción física de criptomonedas y hoy se conmemora mundialmente como el Bitcoin Pizza Day."
+    },
+    {
+        "id": "FREQ-138",
+        "tipo": "comico",
+        "icono": "🦝",
+        "titulo": "El mapache que apagó una ciudad",
+        "resumen": "En 2006, un mapache solitario se escabulló dentro de una subestación eléctrica en Toronto buscando refugio para refugiarse del frío nocturno. El intruso mordió cables principales y provocó un cortocircuito que dejó a oscuras a más de setenta mil residentes durante horas. El animal salió ileso entre chispas pero los técnicos tuvieron que reemplazar interruptores gigantes completos."
+    },
+    {
+        "id": "FREQ-139",
+        "tipo": "hazana",
+        "icono": "🏎️",
+        "titulo": "La vuelta épica bajo el diluvio",
+        "resumen": "En el Gran Premio de Europa de 1993 en Donington Park, Ayrton Senna partió en cuarta posición sobre asfalto empapado por una tormenta feroz. En una sola vuelta inicial superó a cuatro campeones mundiales con maniobras inverosímiles por trazadas exteriores con charcos profundos. Aquella apertura es considerada unánimemente por los especialistas como la mejor primera vuelta en la historia de la Fórmula 1."
+    },
+    {
+        "id": "FREQ-140",
+        "tipo": "anecdota",
+        "icono": "🍿",
+        "titulo": "La risa grabada de Gollum",
+        "resumen": "Para dar con la voz carrasposa de Gollum en El Señor de los Anillos, el actor Andy Serkis se inspiró observando a su propio gato doméstico toser una bola de pelo atragantada en la alfombra. El esfuerzo vocal diario le destrozaba la garganta, por lo que bebía litros de una mezcla tibia de jengibre, miel y limón antes de cada sesión de rodaje."
+    },
+    {
+        "id": "FREQ-141",
+        "tipo": "positivo",
+        "icono": "🌳",
+        "titulo": "La Gran Muralla Verde de África",
+        "resumen": "Más de veinte naciones africanas colaboran en la plantación de una barrera boscosa continua de ocho mil kilómetros a través del Sahel para frenar el avance del desierto del Sahara. El cinturón vegetal ya ha restaurado millones de hectáreas de suelo cultivable y reactivado economías agrícolas locales. El proyecto busca convertirse en la estructura viva más grande creada por el ser humano."
+    },
+    {
+        "id": "FREQ-142",
+        "tipo": "cotidiano",
+        "icono": "🚘",
+        "titulo": "Por qué las llantas son negras",
+        "resumen": "El caucho natural es de color blanco lechoso, y los primeros neumáticos para carruajes y coches eran de ese tono pálido. A inicios del siglo XX se descubrió que añadir hollín y negro de humo aumentaba diez veces la resistencia al desgaste y disipaba el calor del asfalto. El tono oscuro universal de las ruedas modernas es puramente una ventaja química de durabilidad."
+    },
+    {
+        "id": "FREQ-143",
+        "tipo": "insolito",
+        "icono": "👁️",
+        "titulo": "La ilusión que frena a los ladrones",
+        "resumen": "Investigadores británicos colocaron un póster con una fotografía en primer plano de dos ojos humanos sobre una estación comunitaria de café donde se pagaba con donaciones voluntarias. Al sentirse observados de forma inconsciente por la imagen estática de cartón, los usuarios pagaron casi tres veces más dinero que cuando había carteles decorativos con flores. Nuestro cerebro reacciona a miradas fijas incluso siendo dibujos."
+    },
+    {
+        "id": "FREQ-144",
+        "tipo": "cultura",
+        "icono": "🕹️",
+        "titulo": "El sonido que cabía en bytes",
+        "resumen": "Koji Kondo compuso la banda sonora del primer Super Mario Bros con apenas cuatro canales de sonido simultáneos del chip de audio de NES. Cada instrumento musical competía por la misma memoria que usaban los efectos de salto y monedas recolectadas. Si Mario saltaba mientras sonaba una trompeta, el procesador silenciaba un canal melódico durante una fracción de segundo para dar prioridad al juego."
+    },
+    {
+        "id": "FREQ-145",
+        "tipo": "anecdota",
+        "icono": "🚗",
+        "titulo": "El auto diseñado con plastilina",
+        "resumen": "El icónico deportivo Mazda Miata de primera generación con faros emergentes nació de maquetas artesanales de arcilla a escala real esculpidas a mano en California. Los diseñadores querían recrear la agilidad de los descapotables británicos de los sesenta pero con la fiabilidad mecánica japonesa. El modelo se convirtió en el biplaza descapotable más vendido y celebrado de todos los tiempos."
+    },
+    {
+        "id": "FREQ-156",
+        "tipo": "comico",
+        "icono": "📮",
+        "titulo": "El buzón que envió una carta a sí mismo",
+        "resumen": "En 2017, un servicio postal europeo probó un sistema automatizado de lectura óptica depositando una tarjeta sin destinatario claro en un buzón de prueba. El lector confundió el código de serie del aparato con un código postal y reenvío la carta a la misma casilla cuatro veces consecutivas. Los carteros tuvieron que desactivar manualmente la máquina para frenar el bucle postal."
+    },
+    {
+        "id": "FREQ-157",
+        "tipo": "positivo",
+        "icono": "🐾",
+        "titulo": "Los perros rastreadores de osos koala",
+        "resumen": "Tras los devastadores incendios forestales en Australia, un perro border collie llamado Bear fue desplegado en bosques quemados gracias a su olfato entrenado. Equipado con botines protectores, localizó a más de cien koalas heridos o deshidratados ocultos en las copas de los eucaliptos. Su labor permitió rescatar y curar a decenas de ejemplares en peligro."
+    },
+    {
+        "id": "FREQ-158",
+        "tipo": "cultura",
+        "icono": "🕹️",
+        "titulo": "El sonido de daño de Minecraft",
+        "resumen": "En las primeras versiones del popular videojuego de bloques, el creador Markus Persson grabó su propia voz quejándose para sonorizar los golpes de Steve. Aquel quejido seco y tosco se convirtió en un meme instantáneo entre los millones de jugadores de la comunidad beta. Tiempo después fue sustituido por un chasquido de huesos para darle un tono más neutral y atmosférico."
+    },
+    {
+        "id": "FREQ-159",
+        "tipo": "economia",
+        "icono": "🧱",
+        "titulo": "Los bloques de té como dinero",
+        "resumen": "Hasta mediados del siglo XX, en varias regiones de Siberia y el Tíbet, las hojas de té compactadas en bloques rectangulares servían como moneda oficial de cambio. Se marcaban con sellos de garantía y su valor permitía pagar tributos, alimentos o ganado de granja. Además de ser un medio de pago estable, los viajeros podían raspar un trozo para beberlo caliente."
+    },
+    {
+        "id": "FREQ-160",
+        "tipo": "hazana",
+        "icono": "🏃",
+        "titulo": "La maratón terminada con una pierna rota",
+        "resumen": "Durante los Juegos Olímpicos de 1968, el corredor John Stephen Akhwari sufrió una aparatosa caída que le provocó dislocación y fractura en la rodilla. A pesar del dolor lacerante y la noche cerrada, continuó corriendo vendado hasta cruzar la meta horas después del ganador. Al preguntarle por qué no abandonó, respondió que su país lo envió a terminar la carrera."
+    },
+    {
+        "id": "FREQ-161",
+        "tipo": "anecdota",
+        "icono": "🏎️",
+        "titulo": "El logotipo de Ferrari y el aviador",
+        "resumen": "El mítico cavallino rampante que distingue a los bólidos de Ferrari tiene un origen bélico y emotivo. El as de la aviación italiana Francesco Baracca lo llevaba pintado en su caza de combate durante la Primera Guerra Mundial. Años después de su muerte, su madre le pidió personalmente a Enzo Ferrari que adoptara el corcel en sus autos como amuleto de buena suerte."
+    },
+    {
+        "id": "FREQ-162",
+        "tipo": "insolito",
+        "icono": "🕳️",
+        "titulo": "El pozo más profundo jamás perforado",
+        "resumen": "En la península de Kola, científicos soviéticos perforaron durante casi dos décadas un pozo vertical que superó los doce kilómetros de profundidad terrestre. A ese nivel encontraron rocas fracturadas saturadas de agua hirviente y temperaturas inesperadas de ciento ochenta grados que derretían las brocas. El proyecto se detuvo cuando el calor subterráneo hizo imposible que la maquinaria siguiera descendiendo por la corteza."
+    },
+    {
+        "id": "FREQ-163",
+        "tipo": "cotidiano",
+        "icono": "🥪",
+        "titulo": "La rueda de cortar pizza y el papel",
+        "resumen": "El cortador giratorio circular que hoy se usa en todas las pizzerías del mundo no se inventó para cortar alimentos. David S. Morgan patentó el disco afilado en 1892 como una herramienta manual para cortar papel tapiz húmedo con bordes rectos y limpios. Décadas más tarde, los chefs adoptaron el artefacto al descubrir que dividía la masa caliente sin arrastrar el queso derretido."
+    },
+    {
+        "id": "FREQ-164",
+        "tipo": "cultura",
+        "icono": "🎬",
+        "titulo": "La lluvia falsa hecha con leche",
+        "resumen": "Durante el rodaje del clásico Cantando bajo la lluvia en 1952, el agua pura de las mangueras no se distinguía con nitidez frente a los potentes focos de iluminación. Los directores de fotografía mezclaron litros de leche entera con agua corriente para que las gotas reflejaran la luz y fueran visibles en pantalla. Gene Kelly tuvo que bailar empapado en esa mezcla durante días."
+    },
+    {
+        "id": "FREQ-165",
+        "tipo": "positivo",
+        "icono": "🌊",
+        "titulo": "Los corales que sobreviven al calor extremo",
+        "resumen": "En las aguas superficiales del golfo de Áqaba, en el mar Rojo, biólogos marinos descubrieron colonias de corales con una resistencia térmica extraordinaria. Estos arrecifes toleran incrementos de temperatura de varios grados sin blanquearse ni perder sus algas simbióticas esenciales. Los científicos cultivan y trasladan fragmentos de estos supercorales a otras regiones oceánicas para reforestar zonas devastadas por olas de calor marinas."
+    },
+    {
+        "id": "FREQ-166",
+        "tipo": "cultura",
+        "icono": "🎮",
+        "titulo": "El bug que creó a Lara Croft",
+        "resumen": "Durante el desarrollo del primer Tomb Raider en 1996, el diseñador Toby Gard ajustó por error el tamaño del pecho del modelo tridimensional al ciento cincuenta por ciento. Los demás programadores del equipo quedaron fascinados con el aspecto visual y votaron unánimemente mantener el desliz técnico. Aquel fallo accidental definió la silueta del icono digital más famoso de los noventa."
+    },
+    {
+        "id": "FREQ-167",
+        "tipo": "economia",
+        "icono": "🤑",
+        "titulo": "La hiperinflación del millón de millones",
+        "resumen": "En 2008, el Banco Central de Zimbabue emitió billetes de cien billones de dólares debido a una hiperinflación descontrolada. Los ciudadanos necesitaban carretillas repletas de papel moneda solo para adquirir artículos básicos como una barra de pan en el mercado matutino. Meses después el gobierno abandonó oficialmente su propia divisa para operar con monedas extranjeras."
+    },
+    {
+        "id": "FREQ-168",
+        "tipo": "comico",
+        "icono": "🦆",
+        "titulo": "La multa postal a una paloma",
+        "resumen": "En 2003, las autoridades fronterizas de un puesto aduanero interrogaron a un conductor tras hallar una paloma viva escondida en el tablero del coche. El ave transportaba pequeños paquetes de tabaco atados a las patas para eludir aranceles aduaneros. El juez multó formalmente al infractor humano y ordenó que el ave fuera reubicada pacíficamente en una reserva natural."
+    },
+    {
+        "id": "FREQ-169",
+        "tipo": "hazana",
+        "icono": "🏎️",
+        "titulo": "La carrera ganada sin frenos",
+        "resumen": "En el Gran Premio de Alemania de 1976 en Nürburgring, Gunnar Nilsson se quedó sin frenos hidráulicos en su bólido Lotus durante la vuelta final. En lugar de salirse de la pista hacia la grava, redujo marchas usando el freno motor y cruzó la meta derrapando entre árboles. Su milagrosa maniobra mecánica le permitió conservar los puntos del campeonato."
+    },
+    {
+        "id": "FREQ-170",
+        "tipo": "anecdota",
+        "icono": "🎬",
+        "titulo": "El diálogo improvisado de Medianoche",
+        "resumen": "En el rodaje del filme Cowboy de Medianoche de 1969, un taxi real de Nueva York ignoró el cierre de tránsito y casi atropella a Dustin Hoffman en la avenida. Sin salirse del personaje, el actor golpeó el capó del vehículo y gritó furioso una queja espontánea. El director decidió mantener la toma auténtica en el montaje definitivo."
+    },
+    {
+        "id": "FREQ-171",
+        "tipo": "positivo",
+        "icono": "🌱",
+        "titulo": "El santuario de semillas del Ártico",
+        "resumen": "En el archipiélago noruego de Svalbard, excavado dentro de una montaña congelada, descansa la Bóveda Global de Semillas. Este depósito blindado resguarda más de un millón de muestras agrícolas de todo el planeta protegidas contra desastres climáticos, plagas y guerras mundiales. Funciona como una póliza de seguro biológico para garantizar la alimentación de futuras generaciones humanas."
+    },
+    {
+        "id": "FREQ-172",
+        "tipo": "cotidiano",
+        "icono": "✏️",
+        "titulo": "Por qué los lápices son amarillos",
+        "resumen": "A finales del siglo XIX, la empresa checa Koh-i-Noor comenzó a importar grafito de máxima pureza proveniente de yacimientos en Siberia, muy cerca de China. Para asociar el producto con la realeza oriental, donde el amarillo representaba prestigio imperial, pintaron las varillas de madera con ese color brillante. Los fabricantes rivales copiaron el tono hasta convertirlo en el estándar escolar universal."
+    },
+    {
+        "id": "FREQ-173",
+        "tipo": "insolito",
+        "icono": "🌳",
+        "titulo": "El bosque de árboles torcidos",
+        "resumen": "En un rincón de Pomerania Occidental, Polonia, crece un bosquecillo de unos cuatrocientos pinos cuyos troncos se curvan noventa grados sobre el suelo antes de subir rectos. Plantados hacia 1930, se cree que fueron moldeados intencionalmente por carpinteros navales para fabricar piezas curvas de barcos y muebles. Con el estallido de la guerra, el secreto de su técnica se perdió para siempre."
+    },
+    {
+        "id": "FREQ-174",
+        "tipo": "cultura",
+        "icono": "📺",
+        "titulo": "El café central de Friends",
+        "resumen": "El mítico sofá naranja de la cafetería Central Perk en la serie Friends no fue comprado en una tienda de diseño lujosa. El escenógrafo de la cadena lo rescató del sótano polvoriento de los estudios de Warner Bros apenas horas antes de rodar el episodio piloto. El mueble reciclado se convirtió en el elemento decorativo más representativo de la televisión noventera."
+    },
+    {
+        "id": "FREQ-175",
+        "tipo": "hazana",
+        "icono": "🧭",
+        "titulo": "El mapa trazado en solitario",
+        "resumen": "Entre 1800 y 1804, el topógrafo cartógrafo indio Nain Singh cruzó el Tíbet a pie disfrazado de monje budista para cartografiar la región prohibida. Ocultaba un sextante en un cuenco de oración y contaba pasos idénticos usando un rosario budista modificado de cien cuentas exactas. Trazó miles de kilómetros de cordilleras con una precisión geométrica que asombró a la Royal Geographical Society."
+    },
+    {
+        "id": "FREQ-176",
+        "tipo": "cultura",
+        "icono": "🎮",
+        "titulo": "El doblaje improvisado de Pac-Man",
+        "resumen": "El característico sonido 'waka-waka' de Pac-Man nació de una onomatopeya japonesa cotidiana. El creador Toru Iwatani adaptó la expresión 'paku-paku', utilizada comúnmente en Japón para imitar el movimiento rápido de una boca al masticar vorazmente. Los técnicos del sintetizador de Namco tradujeron esa repetición sonora en una pequeña onda triangular electrónica que se convirtió en el eco más reconocible de los salones recreativos."
+    },
+    {
+        "id": "FREQ-177",
+        "tipo": "economia",
+        "icono": "🤑",
+        "titulo": "La moneda de madera de Tenino",
+        "resumen": "Durante la Gran Depresión de 1931, el único banco de Tenino en Washington quebró repentinamente, dejando al pueblo sin efectivo en circulación. La cámara de comercio local decidió emitir billetes de emergencia impresos sobre finas láminas de madera de abeto. El experimento monetario forestal funcionó con tal solidez y confianza comunitaria que los comercios locales mantuvieron el trueque leñoso hasta que el sistema federal restableció la liquidez."
+    },
+    {
+        "id": "FREQ-178",
+        "tipo": "comico",
+        "icono": "🚗",
+        "titulo": "El auto con limpiaparabrisas a mano",
+        "resumen": "Antes de que se popularizaran los motores eléctricos en los automóviles, conducir bajo la lluvia exigía un esfuerzo físico notable. Modelos populares de los años veinte incorporaban una palanca manual montada en el marco superior del parabrisas. El conductor debía sujetar el volante con una mano mientras movía frenéticamente la plumilla de goma de izquierda a derecha con la otra para no perder la visibilidad en plena marcha."
+    },
+    {
+        "id": "FREQ-179",
+        "tipo": "hazana",
+        "icono": "🏎️",
+        "titulo": "La remontada con el acelerador atado",
+        "resumen": "En una carrera de monoplazas en los años setenta, el cable del acelerador del piloto Graham Hill se cortó en plena recta. Lejos de detenerse en boxes a lamentar la avería, tomó un cordón sobrante de su uniforme, lo ató directamente a la mariposa del carburador expuesto y lo accionó jalando con la mano izquierda durante las vueltas restantes. Logró arañar un podio heroico entre aplausos de los mecánicos rivales."
+    },
+    {
+        "id": "FREQ-180",
+        "tipo": "anecdota",
+        "icono": "🎬",
+        "titulo": "El rugido de Chewbacca en la nieve",
+        "resumen": "Ben Burtt recorrió zoológicos de todo el país buscando un sonido que sonara alienígena pero cargado de emociones orgánicas. Encontró la base perfecta en Tarik, un oso negro que protestaba cada vez que los cuidadores le quitaban la tina de baño en invierno. Burtt combinó sus gruñidos de fastidio con gemidos de tejones, morsas y leones marinos enfermos para darle voz al fiel copiloto del Halcón Milenario."
+    },
+    {
+        "id": "FREQ-181",
+        "tipo": "positivo",
+        "icono": "🐝",
+        "titulo": "Las abejas que desarman elefantes",
+        "resumen": "En Kenia, los agricultores sufrían invasiones nocturnas de elefantes que arrasaban cosechas enteras y provocaban conflictos violentos con los pobladores. La zoóloga Lucy King descubrió que los paquidermos temen profundamente las picaduras de abeja en sus trompas sensibles y diseñó cercas colgantes de colmenas. Las abejas no solo mantienen alejados a los manadas sin causarles daño, sino que aportan miel pura y recursos económicos a las familias rurales."
+    },
+    {
+        "id": "FREQ-182",
+        "tipo": "cotidiano",
+        "icono": "🍿",
+        "titulo": "El estallido que conquistó los cines",
+        "resumen": "Durante la Gran Depresión estadounidense, las salas de cine estaban quebrando en masa por la falta de espectadores con dinero para entradas caras. Vendedores ambulantes colocaron carros de palomitas de maíz afuera de los teatros, ofreciendo una bolsa caliente por apenas cinco centavos. Los dueños de las salas notaron que las ventas de golosinas generaban más beneficios netos que las películas mismas, salvando a la industria de la ruina definitiva."
+    },
+    {
+        "id": "FREQ-183",
+        "tipo": "insolito",
+        "icono": "🛸",
+        "titulo": "El satélite que transmitía canciones",
+        "resumen": "En 1967, el satélite soviético Kosmos 146 sufrió un fallo en sus giroscopios y comenzó a girar descontrolado en la órbita baja. Los controladores en tierra descubrieron atónitos que el transmisor de telemetría militar se había acoplado por error a un receptor de radio civil de onda corta. Durante varios días, los radioaficionados de todo el hemisferio norte captaron música folclórica rusa flotando nítidamente desde el silencio del espacio exterior."
+    },
+    {
+        "id": "FREQ-184",
+        "tipo": "cultura",
+        "icono": "🕹️",
+        "titulo": "El código secreto de Donkey Kong",
+        "resumen": "En 2008, un programador aficionado desarmó el código fuente de Donkey Kong para la consola Atari 400 tras casi treinta años de misterio. Descubrió una rutina oculta que mostraba las iniciales del desarrollador Landon Dyer si el jugador moría en una secuencia deliberadamente absurda de pantallas. Dyer admitió en su blog que había olvidado por completo la combinación de botones exacta para activar su firma clandestina."
+    },
+    {
+        "id": "FREQ-185",
+        "tipo": "hazana",
+        "icono": "🏊",
+        "titulo": "El cruce del canal con frío ártico",
+        "resumen": "En 1926, la estadounidense Gertrude Ederle desafió las advertencias médicas y se arrojó a las aguas gélidas del canal de la Mancha cubierta de grasa de foca. No solo se convirtió en la primera mujer en lograr la hazaña acuática, sino que paró el cronómetro en catorce horas y treinta y un minutos, pulverizando el récord masculino previo por dos horas. Dos millones de personas la recibieron como heroína en Nueva York."
+    },
+    {
+        "id": "FREQ-186",
+        "tipo": "cultura",
+        "icono": "🎮",
+        "titulo": "El secreto detrás del sonido de Sonic",
+        "resumen": "El icónico sonido que emite Sonic al recolectar anillos dorados en Mega Drive fue diseñado para generar satisfacción neurológica inmediata. Masato Nakamura, bajista de la banda Dreams Come True, compuso la banda sonora y los efectos sonoros experimentando con timbres metálicos de campana en síntesis FM. El tintineo brillante se convirtió en uno de los audios de recompensa más adictivos de la historia."
+    },
+    {
+        "id": "FREQ-187",
+        "tipo": "economia",
+        "icono": "🤑",
+        "titulo": "La moneda de billones que no valía nada",
+        "resumen": "Durante la crisis hiperinflacionaria de la República de Weimar en 1923, el valor del marco alemán se desplomó tanto que el papel moneda se usaba como leña o papel tapiz. El banco emitió billetes de cien billones de marcos que apenas alcanzaban para comprar un boleto de tranvía vespertino. Los trabajadores cobraban su sueldo dos veces al día y corrían a gastarlo antes del mediodía."
+    },
+    {
+        "id": "FREQ-188",
+        "tipo": "comico",
+        "icono": "🚗",
+        "titulo": "El prototipo robado por una vaca",
+        "resumen": "En las pruebas rurales del Citroën 2CV a finales de los años treinta, los ingenieros franceses cubrían la carrocería con lonas y paja para camuflar el diseño ante la prensa. Durante una parada en el campo, un rebaño de vacas hambrientas devoró parte de los paneles protectores de tela y mordisqueó el asiento del conductor. Los mecánicos tuvieron que regresar a la fábrica en un coche medio masticado."
+    },
+    {
+        "id": "FREQ-189",
+        "tipo": "hazana",
+        "icono": "🏎️",
+        "titulo": "El rescate en llamas de Niki Lauda",
+        "resumen": "En el fatídico Gran Premio de Alemania de 1976 en Nürburgring, el monoplaza de Niki Lauda chocó y estalló en llamas. Varios pilotos rivales, encabezados por Arturo Merzario, detuvieron sus propios coches en plena pista y se lanzaron al fuego para desabrochar el arnés del austríaco. Apenas seis semanas después del accidente y con quemaduras graves vendadas, Lauda volvió a correr en Monza."
+    },
+    {
+        "id": "FREQ-190",
+        "tipo": "anecdota",
+        "icono": "🎬",
+        "titulo": "El sonido de los pasos de E.T.",
+        "resumen": "El diseñador sonoro Ben Burtt experimentó durante semanas buscando el sonido perfecto para las pisadas torpes y húmedas del extraterrestre E.T. Probó gelatinas, trapos empapados y frutas podridas sin quedar satisfecho con el resultado en el estudio. Finalmente descubrió que apretar gelatina cruda y gel de algas dentro de una camiseta mojada con sus manos producía exactamente el chasquido gomoso de la criatura."
+    },
+    {
+        "id": "FREQ-191",
+        "tipo": "positivo",
+        "icono": "🐢",
+        "titulo": "La patrulla comunitaria de tortugas laúd",
+        "resumen": "En una playa remota de Trinidad y Tobago donde la caza furtiva diezmaba a las tortugas laúd gigantes, los antiguos pescadores cazadores formaron brigadas comunitarias de protección nocturna. Guiaron a turistas, vigilaron nidos contra saqueadores y ayudaron a miles de crías recién nacidas a alcanzar el mar a salvo. Gracias a su custodia voluntaria, la bahía alberga hoy una de las densidades de anidación más altas del mundo."
+    },
+    {
+        "id": "FREQ-192",
+        "tipo": "cotidiano",
+        "icono": "🥢",
+        "titulo": "El origen de las galletas de la suerte",
+        "resumen": "Aunque se asocian de forma universal con los restaurantes chinos de Occidente, las galletas de la suerte tienen origen en Kioto, Japón. A finales del siglo XIX, pasteleros japoneses horneaban galletas dobladas de sésamo llamadas tsujiura senbei con notas proféticas escondidas en el pliegue interior. Inmigrantes nipones las introdujeron en California, donde los locales de comida cantonesa las popularizaron tras la Segunda Guerra Mundial."
+    },
+    {
+        "id": "FREQ-193",
+        "tipo": "insolito",
+        "icono": "📦",
+        "titulo": "La casa enviada completa por correo",
+        "resumen": "En 1916, William Coltharp quiso construir un banco de ladrillos en Vernal, Utah, pero descubrió que el transporte por flete ferroviario costaba cuatro veces más que el servicio postal regular. Decidió envolver con papel de embalar y estampillas ochenta mil ladrillos en paquetes individuales que no superaran el peso máximo legal permitido. El correo postal tuvo que movilizar toneladas de encomiendas por caminos rurales."
+    },
+    {
+        "id": "FREQ-194",
+        "tipo": "cultura",
+        "icono": "👾",
+        "titulo": "El fantasma impredecible de Pac-Man",
+        "resumen": "A diferencia de los otros tres fantasmas que persiguen al jugador con patrones matemáticos fijos, el fantasma naranja Clyde posee un algoritmo errático programado deliberadamente por Toru Iwatani. Si Clyde se encuentra a más de ocho baldosas de distancia, persigue a Pac-Man con agresividad calculada, pero al acercarse a menos de ocho casillas huye hacia su esquina inferior izquierda. Esa vacilación constante desconcierta por completo las partidas."
+    },
+    {
+        "id": "FREQ-195",
+        "tipo": "hazana",
+        "icono": "🗼",
+        "titulo": "La torre Eiffel escalada a pulso limpio",
+        "resumen": "En 1989, el escalador urbano francés Alain Robert, conocido mundialmente como el Hombre Araña humano, ascendió la Torre Eiffel por su estructura metálica exterior sin cuerdas, arnés ni redes de seguridad. En apenas cuarenta y cinco minutos trepó entre vigas de hierro expuestas al viento hasta alcanzar la cúspide ante miles de transeúntes atónitos. Tras coronar la aguja, descendió calmadamente y fue detenido por las autoridades."
+    },
+    {
+        "id": "FREQ-196",
+        "tipo": "cultura",
+        "icono": "👾",
+        "titulo": "El doblaje acelerado de los marcianos",
+        "resumen": "En el videojuego clásico Space Invaders de 1978, la música de fondo latía más rápido a medida que el jugador eliminaba filas alienígenas. El efecto no fue una idea deliberada de diseño de audio dramático, sino una consecuencia del hardware primitivo. Al haber menos enemigos procesados en pantalla, el procesador central trabajaba más desahogado y aceleraba las notas."
+    },
+    {
+        "id": "FREQ-197",
+        "tipo": "economia",
+        "icono": "🤑",
+        "titulo": "La estampilla que costó una fortuna",
+        "resumen": "En 1856, la colonia británica de Guayana se quedó sin sellos postales y encargó a un impresor de periódicos local emitir etiquetas provisionales de un centavo. Solo un ejemplar sobrevivió pegado en una carta familiar olvidada. Décadas después, el pequeño trozo de papel magenta con un barco dibujado a mano se subastó en Nueva York por más de ocho millones de dólares."
+    },
+    {
+        "id": "FREQ-198",
+        "tipo": "comico",
+        "icono": "📺",
+        "titulo": "El apagón masivo por una tetera",
+        "resumen": "Durante décadas en el Reino Unido, el final de cada episodio de telenovelas populares provocaba una subida repentina de demanda eléctrica nacional conocida como TV pickup. Millones de personas encendían simultáneamente sus hervidores de agua para preparar té al comenzar los créditos. La red eléctrica británica debía importar energía de emergencia desde Francia para evitar cortes masivos en las ciudades."
+    },
+    {
+        "id": "FREQ-199",
+        "tipo": "hazana",
+        "icono": "🏎️",
+        "titulo": "El cruce a ciegas en Le Mans",
+        "resumen": "En 1953, los pilotos británicos Tony Rolt y Duncan Hamilton conquistaron las 24 Horas de Le Mans a bordo de su Jaguar XK120. En plena noche y bajo un diluvio implacable, el limpiaparabrisas del coche se desprendió en la recta principal de Hunaudières. Hamilton pilotó a ciegas asomando la cabeza fuera de la cabina a más de doscientos kilómetros por hora."
+    },
+    {
+        "id": "FREQ-200",
+        "tipo": "anecdota",
+        "icono": "🎬",
+        "titulo": "El rugido del león de hojalata",
+        "resumen": "En la filmación original de El mago de Oz de 1939, el actor Buddy Ebsen fue hospitalizado de urgencia tras sufrir un colapso pulmonar severo. Los maquilladores cubrieron su rostro y manos con polvo puro de aluminio para lograr el brillo metálico del Hombre de Hojalata. La inhalación diaria del compuesto tóxico obligó a sustituirlo y reformular la pintura con pasta líquida."
+    },
+    {
+        "id": "FREQ-201",
+        "tipo": "positivo",
+        "icono": "🐺",
+        "titulo": "La isla devuelta a los lobos",
+        "resumen": "En la isla Royale del lago Superior, la población de alces creció desmedidamente tras la casi extinción de sus depredadores nativos, devastando los bosques boreales. Biólogos del parque trasladaron grupos de lobos salvajes desde el continente para restablecer el equilibrio biológico natural. En pocos años, la vegetación autóctona volvió a brotar y la salud del ecosistema isleño se recuperó por completo."
+    },
+    {
+        "id": "FREQ-202",
+        "tipo": "cotidiano",
+        "icono": "👞",
+        "titulo": "El dibujo en las suelas del calzado",
+        "resumen": "Las estrías y patrones geométricos en las suelas de goma modernas se inspiraron en las patas de un perro cocker spaniel. En 1935, el marinero Paul Sperry observó la soltura con la que su mascota corría sobre cubiertas de hielo resbaladizo sin perder tracción. Al examinar las almohadillas del animal, copió las pequeñas ranuras onduladas para diseñar los primeros náuticos antideslizantes."
+    },
+    {
+        "id": "FREQ-203",
+        "tipo": "insolito",
+        "icono": "🌲",
+        "titulo": "El árbol que camina por la selva",
+        "resumen": "En las selvas tropicales de América Central y del Sur habita la palmera caminante Socratea exorrhiza. A diferencia de los árboles convencionales, este tronco se apoya sobre decenas de raíces aéreas que crecen como zancos exteriores. Cuando la luz solar es bloqueada por árboles más altos, brotan nuevas raíces hacia claros luminosos mientras las viejas mueren, desplazando la planta varios centímetros al año."
+    },
+    {
+        "id": "FREQ-204",
+        "tipo": "cultura",
+        "icono": "🎮",
+        "titulo": "El bug que creó el modo espía",
+        "resumen": "Durante el desarrollo de GoldenEye 007 para Nintendo 64, un programador colocó por error un valor de transparencia extrema en el traje de un soldado enemigo. En lugar de borrar la línea defectuosa del motor, los diseñadores decidieron reutilizar el efecto para crear el clásico dispositivo de invisibilidad temporal del agente secreto. El error técnico se transformó en un elemento estratégico de culto."
+    },
+    {
+        "id": "FREQ-205",
+        "tipo": "hazana",
+        "icono": "🛩️",
+        "titulo": "El aterrizaje sin motor sobre la isla",
+        "resumen": "En 1983, un Boeing 767 de Air Canada se quedó sin una sola gota de combustible a doce mil metros de altura debido a un error al convertir litros a libras métricas. El capitán Robert Pearsall, experimentado piloto de planeadores, maniobró el avión comercial sin empuje hacia una pista de carreras abandonada en Gimli. Aterrizó suavemente sin motores salvando a los sesenta y un ocupantes."
+    },
+    {
+        "id": "FREQ-206",
+        "tipo": "cultura",
+        "icono": "🎮",
+        "titulo": "El combo de pelea nacido de un error",
+        "resumen": "Durante el desarrollo de Street Fighter II en 1991, el productor Noritaka Funamizu descubrió un fallo de sincronización que permitía encadenar golpes sin que el rival pudiera defenderse. Pensando que la ventana de tiempo era tan milimétrica que nadie la dominaría, decidió dejar el desliz técnico en el juego final. Los jugadores perfeccionaron la técnica y crearon el concepto moderno de combos."
+    },
+    {
+        "id": "FREQ-207",
+        "tipo": "economia",
+        "icono": "🐚",
+        "titulo": "Las conchas marinas que compraban imperios",
+        "resumen": "Durante siglos, las pequeñas conchas de cauri sirvieron como divisa oficial en extensas rutas comerciales de África, Asia y el océano Índico. Su forma uniforme, imposibilidad de falsificación y ligereza las convirtieron en el dinero portátil preferido de caravanas y mercaderes. Su uso monetario fue tan masivo que el ideograma chino clásico para dinero todavía incluye el dibujo estilizado de una concha."
+    },
+    {
+        "id": "FREQ-208",
+        "tipo": "comico",
+        "icono": "🚗",
+        "titulo": "El auto multado por ir demasiado lento",
+        "resumen": "En 2015, la policía de tránsito de California detuvo a un vehículo autónomo experimental de Google que rodaba por una autopista congestionada a treinta y ocho kilómetros por hora. Aunque el coche no cometió infracciones de tránsito graves, los agentes detuvieron la marcha porque su extrema prudencia artificial entorpecía el tráfico en hora punta. El parte policial no tuvo a qué conductor humano sancionar."
+    },
+    {
+        "id": "FREQ-209",
+        "tipo": "hazana",
+        "icono": "🏎️",
+        "titulo": "El Gran Premio ganado con tres ruedas",
+        "resumen": "En la última vuelta del Gran Premio de Gran Bretaña de 2020 en Silverstone, el neumático delantero izquierdo de Lewis Hamilton estalló repentinamente a mitad de circuito. Con chispas saliendo del rin y el monoplaza arrastrándose sobre tres ruedas, mantuvo el control en curvas rápidas mientras su rival recortaba segundos a toda velocidad. Cruzó la meta arrastrando la goma rota y ganó la carrera."
+    },
+    {
+        "id": "FREQ-210",
+        "tipo": "anecdota",
+        "icono": "🎬",
+        "titulo": "La sangre de chocolate en la ducha",
+        "resumen": "Para la icónica escena de la ducha en la película Psicosis de 1960, Alfred Hitchcock rechazó la sangre falsa tradicional utilizada por los estudios de la época porque se veía traslúcida en cámaras de blanco y negro. Tras varias pruebas de contraste en el plató, descubrió que el jarabe de chocolate Bosco tenía la densidad, viscosidad y tonalidad de gris perfectas al escurrirse por el desagüe."
+    },
+    {
+        "id": "FREQ-211",
+        "tipo": "positivo",
+        "icono": "🐦",
+        "titulo": "El bosque plantado por aves urbanas",
+        "resumen": "En varias ciudades de Alemania y Suiza, grupos ecologistas instalaron comederos elevados para arrendajos y urracas cargados con bellotas y castañas frescas. Las aves escondieron instintivamente miles de semillas bajo la tierra de parques degradados para almacenarlas de cara al invierno y olvidaron la ubicación exacta de muchas. Gracias a su trabajo involuntario, cientos de robles centenarios brotaron de forma natural sin intervención de maquinaria."
+    },
+    {
+        "id": "FREQ-212",
+        "tipo": "cotidiano",
+        "icono": "🥐",
+        "titulo": "El cruasán que celebraba una victoria",
+        "resumen": "Aunque es el símbolo indiscutido del desayuno parisino, el cruasán tiene sus raíces en Viena durante el asedio otomano de 1683. Los panaderos vieneses, que trabajaban de madrugada en sótanos, escucharon a los soldados enemigos cavar túneles subterráneos de asalto y dieron la alarma a tiempo. Para conmemorar la salvación de la ciudad, hornearon bollos con forma de media luna inspirados en el estandarte rival."
+    },
+    {
+        "id": "FREQ-213",
+        "tipo": "insolito",
+        "icono": "🧊",
+        "titulo": "El fuego que arde bajo el hielo",
+        "resumen": "En las profundidades del lago helado Baikal en Siberia, bolsas masivas de gas metano quedan atrapadas bajo capas gruesas de hielo cristalino en invierno. Si un explorador perfora la superficie congelada con un taladro y acerca un fósforo encendido, una llamarada de fuego azul brota con fuerza durante varios minutos sobre la nieve. El fenómeno crea antorchas naturales que arden sin derretir la base helada."
+    },
+    {
+        "id": "FREQ-214",
+        "tipo": "cultura",
+        "icono": "🕹️",
+        "titulo": "El huevo de pascua original de Atari",
+        "resumen": "A finales de los setenta, la compañía Atari prohibía estrictamente que los programadores incluyeran sus nombres en los créditos de los cartuchos de videojuegos. Fastidiado por la política empresarial, Warren Robinett escondió una habitación secreta en el clásico Adventure de 1979 que solo revelaba las palabras Creado por Warren Robinett al mover un píxel gris. Cuando la empresa lo descubrió, el juego ya se vendía masivamente."
+    },
+    {
+        "id": "FREQ-215",
+        "tipo": "hazana",
+        "icono": "⛵",
+        "titulo": "La vuelta al mundo sin tocar tierra",
+        "resumen": "En 1968, el marinero británico Robin Knox-Johnston zarpó en un pequeño queche de madera de nueve metros llamado Suhaili para dar la vuelta al mundo en solitario. Sin escalas, sin asistencia por satélite y navegando guiado únicamente por un sextante tradicional, sorteó olas gigantescas en el cabo de Hornos durante trescientos doce días en altamar. Se convirtió en la primera persona en completar la circunnavegación sin tocar puerto."
+    },
+    {
+        "id": "FREQ-216",
+        "tipo": "cultura",
+        "icono": "🎮",
+        "titulo": "El doblaje improvisado de Solid Snake",
+        "resumen": "Durante la grabación del clásico Metal Gear Solid de 1998, el actor de voz David Hayter no contaba con un estudio insonorizado profesional. Para evitar el eco metálico de la habitación, grabó muchas de sus líneas más tensas metido dentro de un armario forrado con edredones y abrigos pesados. El tono apagado y seco resultante le dio al espía su inconfundible voz rasposa."
+    },
+    {
+        "id": "FREQ-217",
+        "tipo": "economia",
+        "icono": "💵",
+        "titulo": "El billete emitido en papel tapiz",
+        "resumen": "Durante la escasez crítica de suministros de la Guerra de Secesión estadounidense, los impresores del sur se quedaron sin papel convencional para la prensa y las divisas locales. Varios bancos de Luisiana decidieron emitir billetes de emergencia impresos sobre rollos sobrantes de papel tapiz floreado. Cada nota conservaba en el reverso el colorido diseño decorativo de las paredes domésticas."
+    },
+    {
+        "id": "FREQ-218",
+        "tipo": "comico",
+        "icono": "🚗",
+        "titulo": "El tren detenido por hojas secas",
+        "resumen": "Cada otoño en los ferrocarriles del Reino Unido, trenes de alta tecnología sufren retrasos severos debido a la caída de follaje húmedo sobre las vías. Las ruedas aplastan las hojas contra los rieles hasta cocinarlas por fricción, creando una película sólida de celulosa resbaladiza como el teflón. Los maquinistas tienen que frenar con kilómetros de anticipación para no derrapar."
+    },
+    {
+        "id": "FREQ-219",
+        "tipo": "hazana",
+        "icono": "🏎️",
+        "titulo": "El triunfo épico con un pie quemado",
+        "resumen": "En el Gran Premio de Argentina de 1955, el termómetro superó los cuarenta grados a la sombra y el escape del coche de Juan Manuel Fangio calentó el habitáculo a niveles intolerables. A pesar de sufrir quemaduras severas de segundo grado en su pierna derecha por el roce con el chasis hirviente, completó las tres horas de carrera y cruzó la meta en primer lugar."
+    },
+    {
+        "id": "FREQ-220",
+        "tipo": "anecdota",
+        "icono": "🎬",
+        "titulo": "La escena del rayo en Volver al Futuro",
+        "resumen": "El guion original de Back to the Future no culminaba con el DeLorean acelerando hacia la torre del reloj de Hill Valley para captar un relámpago. Los creadores habían escrito que la máquina del tiempo necesitaba atravesar una prueba atómica real en un desierto militar de Nevada. Descartaron la secuencia porque rodarla costaba un millón de dólares extra que el estudio se negó a financiar."
+    },
+    {
+        "id": "FREQ-221",
+        "tipo": "positivo",
+        "icono": "⛱️",
+        "titulo": "La playa recuperada para elefantes marinos",
+        "resumen": "A mediados del siglo XX se creía que el elefante marino del norte estaba al borde de la extinción definitiva por la caza comercial. Gracias a tratados estrictos de reserva costera en California y México, una pequeña colonia superviviente comenzó a multiplicarse pacíficamente. Hoy más de doscientos mil ejemplares regresan anualmente a las mismas playas protegidas para mudar la piel y criar a sus cachorros."
+    },
+    {
+        "id": "FREQ-222",
+        "tipo": "cotidiano",
+        "icono": "🧵",
+        "titulo": "El bolsillo diminuto del pantalón vaquero",
+        "resumen": "El pequeño bolsillo cosido dentro del bolsillo derecho de los pantalones vaqueros clásicos no fue diseñado para guardar monedas ni fósforos. A finales del siglo XIX, Levi Strauss lo incluyó específicamente para que los mineros y vaqueros guardaran sus relojes de bolsillo de cadena sin riesgo de rayarlos con herramientas de trabajo. Cuando los relojes migraron a la muñeca, el bolsillo permaneció intacto."
+    },
+    {
+        "id": "FREQ-223",
+        "tipo": "insolito",
+        "icono": "🌊",
+        "titulo": "La cascada submarina de Mauricio",
+        "resumen": "Frente a la costa suroeste de la isla Mauricio se observa desde el aire lo que parece ser una colosal catarata descendiendo hacia las profundidades abisales del océano. En realidad se trata de una ilusión óptica generada por el arrastre continuo de sedimentos de arena y limo empujados por corrientes marinas por el borde de la plataforma insular, simulando un abismo acuático vertical."
+    },
+    {
+        "id": "FREQ-224",
+        "tipo": "cultura",
+        "icono": "📺",
+        "titulo": "La voz alienígena inspirada en un gato",
+        "resumen": "Para crear el lenguaje sonoro del mítico xenomorfo de la saga Alien, el diseñador Percy Rodriguez combinó silbidos de serpientes con chirridos mecánicos. Sin embargo, para los jadeos amenazantes de la criatura acechando en conductos de ventilación, grabó a su gato doméstico bufando furioso mientras le limpiaban las orejas. El audio ralentizado y con eco artificial produjo una tensión aterradora irrepetible."
+    },
+    {
+        "id": "FREQ-225",
+        "tipo": "hazana",
+        "icono": "🧗",
+        "titulo": "El ascenso invernal al K2 sin oxígeno",
+        "resumen": "Durante décadas se consideró imposible escalar el K2, la segunda montaña más alta del planeta, en la temporada invernal debido a vientos huracanescos y sesenta grados bajo cero. En enero de 2021, un equipo de diez montañistas nepalíes coordinó el asalto final caminando hombro a hombro mientras entonaban el himno de su nación. Tocaron la cumbre juntos logrando uno de los últimos grandes hitos del alpinismo."
+    },
+    {
+        "id": "FREQ-226",
+        "tipo": "cultura",
+        "icono": "🎮",
+        "titulo": "El nacimiento del famoso creepypasta Herobrine",
+        "resumen": "En 2010, un usuario anónimo publicó en 4chan una captura borrosa de Minecraft mostrando una figura con ojos blancos brillantes entre la niebla. Afirmó que el misterioso espectro construía pirámides perfectas en el océano y talaba hojas de los árboles. La leyenda urbana se viralizó tanto que los desarrolladores incluyeron en cada actualización oficial la broma 'Herobrine eliminado'."
+    },
+    {
+        "id": "FREQ-227",
+        "tipo": "economia",
+        "icono": "💵",
+        "titulo": "El rescate nacional en oro de Corea",
+        "resumen": "Durante la severa crisis financiera asiática de 1997, el gobierno de Corea del Sur enfrentó una deuda externa masiva con el FMI. En un acto sin precedentes, más de tres millones de ciudadanos hicieron filas durante semanas para donar voluntariamente sus joyas de boda, anillos y medallas de oro al banco central. Reunieron más de doscientas toneladas para estabilizar la moneda nacional."
+    },
+    {
+        "id": "FREQ-228",
+        "tipo": "comico",
+        "icono": "🚗",
+        "titulo": "El récord de aparcar en reversa",
+        "resumen": "En 2012, el acróbata británico Alastair Moffatt batió un récord Guinness al estacionar un Mini clásico de costado mediante un derrape con freno de mano. El espacio libre entre los coches delantero y trasero era de apenas trece centímetros totales. Entró a gran velocidad en reversa y deslizó el automóvil en paralelo a la acera sin rozar los parachoques vecinos."
+    },
+    {
+        "id": "FREQ-229",
+        "tipo": "hazana",
+        "icono": "🏎️",
+        "titulo": "El podio en Le Mans para madre e hijo",
+        "resumen": "En las 24 Horas de Le Mans de 1935, la piloto británica Gwenda Stewart y su compañero alternaron turnos feroces, pero la hazaña familiar ocurrió décadas después con Mario Andretti y su hijo Michael. En 1983, compartieron un Porsche 956 junto a Philippe Alliot, compitiendo a fondo durante el día y la noche. Lograron subir juntos al tercer escalón del podio en La Sarthe."
+    },
+    {
+        "id": "FREQ-230",
+        "tipo": "anecdota",
+        "icono": "🎬",
+        "titulo": "El sonido de las puertas en Star Trek",
+        "resumen": "El característico silbido neumático de las compuertas automáticas al abrirse en la serie original de Star Trek no requirió tecnología del siglo XXIII. El técnico de sonido Dick Vorisek grabó el papel de una hoja arrancada velozmente del bolsillo de una libreta de notas, mezclándolo con el escape de aire comprimido de un sifón de soda casero. El resultado definió el estándar futurista."
+    },
+    {
+        "id": "FREQ-231",
+        "tipo": "positivo",
+        "icono": "🐕",
+        "titulo": "El perro que detecta colmenas enfermas",
+        "resumen": "En Maryland, un labrador entrenado llamado Mack patrulla apiarios inspeccionando miles de cajas de abejas durante el invierno. Con su olfato entrenado, detecta la loque americana, una bacteria letal que destruye colmenas enteras, mucho antes de que aparezcan síntomas visibles. Puede revisar cien colmenas en diez minutos sin perturbar a los insectos, salvando a millones de abejas de la erradicación."
+    },
+    {
+        "id": "FREQ-232",
+        "tipo": "cotidiano",
+        "icono": "🚑",
+        "titulo": "Por qué las ambulancias tienen letras invertidas",
+        "resumen": "La palabra AMBULANCIA en el frente de los vehículos de emergencia se rotula en imagen especular deliberadamente para aprovechar la óptica cotidiana. Cuando un conductor mira por el espejo retrovisor central al oír la sirena, la reflexión invierte de nuevo los caracteres, permitiendo leer el texto al derecho en una fracción de segundo. Esa pequeña ayuda visual agiliza maniobras críticas para abrir paso en el tráfico."
+    },
+    {
+        "id": "FREQ-233",
+        "tipo": "insolito",
+        "icono": "🧊",
+        "titulo": "El bosque fósil congelado en el Ártico",
+        "resumen": "En la isla canadiense de Axel Heiberg, a pocos cientos de kilómetros del Polo Norte, descansan tocones y hojas de secuoyas intactas de hace cuarenta y cinco millones de años. La madera no está mineralizada en piedra, sino momificada por frío extremo de tal forma que todavía se puede cortar y quemar como leña fresca. Evidencia una época remota donde el Ártico albergaba frondosas selvas templadas."
+    },
+    {
+        "id": "FREQ-234",
+        "tipo": "cultura",
+        "icono": "📺",
+        "titulo": "El misterio de los números de Lost",
+        "resumen": "La enigmática secuencia numérica 4, 8, 15, 16, 23, 42 de la serie Lost desató teorías en internet durante años. En la vida real, en 2011 miles de televidentes apostaron exactamente esa combinación en la lotería Mega Millions de Estados Unidos. Cuatro de los seis números salieron premiados en el sorteo oficial, haciendo que más de veinticinco mil fanáticos ganaran ciento cincuenta dólares cada uno."
+    },
+    {
+        "id": "FREQ-235",
+        "tipo": "hazana",
+        "icono": "🧗",
+        "titulo": "Catorce ochomiles en seis meses",
+        "resumen": "El récord histórico para coronar las catorce cumbres más altas del planeta superaba los siete años de expediciones continuas. En 2019, el montañista nepalí Nirmal Purja destrozó las marcas previas al ascender todos los ochomiles del Himalaya en apenas seis meses y seis días dentro de su Proyecto Posible. Demostró una capacidad de aclimatación y fortaleza física nunca antes registrada en los anales del alpinismo."
+    },
+    {
+        "id": "FREQ-236",
+        "tipo": "cultura",
+        "icono": "🎮",
+        "titulo": "El doblaje improvisado de Mario",
+        "resumen": "Charles Martinet llegó sin cita previa a una audición abierta para Nintendo en 1990 cuando los directores ya recogían el equipo de grabación. Le pidieron interpretar a un fontanero italoamericano de Brooklyn y, en lugar de poner una voz ronca cliché, improvisó un tono agudo y risueño sobre pasta y salchichas. Aquella cinta rescatada a última hora definió la voz del personaje durante más de tres décadas."
+    },
+    {
+        "id": "FREQ-237",
+        "tipo": "economia",
+        "icono": "💵",
+        "titulo": "El dinero de emergencia de madera",
+        "resumen": "Durante la hiperinflación alemana de entreguerras, ciudades enteras quedaron desabastecidas de papel moneda oficial para el comercio básico. Cientos de municipios imprimieron su propio dinero de emergencia, conocido como Notgeld, utilizando retazos de madera terciada, porcelana, cuero y seda bordada. Los billetes tenían vencimiento de pocos días y hoy son codiciadas piezas de coleccionismo numismático."
+    },
+    {
+        "id": "FREQ-238",
+        "tipo": "comico",
+        "icono": "🚗",
+        "titulo": "El radar de velocidad engañado por un pájaro",
+        "resumen": "En 2019, la policía de una ciudad alemana recibió una fotografía automática de un radar vial que multaba a un vehículo por circular a cincuenta y cuatro kilómetros por hora en una zona residencial limitada a treinta. Al ampliar la imagen para identificar la matrícula, descubrieron que una paloma en vuelo rasante cubría con sus alas extendidas la placa del conductor, librándolo de la sanción."
+    },
+    {
+        "id": "FREQ-239",
+        "tipo": "hazana",
+        "icono": "🏎️",
+        "titulo": "El Gran Premio ganado sin embrague",
+        "resumen": "En el Gran Premio de Gran Bretaña de 1991 en Silverstone, el piloto Nigel Mansell perdió el embrague de su monoplaza Williams a mitad de la competencia. Para no abandonar frente a su público, sincronizó cada cambio de marcha calculando a oído las revoluciones exactas del motor acelerando en vacío. Cruzó la meta en primer lugar y luego llevó a Ayrton Senna como pasajero en su pontón."
+    },
+    {
+        "id": "FREQ-240",
+        "tipo": "anecdota",
+        "icono": "🎬",
+        "titulo": "El rugido del león en la nieve",
+        "resumen": "Para los estremecedores bramidos de los Nazgûl volando sobre sus bestias aladas en El Señor de los Anillos, los técnicos de sonido no usaron animales salvajes. El diseñador sonoro David Farmer grabó el chirrido agudo producido al raspar con fuerza una jarra de plástico contra una superficie metálica congelada. El sonido procesado generó uno de los efectos más aterradores del cine de fantasía."
+    },
+    {
+        "id": "FREQ-241",
+        "tipo": "positivo",
+        "icono": "🌱",
+        "titulo": "El hombre que detuvo las dunas",
+        "resumen": "En el norte de Burkina Faso, el agricultor Yacouba Sawadogo revivió una técnica ancestral llamada zaï para frenar el avance del desierto del Sahel. Cavaba hoyos en la tierra agrietada durante la estación seca, los rellenaba con abono orgánico y sembraba árboles resistentes a la aridez. Tras cuarenta años de labor continua, logró crear un bosque fértil de veintiocho hectáreas sobre suelo infértil."
+    },
+    {
+        "id": "FREQ-242",
+        "tipo": "cotidiano",
+        "icono": "🥐",
+        "titulo": "La caja de pizza que nació en una servilleta",
+        "resumen": "A mediados del siglo XX, las pizzas para llevar se despachaban en bolsas de papel delgado o bandejas que retenían el vapor y ablandaban la masa antes de llegar a destino. En 1966, Tom Monaghan desarrolló la primera caja de cartón corrugado plegable con ranuras de ventilación lateral. Su diseño rígido permitió apilar múltiples pedidos sin aplastar la comida y transformó el reparto a domicilio."
+    },
+    {
+        "id": "FREQ-243",
+        "tipo": "insolito",
+        "icono": "🌊",
+        "titulo": "La marea de melaza que arrasó Boston",
+        "resumen": "En enero de 1919, un colosal tanque de almacenamiento de cincuenta pies de altura colapsó repentinamente en el North End de Boston. Más de ocho millones de litros de melaza espesa se precipitaron por las calles residenciales formando una ola pegajosa de siete metros que avanzó a cincuenta y seis kilómetros por hora. El denso fluido arrancó vigas de acero y arrastró camiones enteros a su paso."
+    },
+    {
+        "id": "FREQ-244",
+        "tipo": "cultura",
+        "icono": "📺",
+        "titulo": "El truco de la puerta en El Resplandor",
+        "resumen": "Durante el rodaje de la célebre escena del hacha en El Resplandor, el equipo de producción construyó puertas de utilería endebles para facilitar la actuación. Sin embargo, Jack Nicholson había trabajado como bombero voluntario en su juventud y derribó las puertas falsas con excesiva facilidad en la primera toma. El director Stanley Kubrick tuvo que mandar a instalar puertas de madera maciza auténtica para rodar."
+    },
+    {
+        "id": "FREQ-245",
+        "tipo": "hazana",
+        "icono": "🧭",
+        "titulo": "El cruce de África a pie",
+        "resumen": "Entre 2023 y 2024, el corredor británico Russ Cook, conocido popularmente como Hardest Geezer, completó la travesía de correr toda la longitud del continente africano de sur a norte. Recorrió más de dieciséis mil kilómetros desde Sudáfrica hasta las costas de Túnez enfrentando desiertos, selvas densas y problemas de visados fronterizos. Tardó trescientos cincuenta y dos días corriendo el equivalente a una maratón diaria."
+    },
+    {
+        "id": "FREQ-246",
+        "tipo": "cultura",
+        "icono": "🎮",
+        "titulo": "El error que creó a Silent Hill",
+        "resumen": "La densa y aterradora niebla que define la atmósfera de la saga Silent Hill no fue planeada como un recurso artístico original. El equipo de Konami descubrió que el procesador de la primera PlayStation era incapaz de renderizar los edificios lejanos sin caídas graves de rendimiento. Decidieron cubrir todo el pueblo con niebla constante para ocultar las limitaciones gráficas de la consola."
+    },
+    {
+        "id": "FREQ-247",
+        "tipo": "economia",
+        "icono": "💵",
+        "titulo": "El país que pagó su deuda con queso",
+        "resumen": "En 2016, el gobierno de la República Checa ofreció a Cuba saldar una deuda histórica de la era soviética de más de doscientos setenta millones de dólares utilizando productos locales en lugar de divisas. La propuesta formal incluía envíos masivos de medicamentos y toneladas de queso tradicional checo durante varios años. El gobierno cubano prefirió esperar acuerdos en efectivo comercial."
+    },
+    {
+        "id": "FREQ-248",
+        "tipo": "comico",
+        "icono": "🏎️",
+        "titulo": "El Gran Premio con seis autos",
+        "resumen": "En el Gran Premio de Estados Unidos de 2005 en Indianápolis, catorce monoplazas equipados con neumáticos Michelin se retiraron a boxes tras la vuelta de formación por fallas de seguridad en el peralte. La carrera se disputó únicamente con los seis autos que calzaban neumáticos Bridgestone. El público en las gradas abucheó durante toda la prueba mientras Ferrari lograba un doblete surrealista."
+    },
+    {
+        "id": "FREQ-249",
+        "tipo": "hazana",
+        "icono": "🚲",
+        "titulo": "El descenso en bicicleta por un volcán",
+        "resumen": "En 2002, el ciclista austríaco Markus Stöckl se lanzó en bicicleta de montaña sin motor por la ladera de ceniza del volcán Cerro Negro en Nicaragua. Alcanzó más de ciento sesenta kilómetros por hora sobre la grava volcánica inestable, resistiendo vientos brutales y fricción térmica extrema en los neumáticos. Logró frenar en la base estableciendo un récord mundial de velocidad en tierra."
+    },
+    {
+        "id": "FREQ-250",
+        "tipo": "anecdota",
+        "icono": "🎬",
+        "titulo": "El sonido del DeLorean al acelerar",
+        "resumen": "Aunque el DeLorean DMC-12 original de fábrica montaba un modesto motor V6 de apenas ciento treinta caballos de fuerza, en Back to the Future ruge con gran ferocidad. Los sonidistas consideraron que el motor real sonaba demasiado débil para viajar por el tiempo y sustituyeron el audio por la grabación del potente motor V8 de un Porsche 928 modificado."
+    },
+    {
+        "id": "FREQ-251",
+        "tipo": "positivo",
+        "icono": "🌱",
+        "titulo": "El bosque que devoró una autopista",
+        "resumen": "En Seúl, la demolición de una autopista elevada de concreto de cuatro carriles permitió restaurar el río histórico Cheonggyecheon que corría soterrado en tuberías oscuras. El proyecto urbano transformó el corredor asfáltico en un parque lineal fluvial de casi seis kilómetros repleto de peces y aves nativas. La zona verde redujo la temperatura ambiental del centro de la ciudad en más de tres grados."
+    },
+    {
+        "id": "FREQ-252",
+        "tipo": "cotidiano",
+        "icono": "🛞",
+        "titulo": "Por qué el asfalto huele al llover",
+        "resumen": "El característico olor que despiden las calles de asfalto caliente cuando caen las primeras gotas de lluvia veraniega proviene de una combinación física de aceites y bacterias. Las partículas de polvo acumuladas atrapan geosmina y residuos orgánicos que se liberan en diminutas burbujas de aerosol cuando la gota golpea el pavimento. La corriente de viento dispersa ese vapor aromático en segundos."
+    },
+    {
+        "id": "FREQ-253",
+        "tipo": "insolito",
+        "icono": "🧊",
+        "titulo": "La cueva que respira con el clima",
+        "resumen": "La cueva de hielo Eisriesenwelt en Austria funciona como un gigantesco pulmón térmico subterráneo conectado a la atmósfera exterior. Durante el verano, corrientes de aire frío descienden por las galerías manteniendo intactas colosales torres de hielo mientras afuera el termómetro sube. En invierno, el flujo de aire se invierte por diferencias de presión impidiendo que la humedad interna se evapore por completo."
+    },
+    {
+        "id": "FREQ-254",
+        "tipo": "cultura",
+        "icono": "📺",
+        "titulo": "El sonido de la TARDIS de Doctor Who",
+        "resumen": "El legendario efecto acústico de desmaterialización de la nave TARDIS en Doctor Who se creó en los años sesenta con objetos domésticos simples. Brian Hodgson, del taller radiofónico de la BBC, frotó las llaves de su casa contra las cuerdas de un piano roto y desafinado. Al reproducir la cinta al revés y con eco reverberado, nació uno de los sonidos más famosos de la televisión."
+    },
+    {
+        "id": "FREQ-255",
+        "tipo": "hazana",
+        "icono": "🏊",
+        "titulo": "El cruce a nado del estrecho de Bering",
+        "resumen": "En agosto de 1987, la nadadora de aguas abiertas Lynne Cox se sumergió en las aguas casi congeladas del estrecho de Bering para cruzar desde Estados Unidos hasta la Unión Soviética. Nadó más de cuatro kilómetros a cuatro grados Celsius sin traje térmico de neopreno. Su proeza deportiva fue elogiada formalmente por los presidentes de ambas potencias como un gesto de distensión diplomática."
     }
 ]
